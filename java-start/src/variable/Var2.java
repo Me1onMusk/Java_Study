@@ -1,5 +1,6 @@
 package variable;
 
+// 변수 //
 public class Var2 {
     public static void main(String[] args) {
         int a;  //변수 선언

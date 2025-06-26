@@ -1,0 +1,9 @@
+
+    기본형
+        int(4byte), long(8byte), double(8byte), float, boolean
+    참조형
+        배열
+
+    클래스
+        1.대문자로 시작
+        2.모든 클래스는 참조
