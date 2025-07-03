@@ -6,6 +6,11 @@ public class MemberConstruct {
     int grade;
 
     // 생성자 //
+    MemberConstruct(String name, int age) {
+        this(name, age, 50);
+    }
+
+    // 생성자 //
     MemberConstruct(String name, int age, int grade) {
         this.name = name;
         this.age = age;
