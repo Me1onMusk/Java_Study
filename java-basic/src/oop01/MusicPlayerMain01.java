@@ -1,5 +1,6 @@
 package oop01;
 
+// 절차지향식 코드 작성 //
 public class MusicPlayerMain01 {
     public static void main(String[] args) {
         int volume = 0;
