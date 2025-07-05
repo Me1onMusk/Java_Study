@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="" />
+    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,17 +47,45 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java_Study/java-adv2/src/Main.java",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AvailableCharsetsMain.executor": "Run",
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
+    "애플리케이션.EncodingMain01.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.PrintStreamMain">
+  <component name="RunManager" selected="애플리케이션.EncodingMain01">
+    <configuration name="AvailableCharsetsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="charset.AvailableCharsetsMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="charset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ByteArrayStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.start.ByteArrayStreamMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncodingMain01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="charset.EncodingMain01" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="charset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.EncodingMain01" />
+        <item itemvalue="애플리케이션.AvailableCharsetsMain" />
         <item itemvalue="애플리케이션.PrintStreamMain" />
         <item itemvalue="애플리케이션.ByteArrayStreamMain" />
       </list>
@@ -100,6 +132,7 @@
       <updated>1751269649576</updated>
       <workItem from="1751269650666" duration="2000" />
       <workItem from="1751528489475" duration="2489000" />
+      <workItem from="1751714500005" duration="1235000" />
     </task>
     <servers />
   </component>
