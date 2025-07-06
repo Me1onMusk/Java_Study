@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charset/EncodingMain01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charset/EncodingMain01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-adv3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-adv3/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
@@ -49,17 +53,37 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.AvailableCharsetsMain.executor": "Run",
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
+    "애플리케이션.CreateFileV1.executor": "Run",
+    "애플리케이션.CreateFileV2.executor": "Run",
+    "애플리케이션.CreateFileV3.executor": "Run",
+    "애플리케이션.CreateFileV4.executor": "Run",
     "애플리케이션.EncodingMain01.executor": "Run",
-    "애플리케이션.PrintStreamMain.executor": "Run"
+    "애플리케이션.EncodingMain2.executor": "Run",
+    "애플리케이션.OldFileMain.executor": "Run",
+    "애플리케이션.PrintStreamMain.executor": "Run",
+    "애플리케이션.ReadFileV1.executor": "Run",
+    "애플리케이션.ReadFileV2.executor": "Run",
+    "애플리케이션.ReadFileV3.executor": "Run",
+    "애플리케이션.ReadFileV4.executor": "Run",
+    "애플리케이션.StreamStartMain1.executor": "Run",
+    "애플리케이션.StreamStartMain2.executor": "Run",
+    "애플리케이션.StreamStartMain3.executor": "Run",
+    "애플리케이션.StreamStartMain4.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.EncodingMain01">
-    <configuration name="AvailableCharsetsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charset.AvailableCharsetsMain" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.buffered" />
+      <recent name="io.start" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.ReadFileV4">
+    <configuration name="CreateFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="charset.*" />
+          <option name="PATTERN" value="io.buffered.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteArrayStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.start.ByteArrayStreamMain" />
+    <configuration name="CreateFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV4" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.start.*" />
+          <option name="PATTERN" value="io.buffered.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodingMain01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charset.EncodingMain01" />
+    <configuration name="ReadFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="charset.*" />
+          <option name="PATTERN" value="io.buffered.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.start.PrintStreamMain" />
+    <configuration name="ReadFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.start.*" />
+          <option name="PATTERN" value="io.buffered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV4" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.buffered.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.EncodingMain01" />
-        <item itemvalue="애플리케이션.AvailableCharsetsMain" />
-        <item itemvalue="애플리케이션.PrintStreamMain" />
-        <item itemvalue="애플리케이션.ByteArrayStreamMain" />
+        <item itemvalue="애플리케이션.ReadFileV4" />
+        <item itemvalue="애플리케이션.CreateFileV4" />
+        <item itemvalue="애플리케이션.ReadFileV3" />
+        <item itemvalue="애플리케이션.CreateFileV3" />
+        <item itemvalue="애플리케이션.ReadFileV2" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +171,8 @@
       <workItem from="1751269650666" duration="2000" />
       <workItem from="1751528489475" duration="2489000" />
       <workItem from="1751714500005" duration="1235000" />
+      <workItem from="1751777482670" duration="5251000" />
+      <workItem from="1751783479100" duration="2850000" />
     </task>
     <servers />
   </component>
