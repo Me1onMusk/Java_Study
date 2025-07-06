@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-adv3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-adv3/src/lambda/MyFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv3/src/lambda/MyFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-adv3/src/lambda/Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv3/src/lambda/Procedure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +57,11 @@
     "애플리케이션.CreateFileV2.executor": "Run",
     "애플리케이션.CreateFileV3.executor": "Run",
     "애플리케이션.CreateFileV4.executor": "Run",
+    "애플리케이션.DataStreamEtcMain.executor": "Run",
     "애플리케이션.EncodingMain01.executor": "Run",
     "애플리케이션.EncodingMain2.executor": "Run",
     "애플리케이션.OldFileMain.executor": "Run",
+    "애플리케이션.PrintStreamEtcMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ReadFileV1.executor": "Run",
     "애플리케이션.ReadFileV2.executor": "Run",
@@ -69,6 +70,7 @@
     "애플리케이션.ReaderWriterMainV1.executor": "Run",
     "애플리케이션.ReaderWriterMainV2.executor": "Run",
     "애플리케이션.ReaderWriterMainV3.executor": "Run",
+    "애플리케이션.ReaderWriterMainV4.executor": "Run",
     "애플리케이션.ServerV1.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
@@ -83,13 +85,13 @@
       <recent name="io.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ReaderWriterMainV3">
-    <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ClientV1" />
+  <component name="RunManager" selected="애플리케이션.DataStreamEtcMain">
+    <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v1.*" />
+          <option name="PATTERN" value="io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV1" />
+    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.text.*" />
+          <option name="PATTERN" value="io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ServerV1" />
+    <configuration name="ReaderWriterMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV4" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v1.*" />
+          <option name="PATTERN" value="io.text.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.DataStreamEtcMain" />
+        <item itemvalue="애플리케이션.PrintStreamEtcMain" />
+        <item itemvalue="애플리케이션.ReaderWriterMainV4" />
         <item itemvalue="애플리케이션.ReaderWriterMainV3" />
         <item itemvalue="애플리케이션.ReaderWriterMainV2" />
-        <item itemvalue="애플리케이션.ReaderWriterMainV1" />
-        <item itemvalue="애플리케이션.ClientV1" />
-        <item itemvalue="애플리케이션.ServerV1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +180,7 @@
       <workItem from="1751528489475" duration="2489000" />
       <workItem from="1751714500005" duration="1235000" />
       <workItem from="1751777482670" duration="5251000" />
-      <workItem from="1751783479100" duration="8250000" />
+      <workItem from="1751783479100" duration="10007000" />
     </task>
     <servers />
   </component>
