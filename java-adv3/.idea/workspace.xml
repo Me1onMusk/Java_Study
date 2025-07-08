@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="" />
+    <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-basic/src/extends01/ex03/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-basic/src/extends01/ex03/CarMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +57,7 @@
     "애플리케이션.Ex1RefMainV2.executor": "Run",
     "애플리케이션.Ex1RefMainV3.executor": "Run",
     "애플리케이션.Ex1RefMainV4.executor": "Run",
+    "애플리케이션.FilterExample.executor": "Run",
     "애플리케이션.InstanceMain.executor": "Run",
     "애플리케이션.LambdaPassMain1.executor": "Run",
     "애플리케이션.LambdaPassMain2.executor": "Run",
@@ -61,6 +66,13 @@
     "애플리케이션.LambdaSimple2.executor": "Run",
     "애플리케이션.LambdaSimple3.executor": "Run",
     "애플리케이션.LambdaSimple4.executor": "Run",
+    "애플리케이션.M1After.executor": "Run",
+    "애플리케이션.M1Before.executor": "Run",
+    "애플리케이션.M2After.executor": "Run",
+    "애플리케이션.M3MeasureTime.executor": "Run",
+    "애플리케이션.M4MeasureTime.executor": "Run",
+    "애플리케이션.M5Return.executor": "Run",
+    "애플리케이션.MapExampleEx1.executor": "Run",
     "애플리케이션.MyFunction1.executor": "Run",
     "애플리케이션.MyFunction2.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
@@ -70,18 +82,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.ex2" />
+      <recent name="lambda.ex1" />
       <recent name="lambda.lambda2" />
       <recent name="lambda.lambda1" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LambdaPassMain3">
-    <configuration name="LambdaPassMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain1" />
+  <component name="RunManager" selected="애플리케이션.MapExampleEx1">
+    <configuration name="FilterExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaPassMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain2" />
+    <configuration name="M3MeasureTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M3MeasureTime" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaPassMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain3" />
+    <configuration name="M4MeasureTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M4MeasureTime" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple3" />
+    <configuration name="M5Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M5Return" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple4" />
+    <configuration name="MapExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.MapExampleEx1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.LambdaPassMain3" />
-        <item itemvalue="애플리케이션.LambdaPassMain2" />
-        <item itemvalue="애플리케이션.LambdaPassMain1" />
-        <item itemvalue="애플리케이션.LambdaSimple4" />
-        <item itemvalue="애플리케이션.LambdaSimple3" />
+        <item itemvalue="애플리케이션.MapExampleEx1" />
+        <item itemvalue="애플리케이션.FilterExampleEx1" />
+        <item itemvalue="애플리케이션.M5Return" />
+        <item itemvalue="애플리케이션.M4MeasureTime" />
+        <item itemvalue="애플리케이션.M3MeasureTime" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +182,7 @@
       <updated>1751269658965</updated>
       <workItem from="1751269660034" duration="2000" />
       <workItem from="1751785998976" duration="6847000" />
+      <workItem from="1751963261580" duration="5995000" />
     </task>
     <servers />
   </component>
