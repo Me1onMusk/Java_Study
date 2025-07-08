@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-adv3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-basic/src/extends01/ex03/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-basic/src/extends01/ex03/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,50 +37,51 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java_Study/java-adv2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java_Study/java-adv2/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.AvailableCharsetsMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ByteArrayStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DataStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.EncodingMain01.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.EncodingMain2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OldFileMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PrintStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PrintStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain4.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Java_Study/java-adv2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Java_Study/java-adv2/src/Main.java",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AvailableCharsetsMain.executor": "Run",
+    "애플리케이션.ByteArrayStreamMain.executor": "Run",
+    "애플리케이션.ClientV1.executor": "Run",
+    "애플리케이션.CreateFileV1.executor": "Run",
+    "애플리케이션.CreateFileV2.executor": "Run",
+    "애플리케이션.CreateFileV3.executor": "Run",
+    "애플리케이션.CreateFileV4.executor": "Run",
+    "애플리케이션.DataStreamEtcMain.executor": "Run",
+    "애플리케이션.EncodingMain01.executor": "Run",
+    "애플리케이션.EncodingMain2.executor": "Run",
+    "애플리케이션.MemberConsoleMain.executor": "Run",
+    "애플리케이션.OldFileMain.executor": "Run",
+    "애플리케이션.PrintStreamEtcMain.executor": "Run",
+    "애플리케이션.PrintStreamMain.executor": "Run",
+    "애플리케이션.ReadFileV1.executor": "Run",
+    "애플리케이션.ReadFileV2.executor": "Run",
+    "애플리케이션.ReadFileV3.executor": "Run",
+    "애플리케이션.ReadFileV4.executor": "Run",
+    "애플리케이션.ReaderWriterMainV1.executor": "Run",
+    "애플리케이션.ReaderWriterMainV2.executor": "Run",
+    "애플리케이션.ReaderWriterMainV3.executor": "Run",
+    "애플리케이션.ReaderWriterMainV4.executor": "Run",
+    "애플리케이션.ServerV1.executor": "Run",
+    "애플리케이션.StreamStartMain1.executor": "Run",
+    "애플리케이션.StreamStartMain2.executor": "Run",
+    "애플리케이션.StreamStartMain3.executor": "Run",
+    "애플리케이션.StreamStartMain4.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.text" />
@@ -85,7 +89,7 @@
       <recent name="io.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.DataStreamEtcMain">
+  <component name="RunManager" selected="애플리케이션.MemberConsoleMain">
     <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
       <module name="java-adv2" />
@@ -99,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
+    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.streams.*" />
+          <option name="PATTERN" value="io.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV2" />
+    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.text.*" />
+          <option name="PATTERN" value="io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MemberConsoleMain" />
         <item itemvalue="애플리케이션.DataStreamEtcMain" />
         <item itemvalue="애플리케이션.PrintStreamEtcMain" />
         <item itemvalue="애플리케이션.ReaderWriterMainV4" />
         <item itemvalue="애플리케이션.ReaderWriterMainV3" />
-        <item itemvalue="애플리케이션.ReaderWriterMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +186,7 @@
       <workItem from="1751777482670" duration="5251000" />
       <workItem from="1751783479100" duration="10007000" />
       <workItem from="1751970974651" duration="760000" />
+      <workItem from="1751978893303" duration="3714000" />
     </task>
     <servers />
   </component>
