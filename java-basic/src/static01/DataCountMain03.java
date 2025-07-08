@@ -10,5 +10,12 @@ public class DataCountMain03 {
 
         Data03 data03 = new Data03("C");
         System.out.println("C count: " + Data03.count);
+
+        // 인스턴스를 통한 접근
+        Data03 data04 = new Data03("D");
+        System.out.println(data04.count);
+
+        // 클래스를 통한 접근
+        System.out.println(Data03.count);
     }
 }
