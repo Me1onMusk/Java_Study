@@ -10,21 +10,11 @@ public class Animal {
         this.size = size;
     }
 
-    public String getName() {
-        return this.name;
-    }
+    public String getName() { return this.name; }
+    public void setName(String name) { this.name = name; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getSize() {
-        return this.size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
+    public int getSize() { return this.size; }
+    public void setSize(int size) { this.size = size; }
     
     public void sound() {
         System.out.println("동물 울음 소리");
