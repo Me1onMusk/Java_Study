@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/equals/StringEqualMain02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1/src/lang/string/immutable/StringImmutable02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/example.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "애플리케이션.AvailableCharsetsMain.executor": "Run",
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
     "애플리케이션.ClientV1.executor": "Run",
+    "애플리케이션.CreateCopyFile.executor": "Run",
     "애플리케이션.CreateFileV1.executor": "Run",
     "애플리케이션.CreateFileV2.executor": "Run",
     "애플리케이션.CreateFileV3.executor": "Run",
@@ -63,14 +63,22 @@
     "애플리케이션.DataStreamEtcMain.executor": "Run",
     "애플리케이션.EncodingMain01.executor": "Run",
     "애플리케이션.EncodingMain2.executor": "Run",
+    "애플리케이션.FileCopyMainV1.executor": "Run",
+    "애플리케이션.FileCopyMainV2.executor": "Run",
+    "애플리케이션.FileCopyMainV3.executor": "Run",
     "애플리케이션.MemberConsoleMain.executor": "Run",
+    "애플리케이션.NewFilesMain.executor": "Run",
+    "애플리케이션.NewFilesPath.executor": "Run",
     "애플리케이션.OldFileMain.executor": "Run",
+    "애플리케이션.OldFilePath.executor": "Run",
     "애플리케이션.PrintStreamEtcMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ReadFileV1.executor": "Run",
     "애플리케이션.ReadFileV2.executor": "Run",
     "애플리케이션.ReadFileV3.executor": "Run",
     "애플리케이션.ReadFileV4.executor": "Run",
+    "애플리케이션.ReadTextFileV1.executor": "Run",
+    "애플리케이션.ReadTextFileV2.executor": "Run",
     "애플리케이션.ReaderWriterMainV1.executor": "Run",
     "애플리케이션.ReaderWriterMainV2.executor": "Run",
     "애플리케이션.ReaderWriterMainV3.executor": "Run",
@@ -84,18 +92,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.file.copy" />
+      <recent name="io.file.text" />
       <recent name="io.text" />
       <recent name="io.buffered" />
       <recent name="io.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MemberConsoleMain">
-    <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
+  <component name="RunManager" selected="애플리케이션.FileCopyMainV3">
+    <configuration name="CreateCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.CreateCopyFile" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.streams.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
+    <configuration name="FileCopyMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.member.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
+    <configuration name="FileCopyMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.streams.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV3" />
+    <configuration name="FileCopyMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.text.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV4" />
+    <configuration name="ReadTextFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.text.ReadTextFileV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.text.*" />
+          <option name="PATTERN" value="io.file.text.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.MemberConsoleMain" />
-        <item itemvalue="애플리케이션.DataStreamEtcMain" />
-        <item itemvalue="애플리케이션.PrintStreamEtcMain" />
-        <item itemvalue="애플리케이션.ReaderWriterMainV4" />
-        <item itemvalue="애플리케이션.ReaderWriterMainV3" />
+        <item itemvalue="애플리케이션.FileCopyMainV3" />
+        <item itemvalue="애플리케이션.FileCopyMainV2" />
+        <item itemvalue="애플리케이션.FileCopyMainV1" />
+        <item itemvalue="애플리케이션.CreateCopyFile" />
+        <item itemvalue="애플리케이션.ReadTextFileV2" />
       </list>
     </recent_temporary>
   </component>
@@ -187,10 +197,22 @@
       <workItem from="1751783479100" duration="10007000" />
       <workItem from="1751970974651" duration="760000" />
       <workItem from="1751978893303" duration="3714000" />
+      <workItem from="1752221764072" duration="7397000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
