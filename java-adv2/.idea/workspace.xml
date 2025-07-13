@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/tcp/v1/ClientV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcp/v1/ClientV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/tcp/v1/ServerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcp/v1/ServerV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Java_Study/java-adv2",
+    "last_opened_file_path": "D:/Java_Study/java-adv2/src/network/tcp/v3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +54,9 @@
     "애플리케이션.AvailableCharsetsMain.executor": "Run",
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
     "애플리케이션.ClientV1.executor": "Run",
+    "애플리케이션.ClientV2.executor": "Run",
+    "애플리케이션.ClientV3-2.executor": "Run",
+    "애플리케이션.ClientV3.executor": "Run",
     "애플리케이션.CreateCopyFile.executor": "Run",
     "애플리케이션.CreateFileV1.executor": "Run",
     "애플리케이션.CreateFileV2.executor": "Run",
@@ -66,6 +68,7 @@
     "애플리케이션.FileCopyMainV1.executor": "Run",
     "애플리케이션.FileCopyMainV2.executor": "Run",
     "애플리케이션.FileCopyMainV3.executor": "Run",
+    "애플리케이션.InetAddressMain.executor": "Run",
     "애플리케이션.MemberConsoleMain.executor": "Run",
     "애플리케이션.NewFilesMain.executor": "Run",
     "애플리케이션.NewFilesPath.executor": "Run",
@@ -83,7 +86,13 @@
     "애플리케이션.ReaderWriterMainV2.executor": "Run",
     "애플리케이션.ReaderWriterMainV3.executor": "Run",
     "애플리케이션.ReaderWriterMainV4.executor": "Run",
+    "애플리케이션.ResourceCloseMainV1.executor": "Run",
+    "애플리케이션.ResourceCloseMainV2.executor": "Run",
+    "애플리케이션.ResourceCloseMainV3.executor": "Run",
+    "애플리케이션.ResourceCloseMainV4.executor": "Run",
     "애플리케이션.ServerV1.executor": "Run",
+    "애플리케이션.ServerV2.executor": "Run",
+    "애플리케이션.ServerV3.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
@@ -91,21 +100,25 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java_Study\java-adv2\src\network\tcp\v3" />
+      <recent name="D:\Java_Study\java-adv2\src\network\tcp\v2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.tcp.autocloseable" />
+      <recent name="network.tcp.v3" />
       <recent name="io.file.copy" />
       <recent name="io.file.text" />
       <recent name="io.text" />
-      <recent name="io.buffered" />
-      <recent name="io.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.FileCopyMainV3">
-    <configuration name="CreateCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.copy.CreateCopyFile" />
+  <component name="RunManager" selected="애플리케이션.ResourceCloseMainV4">
+    <configuration name="ClientV3-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.copy.*" />
+          <option name="PATTERN" value="network.tcp.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopyMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV1" />
+    <configuration name="ClientV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.copy.*" />
+          <option name="PATTERN" value="network.tcp.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopyMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV2" />
+    <configuration name="ResourceCloseMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.copy.*" />
+          <option name="PATTERN" value="network.tcp.autocloseable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopyMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV3" />
+    <configuration name="ResourceCloseMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.copy.*" />
+          <option name="PATTERN" value="network.tcp.autocloseable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadTextFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.text.ReadTextFileV2" />
+    <configuration name="ResourceCloseMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.text.*" />
+          <option name="PATTERN" value="network.tcp.autocloseable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,13 +178,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResourceCloseMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV4" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="애플리케이션.ClientV3-2" />
+      <item itemvalue="애플리케이션.ResourceCloseMainV1" />
+      <item itemvalue="애플리케이션.ResourceCloseMainV2" />
+      <item itemvalue="애플리케이션.ResourceCloseMainV3" />
+      <item itemvalue="애플리케이션.ResourceCloseMainV4" />
+      <item itemvalue="애플리케이션.ClientV3" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.FileCopyMainV3" />
-        <item itemvalue="애플리케이션.FileCopyMainV2" />
-        <item itemvalue="애플리케이션.FileCopyMainV1" />
-        <item itemvalue="애플리케이션.CreateCopyFile" />
-        <item itemvalue="애플리케이션.ReadTextFileV2" />
+        <item itemvalue="애플리케이션.ResourceCloseMainV4" />
+        <item itemvalue="애플리케이션.ResourceCloseMainV3" />
+        <item itemvalue="애플리케이션.ResourceCloseMainV2" />
+        <item itemvalue="애플리케이션.ResourceCloseMainV1" />
+        <item itemvalue="애플리케이션.ClientV3" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +232,7 @@
       <workItem from="1751970974651" duration="760000" />
       <workItem from="1751978893303" duration="3714000" />
       <workItem from="1752221764072" duration="7397000" />
+      <workItem from="1752395713115" duration="6257000" />
     </task>
     <servers />
   </component>
