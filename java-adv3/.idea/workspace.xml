@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-mid2/src/collection/link/NodeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid2/src/collection/link/NodeMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +49,10 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java_Study/java-adv3/src/Main.java",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.BiMain.executor": "Run",
     "애플리케이션.BuilderGreeterExample.executor": "Run",
     "애플리케이션.ComposeExample.executor": "Run",
+    "애플리케이션.ConsumerMain.executor": "Run",
     "애플리케이션.Ex0Main.executor": "Run",
     "애플리케이션.Ex0RefMain.executor": "Run",
     "애플리케이션.Ex1Main.executor": "Run",
@@ -59,6 +61,7 @@
     "애플리케이션.Ex1RefMainV3.executor": "Run",
     "애플리케이션.Ex1RefMainV4.executor": "Run",
     "애플리케이션.FilterExample.executor": "Run",
+    "애플리케이션.FunctionMain.executor": "Run",
     "애플리케이션.GenericMain1.executor": "Run",
     "애플리케이션.GenericMain2.executor": "Run",
     "애플리케이션.GenericMain4.executor": "Run",
@@ -82,11 +85,19 @@
     "애플리케이션.MapExampleEx1.executor": "Run",
     "애플리케이션.MyFunction1.executor": "Run",
     "애플리케이션.MyFunction2.executor": "Run",
+    "애플리케이션.OperatorMain.executor": "Run",
+    "애플리케이션.PredicateMain.executor": "Run",
+    "애플리케이션.PrimitiveFunction.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
     "애플리케이션.ProcedureMain2.executor": "Run",
     "애플리케이션.ReduceExample.executor": "Run",
+    "애플리케이션.RunnableMain.executor": "Run",
     "애플리케이션.SAMMain.executor": "Run",
-    "애플리케이션.TargetType1.executor": "Run"
+    "애플리케이션.SupplierMain.executor": "Run",
+    "애플리케이션.TargetType1.executor": "Run",
+    "애플리케이션.TargetType2.executor": "Run",
+    "애플리케이션.TargetType3.executor": "Run",
+    "애플리케이션.TriMain.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -98,13 +109,13 @@
       <recent name="lambda.lambda1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.TargetType1">
-    <configuration name="BuilderGreeterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.BuilderGreeterExample" />
+  <component name="RunManager" selected="애플리케이션.PrimitiveFunction">
+    <configuration name="BiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.BiMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExample" />
+    <configuration name="OperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.OperatorMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMain6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain6" />
+    <configuration name="PredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.PredicateMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ReduceExample" />
+    <configuration name="PrimitiveFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.PrimitiveFunction" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetType1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType1" />
+    <configuration name="TriMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.TriMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.TargetType1" />
-        <item itemvalue="애플리케이션.ComposeExample" />
-        <item itemvalue="애플리케이션.BuilderGreeterExample" />
-        <item itemvalue="애플리케이션.ReduceExample" />
-        <item itemvalue="애플리케이션.GenericMain6" />
+        <item itemvalue="애플리케이션.PrimitiveFunction" />
+        <item itemvalue="애플리케이션.TriMain" />
+        <item itemvalue="애플리케이션.BiMain" />
+        <item itemvalue="애플리케이션.OperatorMain" />
+        <item itemvalue="애플리케이션.PredicateMain" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +204,7 @@
       <workItem from="1751785998976" duration="6847000" />
       <workItem from="1751963261580" duration="5995000" />
       <workItem from="1752489898123" duration="1169000" />
-      <workItem from="1752545893544" duration="4024000" />
+      <workItem from="1752545893544" duration="8466000" />
     </task>
     <servers />
   </component>
