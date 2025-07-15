@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-basic/src/extends01/ex03/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-basic/src/extends01/ex03/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-mid2/src/collection/link/NodeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid2/src/collection/link/NodeMain1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,8 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java_Study/java-adv3/src/Main.java",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.BuilderGreeterExample.executor": "Run",
+    "애플리케이션.ComposeExample.executor": "Run",
     "애플리케이션.Ex0Main.executor": "Run",
     "애플리케이션.Ex0RefMain.executor": "Run",
     "애플리케이션.Ex1Main.executor": "Run",
@@ -58,6 +59,12 @@
     "애플리케이션.Ex1RefMainV3.executor": "Run",
     "애플리케이션.Ex1RefMainV4.executor": "Run",
     "애플리케이션.FilterExample.executor": "Run",
+    "애플리케이션.GenericMain1.executor": "Run",
+    "애플리케이션.GenericMain2.executor": "Run",
+    "애플리케이션.GenericMain4.executor": "Run",
+    "애플리케이션.GenericMain5 (1).executor": "Run",
+    "애플리케이션.GenericMain5.executor": "Run",
+    "애플리케이션.GenericMain6.executor": "Run",
     "애플리케이션.InstanceMain.executor": "Run",
     "애플리케이션.LambdaPassMain1.executor": "Run",
     "애플리케이션.LambdaPassMain2.executor": "Run",
@@ -77,21 +84,23 @@
     "애플리케이션.MyFunction2.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
     "애플리케이션.ProcedureMain2.executor": "Run",
-    "애플리케이션.SAMMain.executor": "Run"
+    "애플리케이션.ReduceExample.executor": "Run",
+    "애플리케이션.SAMMain.executor": "Run",
+    "애플리케이션.TargetType1.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.lambda3" />
       <recent name="lambda.ex2" />
       <recent name="lambda.ex1" />
       <recent name="lambda.lambda2" />
       <recent name="lambda.lambda1" />
-      <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MapExampleEx1">
-    <configuration name="FilterExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx1" />
+  <component name="RunManager" selected="애플리케이션.TargetType1">
+    <configuration name="BuilderGreeterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.BuilderGreeterExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -103,51 +112,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M3MeasureTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M3MeasureTime" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M4MeasureTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M4MeasureTime" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M5Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M5Return" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.MapExampleEx1" />
+    <configuration name="ComposeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericMain6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain6" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ReduceExample" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetType1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType1" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.MapExampleEx1" />
-        <item itemvalue="애플리케이션.FilterExampleEx1" />
-        <item itemvalue="애플리케이션.M5Return" />
-        <item itemvalue="애플리케이션.M4MeasureTime" />
-        <item itemvalue="애플리케이션.M3MeasureTime" />
+        <item itemvalue="애플리케이션.TargetType1" />
+        <item itemvalue="애플리케이션.ComposeExample" />
+        <item itemvalue="애플리케이션.BuilderGreeterExample" />
+        <item itemvalue="애플리케이션.ReduceExample" />
+        <item itemvalue="애플리케이션.GenericMain6" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +192,8 @@
       <workItem from="1751269660034" duration="2000" />
       <workItem from="1751785998976" duration="6847000" />
       <workItem from="1751963261580" duration="5995000" />
+      <workItem from="1752489898123" duration="1169000" />
+      <workItem from="1752545893544" duration="4024000" />
     </task>
     <servers />
   </component>
