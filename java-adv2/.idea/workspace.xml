@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/tcp/v1/ClientV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcp/v1/ClientV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/tcp/v1/ServerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcp/v1/ServerV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +61,22 @@
     "애플리케이션.CreateFileV3.executor": "Run",
     "애플리케이션.CreateFileV4.executor": "Run",
     "애플리케이션.DataStreamEtcMain.executor": "Run",
+    "애플리케이션.DeprecatedMain.executor": "Run",
+    "애플리케이션.ElementData1Main.executor": "Run",
     "애플리케이션.EncodingMain01.executor": "Run",
     "애플리케이션.EncodingMain2.executor": "Run",
     "애플리케이션.FileCopyMainV1.executor": "Run",
     "애플리케이션.FileCopyMainV2.executor": "Run",
     "애플리케이션.FileCopyMainV3.executor": "Run",
     "애플리케이션.InetAddressMain.executor": "Run",
+    "애플리케이션.InheritedMain.executor": "Run",
     "애플리케이션.MemberConsoleMain.executor": "Run",
+    "애플리케이션.MetaData.executor": "Run",
     "애플리케이션.NewFilesMain.executor": "Run",
     "애플리케이션.NewFilesPath.executor": "Run",
     "애플리케이션.OldFileMain.executor": "Run",
     "애플리케이션.OldFilePath.executor": "Run",
+    "애플리케이션.OverrideMain.executor": "Run",
     "애플리케이션.PrintStreamEtcMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ReadFileV1.executor": "Run",
@@ -96,7 +99,10 @@
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
-    "애플리케이션.StreamStartMain4.executor": "Run"
+    "애플리케이션.StreamStartMain4.executor": "Run",
+    "애플리케이션.TestControllerMain.executor": "Run",
+    "애플리케이션.ValidatorV1Main.executor": "Run",
+    "애플리케이션.ValidatorV2Main.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,14 +111,14 @@
       <recent name="D:\Java_Study\java-adv2\src\network\tcp\v2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="annotation.validator" />
+      <recent name="annotation.basic.inherited" />
       <recent name="network.tcp.autocloseable" />
       <recent name="network.tcp.v3" />
       <recent name="io.file.copy" />
-      <recent name="io.file.text" />
-      <recent name="io.text" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ResourceCloseMainV4">
+  <component name="RunManager" selected="애플리케이션.DeprecatedMain">
     <configuration name="ClientV3-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
       <module name="java-adv2" />
@@ -126,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
+    <configuration name="DeprecatedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.java.DeprecatedMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v3.*" />
+          <option name="PATTERN" value="annotation.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceCloseMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV1" />
+    <configuration name="InheritedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.basic.inherited.InheritedMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="PATTERN" value="annotation.basic.inherited.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceCloseMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV2" />
+    <configuration name="OverrideMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.java.OverrideMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="PATTERN" value="annotation.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceCloseMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV3" />
+    <configuration name="ValidatorV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV1Main" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="PATTERN" value="annotation.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceCloseMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV4" />
+    <configuration name="ValidatorV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV2Main" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="PATTERN" value="annotation.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +199,19 @@
     </configuration>
     <list>
       <item itemvalue="애플리케이션.ClientV3-2" />
-      <item itemvalue="애플리케이션.ResourceCloseMainV1" />
-      <item itemvalue="애플리케이션.ResourceCloseMainV2" />
-      <item itemvalue="애플리케이션.ResourceCloseMainV3" />
-      <item itemvalue="애플리케이션.ResourceCloseMainV4" />
-      <item itemvalue="애플리케이션.ClientV3" />
+      <item itemvalue="애플리케이션.DeprecatedMain" />
+      <item itemvalue="애플리케이션.InheritedMain" />
+      <item itemvalue="애플리케이션.OverrideMain" />
+      <item itemvalue="애플리케이션.ValidatorV1Main" />
+      <item itemvalue="애플리케이션.ValidatorV2Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ResourceCloseMainV4" />
-        <item itemvalue="애플리케이션.ResourceCloseMainV3" />
-        <item itemvalue="애플리케이션.ResourceCloseMainV2" />
-        <item itemvalue="애플리케이션.ResourceCloseMainV1" />
-        <item itemvalue="애플리케이션.ClientV3" />
+        <item itemvalue="애플리케이션.DeprecatedMain" />
+        <item itemvalue="애플리케이션.OverrideMain" />
+        <item itemvalue="애플리케이션.ValidatorV2Main" />
+        <item itemvalue="애플리케이션.ValidatorV1Main" />
+        <item itemvalue="애플리케이션.InheritedMain" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +239,7 @@
       <workItem from="1751978893303" duration="3714000" />
       <workItem from="1752221764072" duration="7397000" />
       <workItem from="1752395713115" duration="6257000" />
+      <workItem from="1752647972125" duration="6012000" />
     </task>
     <servers />
   </component>
