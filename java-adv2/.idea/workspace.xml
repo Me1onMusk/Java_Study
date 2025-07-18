@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-adv1/src/util/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv1/src/util/MyLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/tcp/v5/ServerV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/tcp/v5/ServerV5.java" afterDir="false" />
-    </list>
+    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +55,7 @@
     "애플리케이션.ClientV3-2.executor": "Run",
     "애플리케이션.ClientV3.executor": "Run",
     "애플리케이션.ClientV4.executor": "Run",
+    "애플리케이션.ClientV5.executor": "Run",
     "애플리케이션.CreateCopyFile.executor": "Run",
     "애플리케이션.CreateFileV1.executor": "Run",
     "애플리케이션.CreateFileV2.executor": "Run",
@@ -101,6 +98,7 @@
     "애플리케이션.ServerV2.executor": "Run",
     "애플리케이션.ServerV3.executor": "Run",
     "애플리케이션.ServerV4.executor": "Run",
+    "애플리케이션.ServerV5.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
@@ -246,7 +244,7 @@
       <workItem from="1752395713115" duration="6257000" />
       <workItem from="1752647972125" duration="6012000" />
       <workItem from="1752668880133" duration="577000" />
-      <workItem from="1752826358142" duration="1293000" />
+      <workItem from="1752826358142" duration="2076000" />
     </task>
     <servers />
   </component>
