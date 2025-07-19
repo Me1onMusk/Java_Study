@@ -19,9 +19,9 @@ public class FilterMainV1 {
     static List<Integer> filterEvenNumber(List<Integer> numbers) {
         List<Integer> filtered = new ArrayList<>();
         for (Integer number : numbers) {
-            if (number % 2 == 0) {
+            boolean even = number % 2 == 0;
+            if (even)
                 filtered.add(number);
-            }
         }
         return filtered;
     }
@@ -29,9 +29,9 @@ public class FilterMainV1 {
     static List<Integer> filterOddNumber(List<Integer> numbers) {
         List<Integer> filtered = new ArrayList<>();
         for (Integer number : numbers) {
-            if (number % 2 != 0) {
+            boolean odd = number % 2 != 0;
+            if (odd)
                 filtered.add(number);
-            }
         }
         return filtered;
     }
