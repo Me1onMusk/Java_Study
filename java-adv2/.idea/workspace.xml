@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="" />
+    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +58,7 @@
     "애플리케이션.ClientV3.executor": "Run",
     "애플리케이션.ClientV4.executor": "Run",
     "애플리케이션.ClientV5.executor": "Run",
+    "애플리케이션.ClientV6.executor": "Run",
     "애플리케이션.CreateCopyFile.executor": "Run",
     "애플리케이션.CreateFileV1.executor": "Run",
     "애플리케이션.CreateFileV2.executor": "Run",
@@ -99,6 +102,7 @@
     "애플리케이션.ServerV3.executor": "Run",
     "애플리케이션.ServerV4.executor": "Run",
     "애플리케이션.ServerV5.executor": "Run",
+    "애플리케이션.ServerV6.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
@@ -114,14 +118,14 @@
       <recent name="D:\Java_Study\java-adv2\src\network\tcp\v2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.tcp.v6" />
       <recent name="network.tcp.v5" />
       <recent name="network.tcp.v4" />
       <recent name="annotation.validator" />
       <recent name="annotation.basic.inherited" />
-      <recent name="network.tcp.autocloseable" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ClientV5">
+  <component name="RunManager" selected="애플리케이션.ClientV6">
     <configuration name="ClientV3-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
       <module name="java-adv2" />
@@ -161,25 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeprecatedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.java.DeprecatedMain" />
+    <configuration name="ClientV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v6.ClientV6" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v4.ServerV4" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.tcp.v4.*" />
+          <option name="PATTERN" value="network.tcp.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,21 +191,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v6.ServerV6" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="애플리케이션.ClientV3-2" />
+      <item itemvalue="애플리케이션.ClientV6" />
+      <item itemvalue="애플리케이션.ServerV6" />
       <item itemvalue="애플리케이션.ClientV4" />
       <item itemvalue="애플리케이션.ClientV5" />
-      <item itemvalue="애플리케이션.ServerV4" />
       <item itemvalue="애플리케이션.ServerV5" />
-      <item itemvalue="애플리케이션.DeprecatedMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ClientV6" />
+        <item itemvalue="애플리케이션.ServerV6" />
         <item itemvalue="애플리케이션.ClientV5" />
         <item itemvalue="애플리케이션.ServerV5" />
         <item itemvalue="애플리케이션.ClientV4" />
-        <item itemvalue="애플리케이션.ServerV4" />
-        <item itemvalue="애플리케이션.DeprecatedMain" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +249,8 @@
       <workItem from="1752647972125" duration="6012000" />
       <workItem from="1752668880133" duration="577000" />
       <workItem from="1752826358142" duration="2076000" />
+      <workItem from="1752908823446" duration="1092000" />
+      <workItem from="1752910794630" duration="2461000" />
     </task>
     <servers />
   </component>
