@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "D:/Java_Study/java-adv3",
     "node.js.detected.package.eslint": "true",
@@ -48,6 +49,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java_Study/java-adv3/src/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.BiMain.executor": "Run",
     "애플리케이션.BuilderGreeterExample.executor": "Run",
@@ -61,6 +63,7 @@
     "애플리케이션.Ex1RefMainV3.executor": "Run",
     "애플리케이션.Ex1RefMainV4.executor": "Run",
     "애플리케이션.FilterExample.executor": "Run",
+    "애플리케이션.FilterMainV1.executor": "Run",
     "애플리케이션.FunctionMain.executor": "Run",
     "애플리케이션.GenericMain1.executor": "Run",
     "애플리케이션.GenericMain2.executor": "Run",
@@ -109,7 +112,7 @@
       <recent name="lambda.lambda1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.PrimitiveFunction">
+  <component name="RunManager" selected="애플리케이션.FilterMainV1">
     <configuration name="BiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda4.BiMain" />
       <module name="java-adv3" />
@@ -123,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.OperatorMain" />
+    <configuration name="FilterMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="PATTERN" value="lambda.lambda5.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.PredicateMain" />
+    <configuration name="OperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.OperatorMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.FilterMainV1" />
         <item itemvalue="애플리케이션.PrimitiveFunction" />
         <item itemvalue="애플리케이션.TriMain" />
         <item itemvalue="애플리케이션.BiMain" />
         <item itemvalue="애플리케이션.OperatorMain" />
-        <item itemvalue="애플리케이션.PredicateMain" />
       </list>
     </recent_temporary>
   </component>
@@ -205,10 +208,18 @@
       <workItem from="1751963261580" duration="5995000" />
       <workItem from="1752489898123" duration="1169000" />
       <workItem from="1752545893544" duration="8466000" />
+      <workItem from="1752914539377" duration="512000" />
+      <workItem from="1752915058238" duration="28000" />
+      <workItem from="1752915111698" duration="12000" />
+      <workItem from="1752915207732" duration="340000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
