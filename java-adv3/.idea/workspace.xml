@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-adv2/src/network/tcp/v6/SessionV6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv2/src/network/tcp/v6/SessionV6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,8 @@
     "애플리케이션.FilterExample.executor": "Run",
     "애플리케이션.FilterMainV1.executor": "Run",
     "애플리케이션.FilterMainV2.executor": "Run",
+    "애플리케이션.FilterMainV4.executor": "Run",
+    "애플리케이션.FilterMainV5.executor": "Run",
     "애플리케이션.FunctionMain.executor": "Run",
     "애플리케이션.GenericMain1.executor": "Run",
     "애플리케이션.GenericMain2.executor": "Run",
@@ -90,6 +90,10 @@
     "애플리케이션.M4MeasureTime.executor": "Run",
     "애플리케이션.M5Return.executor": "Run",
     "애플리케이션.MapExampleEx1.executor": "Run",
+    "애플리케이션.MapMainV1.executor": "Run",
+    "애플리케이션.MapMainV2.executor": "Run",
+    "애플리케이션.MapMainV4.executor": "Run",
+    "애플리케이션.MapMainV5.executor": "Run",
     "애플리케이션.MyFunction1.executor": "Run",
     "애플리케이션.MyFunction2.executor": "Run",
     "애플리케이션.OperatorMain.executor": "Run",
@@ -109,29 +113,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.lambda5.map" />
       <recent name="lambda.lambda5.filter" />
       <recent name="lambda.lambda3" />
       <recent name="lambda.ex2" />
       <recent name="lambda.ex1" />
-      <recent name="lambda.lambda2" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.FilterMainV2">
-    <configuration name="BiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.BiMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV1" />
+  <component name="RunManager" selected="애플리케이션.MapMainV5">
+    <configuration name="FilterMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV5" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -143,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV2" />
+    <configuration name="MapMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="lambda.lambda5.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.PrimitiveFunction" />
+    <configuration name="MapMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="PATTERN" value="lambda.lambda5.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +160,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.TriMain" />
+    <configuration name="MapMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV4" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="PATTERN" value="lambda.lambda5.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV5" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda5.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.FilterMainV2" />
-        <item itemvalue="애플리케이션.FilterMainV1" />
-        <item itemvalue="애플리케이션.PrimitiveFunction" />
-        <item itemvalue="애플리케이션.TriMain" />
-        <item itemvalue="애플리케이션.BiMain" />
+        <item itemvalue="애플리케이션.MapMainV5" />
+        <item itemvalue="애플리케이션.MapMainV4" />
+        <item itemvalue="애플리케이션.MapMainV2" />
+        <item itemvalue="애플리케이션.MapMainV1" />
+        <item itemvalue="애플리케이션.FilterMainV5" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +220,7 @@
       <workItem from="1752915058238" duration="28000" />
       <workItem from="1752915111698" duration="12000" />
       <workItem from="1752915207732" duration="4437000" />
+      <workItem from="1752998841119" duration="2323000" />
     </task>
     <servers />
   </component>
