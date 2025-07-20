@@ -10,6 +10,7 @@ import static util.MyLogger.log;
 
 public class Client {
 
+    // 클라이언트 필드 //
     private final String host;
     private final int port;
 
@@ -21,11 +22,13 @@ public class Client {
     private WriteHandler writeHandler;
     private boolean closed = false;
 
+    // 클라이언트 생성자 //
     public Client(String host, int port) {
         this.host = host;
         this.port = port;
     }
 
+    // 클라이언트 시작 //
     public void start() throws IOException {
         log("클라이언트 시작");
         socket = new Socket(host, port);
@@ -41,13 +44,14 @@ public class Client {
         writeThread.start();
     }
 
-    public synchronized void close() throws IOException {
+    // 닫기 //
+    public synchronized void close() {
         if (closed) return;
 
-        writeHandler.close();
         readHandler.close();
+        writeHandler.close();
         closeAll(socket, input, output);
         closed = true;
-        log("연결 종료: " + socket);
+        log("[클라이언트] 연결 종료: " + socket);
     }
 }

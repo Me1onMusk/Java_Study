@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,112 +37,118 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java_Study/java-adv2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java_Study/java-adv2/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.AvailableCharsetsMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ByteArrayStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV3-2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ClientV6.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ConnectMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ConnectTimeoutMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ConnectTimeoutMain2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateCopyFile.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CreateFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DataStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DeprecatedMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ElementData1Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.EncodingMain01.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.EncodingMain2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileCopyMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileCopyMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileCopyMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.InetAddressMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.InheritedMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MemberConsoleMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MetaData.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NewFilesMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NewFilesPath.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NormalCloseServer.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OldFileMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OldFilePath.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OverrideMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PrintStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PrintStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadTextFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReadTextFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ReaderWriterMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ResetCloseServer.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ResourceCloseMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ResourceCloseMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ResourceCloseMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ResourceCloseMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ServerV6.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SoTimeoutClient.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SoTimeoutServer.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StreamStartMain4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.TestControllerMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ValidatorV1Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ValidatorV2Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Java_Study/java-adv2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Java_Study/java-adv2/src/Main.java",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AvailableCharsetsMain.executor": "Run",
+    "애플리케이션.ByteArrayStreamMain.executor": "Run",
+    "애플리케이션.ClientMain-2.executor": "Run",
+    "애플리케이션.ClientMain.executor": "Run",
+    "애플리케이션.ClientV1.executor": "Run",
+    "애플리케이션.ClientV2.executor": "Run",
+    "애플리케이션.ClientV3-2.executor": "Run",
+    "애플리케이션.ClientV3.executor": "Run",
+    "애플리케이션.ClientV4.executor": "Run",
+    "애플리케이션.ClientV5.executor": "Run",
+    "애플리케이션.ClientV6.executor": "Run",
+    "애플리케이션.ConnectMain.executor": "Run",
+    "애플리케이션.ConnectTimeoutMain.executor": "Run",
+    "애플리케이션.ConnectTimeoutMain2.executor": "Run",
+    "애플리케이션.CreateCopyFile.executor": "Run",
+    "애플리케이션.CreateFileV1.executor": "Run",
+    "애플리케이션.CreateFileV2.executor": "Run",
+    "애플리케이션.CreateFileV3.executor": "Run",
+    "애플리케이션.CreateFileV4.executor": "Run",
+    "애플리케이션.DataStreamEtcMain.executor": "Run",
+    "애플리케이션.DeprecatedMain.executor": "Run",
+    "애플리케이션.ElementData1Main.executor": "Run",
+    "애플리케이션.EncodingMain01.executor": "Run",
+    "애플리케이션.EncodingMain2.executor": "Run",
+    "애플리케이션.FileCopyMainV1.executor": "Run",
+    "애플리케이션.FileCopyMainV2.executor": "Run",
+    "애플리케이션.FileCopyMainV3.executor": "Run",
+    "애플리케이션.InetAddressMain.executor": "Run",
+    "애플리케이션.InheritedMain.executor": "Run",
+    "애플리케이션.MemberConsoleMain.executor": "Run",
+    "애플리케이션.MetaData.executor": "Run",
+    "애플리케이션.NewFilesMain.executor": "Run",
+    "애플리케이션.NewFilesPath.executor": "Run",
+    "애플리케이션.NormalCloseServer.executor": "Run",
+    "애플리케이션.OldFileMain.executor": "Run",
+    "애플리케이션.OldFilePath.executor": "Run",
+    "애플리케이션.OverrideMain.executor": "Run",
+    "애플리케이션.PrintStreamEtcMain.executor": "Run",
+    "애플리케이션.PrintStreamMain.executor": "Run",
+    "애플리케이션.ReadFileV1.executor": "Run",
+    "애플리케이션.ReadFileV2.executor": "Run",
+    "애플리케이션.ReadFileV3.executor": "Run",
+    "애플리케이션.ReadFileV4.executor": "Run",
+    "애플리케이션.ReadTextFileV1.executor": "Run",
+    "애플리케이션.ReadTextFileV2.executor": "Run",
+    "애플리케이션.ReaderWriterMainV1.executor": "Run",
+    "애플리케이션.ReaderWriterMainV2.executor": "Run",
+    "애플리케이션.ReaderWriterMainV3.executor": "Run",
+    "애플리케이션.ReaderWriterMainV4.executor": "Run",
+    "애플리케이션.ResetCloseServer.executor": "Run",
+    "애플리케이션.ResourceCloseMainV1.executor": "Run",
+    "애플리케이션.ResourceCloseMainV2.executor": "Run",
+    "애플리케이션.ResourceCloseMainV3.executor": "Run",
+    "애플리케이션.ResourceCloseMainV4.executor": "Run",
+    "애플리케이션.ServerMain.executor": "Run",
+    "애플리케이션.ServerV1.executor": "Run",
+    "애플리케이션.ServerV2.executor": "Run",
+    "애플리케이션.ServerV3.executor": "Run",
+    "애플리케이션.ServerV4.executor": "Run",
+    "애플리케이션.ServerV5.executor": "Run",
+    "애플리케이션.ServerV6.executor": "Run",
+    "애플리케이션.SoTimeoutClient.executor": "Run",
+    "애플리케이션.SoTimeoutServer.executor": "Run",
+    "애플리케이션.StreamStartMain1.executor": "Run",
+    "애플리케이션.StreamStartMain2.executor": "Run",
+    "애플리케이션.StreamStartMain3.executor": "Run",
+    "애플리케이션.StreamStartMain4.executor": "Run",
+    "애플리케이션.TestControllerMain.executor": "Run",
+    "애플리케이션.ValidatorV1Main.executor": "Run",
+    "애플리케이션.ValidatorV2Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chat.server" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java_Study\java-adv2\src\network\tcp\v3" />
       <recent name="D:\Java_Study\java-adv2\src\network\tcp\v2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chat.server" />
       <recent name="network.exception.connect" />
       <recent name="network.tcp.v6" />
       <recent name="network.tcp.v5" />
       <recent name="network.tcp.v4" />
-      <recent name="annotation.validator" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ResetCloseServer">
-    <configuration name="ClientV3-2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
+  <component name="RunManager" selected="애플리케이션.ClientMain">
+    <configuration name="ClientMain-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v3.*" />
+          <option name="PATTERN" value="chat.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +156,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectTimeoutMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.ConnectTimeoutMain2" />
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.connect.*" />
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientV3-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,6 +208,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.server.ServerMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutClient" />
       <module name="java-adv2" />
@@ -202,34 +234,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutServer" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.exception.connect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="애플리케이션.ClientV3-2" />
-      <item itemvalue="애플리케이션.ConnectTimeoutMain2" />
+      <item itemvalue="애플리케이션.ClientMain-2" />
+      <item itemvalue="애플리케이션.ClientMain" />
+      <item itemvalue="애플리케이션.ServerMain" />
       <item itemvalue="애플리케이션.NormalCloseServer" />
       <item itemvalue="애플리케이션.ResetCloseServer" />
       <item itemvalue="애플리케이션.SoTimeoutClient" />
-      <item itemvalue="애플리케이션.SoTimeoutServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ClientMain" />
+        <item itemvalue="애플리케이션.ServerMain" />
         <item itemvalue="애플리케이션.ResetCloseServer" />
         <item itemvalue="애플리케이션.NormalCloseServer" />
         <item itemvalue="애플리케이션.SoTimeoutClient" />
-        <item itemvalue="애플리케이션.SoTimeoutServer" />
-        <item itemvalue="애플리케이션.ConnectTimeoutMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +284,7 @@
       <workItem from="1752910794630" duration="2461000" />
       <workItem from="1752917391639" duration="6274000" />
       <workItem from="1752941247522" duration="1558000" />
+      <workItem from="1752985733411" duration="8631000" />
     </task>
     <servers />
   </component>
