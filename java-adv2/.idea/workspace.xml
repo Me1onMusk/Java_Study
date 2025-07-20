@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/client/ReadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/client/ReadHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/client/WriteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/client/WriteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chat/server/CommandManagerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chat/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/server/ServerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -142,7 +142,7 @@
       <recent name="network.tcp.v4" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ClientMain">
+  <component name="RunManager" selected="애플리케이션.ClientMain-2">
     <configuration name="ClientMain-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -284,7 +284,7 @@
       <workItem from="1752910794630" duration="2461000" />
       <workItem from="1752917391639" duration="6274000" />
       <workItem from="1752941247522" duration="1558000" />
-      <workItem from="1752985733411" duration="8631000" />
+      <workItem from="1752985733411" duration="11272000" />
     </task>
     <servers />
   </component>

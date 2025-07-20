@@ -20,16 +20,18 @@ public class CommandManagerV2 implements CommandManager {
             String userName = split[1];
             session.setUsername(userName);
             sessionManager.sendAll(userName + "님이 입장했습니다.");
+
         } else if (allMessage.startsWith("/message")) {
             String[] split = allMessage.split(DELIMITER);
             String message = split[1];
-
             sessionManager.sendAll("[" + session.getUsername()+"] : " +  message);
+
         } else if (allMessage.startsWith("/change")) {
             String[] split = allMessage.split(DELIMITER);
             String changeName =  split[1];
             sessionManager.sendAll(session.getUsername()+"님이 "+changeName+"로 이름을 변경습니다.");
             session.setUsername(changeName);
+
         } else if (allMessage.startsWith("/users")) {
             List<String> allUserName = sessionManager.getAllUserName();
             StringBuilder sb = new StringBuilder();
@@ -38,8 +40,9 @@ public class CommandManagerV2 implements CommandManager {
                 sb.append(" - ").append(userName).append("\n");
             }
             session.send(sb.toString());
-        }else if (allMessage.startsWith("/exit"))
+        }else if (allMessage.startsWith("/exit")) {
             throw new IOException("exit");
+        }
         else
             session.send("처리할 수 없는 명령어 입니다." + allMessage);
     }
