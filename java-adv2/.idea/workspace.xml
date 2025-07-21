@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="" />
+    <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +89,7 @@
     "애플리케이션.OldFileMain.executor": "Run",
     "애플리케이션.OldFilePath.executor": "Run",
     "애플리케이션.OverrideMain.executor": "Run",
+    "애플리케이션.PercentEncodingMain.executor": "Run",
     "애플리케이션.PrintStreamEtcMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ReadFileV1.executor": "Run",
@@ -105,6 +108,8 @@
     "애플리케이션.ResourceCloseMainV3.executor": "Run",
     "애플리케이션.ResourceCloseMainV4.executor": "Run",
     "애플리케이션.ServerMain.executor": "Run",
+    "애플리케이션.ServerMainV2.executor": "Run",
+    "애플리케이션.ServerMainV3.executor": "Run",
     "애플리케이션.ServerV1.executor": "Run",
     "애플리케이션.ServerV2.executor": "Run",
     "애플리케이션.ServerV3.executor": "Run",
@@ -119,7 +124,8 @@
     "애플리케이션.StreamStartMain4.executor": "Run",
     "애플리케이션.TestControllerMain.executor": "Run",
     "애플리케이션.ValidatorV1Main.executor": "Run",
-    "애플리케이션.ValidatorV2Main.executor": "Run"
+    "애플리케이션.ValidatorV2Main.executor": "Run",
+    "애플리케이션.was.v1.ServerMain.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -131,14 +137,14 @@
       <recent name="D:\Java_Study\java-adv2\src\network\tcp\v2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="was.v3" />
       <recent name="chat.server" />
       <recent name="network.exception.connect" />
       <recent name="network.tcp.v6" />
       <recent name="network.tcp.v5" />
-      <recent name="network.tcp.v4" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ClientMain-2">
+  <component name="RunManager" selected="애플리케이션.PercentEncodingMain">
     <configuration name="ClientMain-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -178,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalCloseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.close.normal.NormalCloseServer" />
+    <configuration name="PercentEncodingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v3.PercentEncodingMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.close.normal.*" />
+          <option name="PATTERN" value="was.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResetCloseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.close.reset.ResetCloseServer" />
+    <configuration name="ServerMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v1.ServerMainV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.close.reset.*" />
+          <option name="PATTERN" value="was.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chat.server.ServerMain" />
+    <configuration name="ServerMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v2.ServerMainV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chat.server.*" />
+          <option name="PATTERN" value="was.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutClient" />
+    <configuration name="ServerMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v3.ServerMainV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.connect.*" />
+          <option name="PATTERN" value="was.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,19 +239,19 @@
     <list>
       <item itemvalue="애플리케이션.ClientV3-2" />
       <item itemvalue="애플리케이션.ClientMain-2" />
+      <item itemvalue="애플리케이션.PercentEncodingMain" />
+      <item itemvalue="애플리케이션.ServerMainV2" />
+      <item itemvalue="애플리케이션.ServerMainV3" />
+      <item itemvalue="애플리케이션.ServerMainV1" />
       <item itemvalue="애플리케이션.ClientMain" />
-      <item itemvalue="애플리케이션.ServerMain" />
-      <item itemvalue="애플리케이션.NormalCloseServer" />
-      <item itemvalue="애플리케이션.ResetCloseServer" />
-      <item itemvalue="애플리케이션.SoTimeoutClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.PercentEncodingMain" />
+        <item itemvalue="애플리케이션.ServerMainV3" />
+        <item itemvalue="애플리케이션.ServerMainV2" />
+        <item itemvalue="애플리케이션.ServerMainV1" />
         <item itemvalue="애플리케이션.ClientMain" />
-        <item itemvalue="애플리케이션.ServerMain" />
-        <item itemvalue="애플리케이션.ResetCloseServer" />
-        <item itemvalue="애플리케이션.NormalCloseServer" />
-        <item itemvalue="애플리케이션.SoTimeoutClient" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +287,8 @@
       <workItem from="1752917391639" duration="6274000" />
       <workItem from="1752941247522" duration="1558000" />
       <workItem from="1752985733411" duration="11648000" />
+      <workItem from="1753098850266" duration="1677000" />
+      <workItem from="1753109067350" duration="3483000" />
     </task>
     <servers />
   </component>
