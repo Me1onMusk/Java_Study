@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +53,11 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.BiMain.executor": "Run",
     "애플리케이션.BuilderGreeterExample.executor": "Run",
+    "애플리케이션.Collectors1Basic.executor": "Run",
+    "애플리케이션.Collectors2Map.executor": "Run",
     "애플리케이션.ComposeExample.executor": "Run",
     "애플리케이션.ConsumerMain.executor": "Run",
+    "애플리케이션.DuplicateExecutionMain.executor": "Run",
     "애플리케이션.Ex0Main.executor": "Run",
     "애플리케이션.Ex0RefMain.executor": "Run",
     "애플리케이션.Ex1Main.executor": "Run",
@@ -63,6 +65,8 @@
     "애플리케이션.Ex1RefMainV2.executor": "Run",
     "애플리케이션.Ex1RefMainV3.executor": "Run",
     "애플리케이션.Ex1RefMainV4.executor": "Run",
+    "애플리케이션.Ex1_Number.executor": "Run",
+    "애플리케이션.Ex2_Student.executor": "Run",
     "애플리케이션.FilterExample.executor": "Run",
     "애플리케이션.FilterMainV1.executor": "Run",
     "애플리케이션.FilterMainV2.executor": "Run",
@@ -75,6 +79,7 @@
     "애플리케이션.GenericMain5 (1).executor": "Run",
     "애플리케이션.GenericMain5.executor": "Run",
     "애플리케이션.GenericMain6.executor": "Run",
+    "애플리케이션.ImmutableMain.executor": "Run",
     "애플리케이션.InstanceMain.executor": "Run",
     "애플리케이션.LambdaPassMain1.executor": "Run",
     "애플리케이션.LambdaPassMain2.executor": "Run",
@@ -83,6 +88,8 @@
     "애플리케이션.LambdaSimple2.executor": "Run",
     "애플리케이션.LambdaSimple3.executor": "Run",
     "애플리케이션.LambdaSimple4.executor": "Run",
+    "애플리케이션.LazyEvalMain1.executor": "Run",
+    "애플리케이션.LazyEvalMain2.executor": "Run",
     "애플리케이션.M1After.executor": "Run",
     "애플리케이션.M1Before.executor": "Run",
     "애플리케이션.M2After.executor": "Run",
@@ -94,9 +101,20 @@
     "애플리케이션.MapMainV2.executor": "Run",
     "애플리케이션.MapMainV4.executor": "Run",
     "애플리케이션.MapMainV5.executor": "Run",
+    "애플리케이션.MethodRefEx1.executor": "Run",
+    "애플리케이션.MethodRefEx2.executor": "Run",
+    "애플리케이션.MethodRefStartV1.executor": "Run",
+    "애플리케이션.MethodRefStartV2.executor": "Run",
+    "애플리케이션.MethodRefStartV3.executor": "Run",
     "애플리케이션.MyFunction1.executor": "Run",
     "애플리케이션.MyFunction2.executor": "Run",
+    "애플리케이션.MyStreamLoopMain.executor": "Run",
+    "애플리케이션.MyStreamV1Main.executor": "Run",
+    "애플리케이션.MyStreamV2Main.executor": "Run",
+    "애플리케이션.MyStreamV3Main.executor": "Run",
     "애플리케이션.OperatorMain.executor": "Run",
+    "애플리케이션.OptionalStartMain.executor": "Run",
+    "애플리케이션.OptionalStartMain2.executor": "Run",
     "애플리케이션.PredicateMain.executor": "Run",
     "애플리케이션.PrimitiveFunction.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
@@ -104,6 +122,7 @@
     "애플리케이션.ReduceExample.executor": "Run",
     "애플리케이션.RunnableMain.executor": "Run",
     "애플리케이션.SAMMain.executor": "Run",
+    "애플리케이션.StreamStartMain.executor": "Run",
     "애플리케이션.SupplierMain.executor": "Run",
     "애플리케이션.TargetType1.executor": "Run",
     "애플리케이션.TargetType2.executor": "Run",
@@ -113,20 +132,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="lambda.lambda5.map" />
-      <recent name="lambda.lambda5.filter" />
-      <recent name="lambda.lambda3" />
-      <recent name="lambda.ex2" />
-      <recent name="lambda.ex1" />
+      <recent name="optional" />
+      <recent name="stream.basic" />
+      <recent name="lambda.lambda5.mystream" />
+      <recent name="methodref" />
+      <recent name="methodref.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MapMainV5">
-    <configuration name="FilterMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV5" />
+  <component name="RunManager" selected="애플리케이션.Collectors2Map">
+    <configuration name="Collectors1Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors1Basic" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV1" />
+    <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors2Map" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.map.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV2" />
+    <configuration name="LazyEvalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.map.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV4" />
+    <configuration name="OptionalStartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalStartMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.map.*" />
+          <option name="PATTERN" value="optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.map.MapMainV5" />
+    <configuration name="OptionalStartMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalStartMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.map.*" />
+          <option name="PATTERN" value="optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.MapMainV5" />
-        <item itemvalue="애플리케이션.MapMainV4" />
-        <item itemvalue="애플리케이션.MapMainV2" />
-        <item itemvalue="애플리케이션.MapMainV1" />
-        <item itemvalue="애플리케이션.FilterMainV5" />
+        <item itemvalue="애플리케이션.Collectors2Map" />
+        <item itemvalue="애플리케이션.Collectors1Basic" />
+        <item itemvalue="애플리케이션.OptionalStartMain2" />
+        <item itemvalue="애플리케이션.OptionalStartMain" />
+        <item itemvalue="애플리케이션.LazyEvalMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +240,7 @@
       <workItem from="1752915111698" duration="12000" />
       <workItem from="1752915207732" duration="4437000" />
       <workItem from="1752998841119" duration="2323000" />
+      <workItem from="1753076197087" duration="15003000" />
     </task>
     <servers />
   </component>
