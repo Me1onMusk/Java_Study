@@ -27,7 +27,7 @@ public class HttpRequestHandler implements Runnable {
             log(e);
         }
     }
-    
+
     private void process(Socket socket) throws IOException {
         try (socket;
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream(), UTF_8));
@@ -41,36 +41,5 @@ public class HttpRequestHandler implements Runnable {
             response.flush();
             log("HTTP 응답 완료");
         }
-    }
-
-    private void notFound(HttpResponse response) {
-        response.setStatusCode(404);
-        response.writeBody("<h1>404 페이지를 찾을 수 없습니다.</h1>");
-    }
-
-    // http://localhost:12345/search?q=hello
-    private void search(HttpRequest request, HttpResponse response) {
-        String query = request.getParam("q");
-        response.writeBody("<h1>Search</h1>");
-        response.writeBody("<ul>");
-        response.writeBody("<li>query: " + query + "</li>");
-        response.writeBody("</ul>");
-    }
-
-    private void site2(HttpResponse response) {
-        response.writeBody("<h1>site2</h1>");
-    }
-
-    private void site1(HttpResponse response) {
-        response.writeBody("<h1>site1</h1>");
-    }
-
-    private void home(HttpResponse response) {
-        response.writeBody("<h1>home</h1>");
-        response.writeBody("<ul>");
-        response.writeBody("<li><a href='/site1'>site1</li>");
-        response.writeBody("<li><a href='/site2'>site2</li>");
-        response.writeBody("<li><a href='/search?q=hello'>검색</li>");
-        response.writeBody("</ul>");
     }
 }

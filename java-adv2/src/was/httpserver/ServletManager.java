@@ -35,8 +35,7 @@ public class ServletManager {
     public void execute(HttpRequest request, HttpResponse response) throws IOException {
         try {
             HttpServlet servlet = servletMap.getOrDefault(request.getPath(), defaultServlet);
-            if (servlet == null)
-                throw new PageNotFoundException("request URL = " + request.getPath());
+            if (servlet == null) throw new PageNotFoundException("request URL = " + request.getPath());
             servlet.service(request, response);
         }catch (PageNotFoundException e) {
             e.printStackTrace();
