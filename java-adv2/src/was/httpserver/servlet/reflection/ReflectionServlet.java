@@ -1,4 +1,4 @@
-package was.httpserver.servlet.annotation;
+package was.httpserver.servlet.reflection;
 
 import was.httpserver.HttpRequest;
 import was.httpserver.HttpResponse;
@@ -10,11 +10,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
-public class AnnotationServletV1 implements HttpServlet {
+public class ReflectionServlet implements HttpServlet {
 
     private final List<Object> controllers;
 
-    public AnnotationServletV1(List<Object> controllers) {
+    public ReflectionServlet(List<Object> controllers) {
         this.controllers = controllers;
     }
 
@@ -23,22 +23,21 @@ public class AnnotationServletV1 implements HttpServlet {
         String path = request.getPath();
 
         for (Object controller : controllers) {
-            Method[] methods = controller.getClass().getDeclaredMethods();
+            Class<?> aClass = controller.getClass();
+            Method[] methods = aClass.getDeclaredMethods();
+
             for (Method method : methods) {
-                if (method.isAnnotationPresent(Mapping.class)) {
-                    Mapping mapping = method.getAnnotation(Mapping.class);
-                    String value = mapping.value();
-                    if (value.equals(path)) {
-                        invoke(controller, method, request, response);
-                        return;
-                    }
+                String methodName = method.getName();
+                if (path.equals("/" + methodName)) {
+                    invoke(controller, method, request, response);
+                    return;
                 }
             }
         }
         throw new PageNotFoundException("request=" + path);
     }
 
-    private void invoke(Object controller, Method method, HttpRequest request, HttpResponse response) {
+    private static void invoke(Object controller, Method method, HttpRequest request, HttpResponse response) {
         try {
             method.invoke(controller, request, response);
         } catch (InvocationTargetException | IllegalAccessException e) {

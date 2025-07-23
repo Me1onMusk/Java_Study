@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ef6380ac-f754-41b1-9e00-7c8fb4942c20" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/was/httpserver/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/was/httpserver/ServletManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/ServletManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/member/impl/FileMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/impl/FileMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/AnnotationServletV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/AnnotationServletV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/members-txt.dat" beforeDir="false" afterPath="$PROJECT_DIR$/temp/members-txt.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +95,7 @@
     "애플리케이션.InetAddressMain.executor": "Run",
     "애플리케이션.InheritedMain.executor": "Run",
     "애플리케이션.MemberConsoleMain.executor": "Run",
+    "애플리케이션.MemberServiceMain.executor": "Run",
     "애플리케이션.MetaData.executor": "Run",
     "애플리케이션.MethodV1.executor": "Run",
     "애플리케이션.MethodV2.executor": "Run",
@@ -125,6 +129,9 @@
     "애플리케이션.ServerMainV3.executor": "Run",
     "애플리케이션.ServerMainV4.executor": "Run",
     "애플리케이션.ServerMainV5.executor": "Run",
+    "애플리케이션.ServerMainV6.executor": "Run",
+    "애플리케이션.ServerMainV7.executor": "Run",
+    "애플리케이션.ServerMainV8.executor": "Run",
     "애플리케이션.ServerV1.executor": "Run",
     "애플리케이션.ServerV2.executor": "Run",
     "애플리케이션.ServerV3.executor": "Run",
@@ -152,14 +159,14 @@
       <recent name="D:\Java_Study\java-adv2\src\network\tcp\v2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="was.httpserver.servlet.annotation" />
+      <recent name="was.v8" />
       <recent name="reflection" />
       <recent name="was.v5.servlet" />
       <recent name="was.v4" />
-      <recent name="was.v3" />
-      <recent name="chat.server" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ConstructV2">
+  <component name="RunManager" selected="애플리케이션.MemberServiceMain">
     <configuration name="ClientMain-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -186,19 +193,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.ConstructV1" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConstructV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection.ConstructV2" />
       <module name="java-adv2" />
@@ -212,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.FieldV2" />
+    <configuration name="MemberServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="webservice.MemberServiceMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="webservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.FieldV3" />
+    <configuration name="ServerMainV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v6.ServerMainV6" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="was.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +232,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.FieldV4" />
+    <configuration name="ServerMainV7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v7.ServerMainV7" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="was.v7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMainV8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v8.ServerMainV8" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="was.v8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,19 +261,19 @@
     <list>
       <item itemvalue="애플리케이션.ClientV3-2" />
       <item itemvalue="애플리케이션.ClientMain-2" />
-      <item itemvalue="애플리케이션.ConstructV1" />
       <item itemvalue="애플리케이션.ConstructV2" />
-      <item itemvalue="애플리케이션.FieldV2" />
-      <item itemvalue="애플리케이션.FieldV3" />
-      <item itemvalue="애플리케이션.FieldV4" />
+      <item itemvalue="애플리케이션.MemberServiceMain" />
+      <item itemvalue="애플리케이션.ServerMainV6" />
+      <item itemvalue="애플리케이션.ServerMainV7" />
+      <item itemvalue="애플리케이션.ServerMainV8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MemberServiceMain" />
+        <item itemvalue="애플리케이션.ServerMainV8" />
+        <item itemvalue="애플리케이션.ServerMainV7" />
+        <item itemvalue="애플리케이션.ServerMainV6" />
         <item itemvalue="애플리케이션.ConstructV2" />
-        <item itemvalue="애플리케이션.ConstructV1" />
-        <item itemvalue="애플리케이션.FieldV4" />
-        <item itemvalue="애플리케이션.FieldV3" />
-        <item itemvalue="애플리케이션.FieldV2" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +314,7 @@
       <workItem from="1753144654824" duration="2003000" />
       <workItem from="1753177880814" duration="5475000" />
       <workItem from="1753242081095" duration="6810000" />
-      <workItem from="1753265006341" duration="3985000" />
+      <workItem from="1753265006341" duration="12550000" />
     </task>
     <servers />
   </component>

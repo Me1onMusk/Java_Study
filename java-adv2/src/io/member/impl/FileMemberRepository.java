@@ -22,8 +22,6 @@ public class FileMemberRepository implements MemberRepository {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 
     @Override

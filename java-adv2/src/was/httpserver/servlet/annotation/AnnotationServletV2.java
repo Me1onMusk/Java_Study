@@ -10,11 +10,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
-public class AnnotationServletV1 implements HttpServlet {
+public class AnnotationServletV2 implements HttpServlet {
 
     private final List<Object> controllers;
 
-    public AnnotationServletV1(List<Object> controllers) {
+    public AnnotationServletV2(List<Object> controllers) {
         this.controllers = controllers;
     }
 
@@ -39,8 +39,21 @@ public class AnnotationServletV1 implements HttpServlet {
     }
 
     private void invoke(Object controller, Method method, HttpRequest request, HttpResponse response) {
+
+        Class<?>[] parameterTypes = method.getParameterTypes();
+        Object[] args = new Object[parameterTypes.length];
+
+        for (int i = 0; i < parameterTypes.length; i++) {
+            if (parameterTypes[i] == HttpRequest.class)
+                args[i] = request;
+            else if (parameterTypes[i] == HttpResponse.class)
+                args[i] = response;
+            else
+                throw new IllegalArgumentException("Unsupported parameter type: " + parameterTypes[i]);
+        }
+
         try {
-            method.invoke(controller, request, response);
+            method.invoke(controller, args);
         } catch (InvocationTargetException | IllegalAccessException e) {
             throw new RuntimeException(e);
         }
