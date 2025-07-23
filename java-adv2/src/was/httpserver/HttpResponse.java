@@ -31,6 +31,24 @@ public class HttpResponse {
 
     public void flush() {
         int contentLength = bodyBuilder.toString().getBytes(UTF_8).length;
-        writer.println("HTTP/1.1 " + statusCode + " "+"OK");
+        writer.println("HTTP/1.1 " + statusCode + " " + getReasonPhrase(statusCode));
+        writer.println("Content-Type: " + contentType);
+        writer.println("Content-Length: " + contentLength);
+        writer.println();
+        writer.println(bodyBuilder);
+        writer.flush();
+    }
+
+    private String getReasonPhrase(int statusCode) {
+        switch (statusCode) {
+            case 200:
+                return "OK";
+            case 404:
+                return "Not Found";
+            case 500:
+                return "Internal Server Error";
+            default:
+                return "Unknown HTTP Status Code";
+        }
     }
 }
