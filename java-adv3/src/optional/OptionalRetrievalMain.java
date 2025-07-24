@@ -25,9 +25,9 @@ public class OptionalRetrievalMain {
         // 값이 있으면 그 값, 없으면 지정된 기본값 사용
         System.out.println("=== 3. orElse() ===");
         String value1 = optValue.orElse("기본값");
-        optEmpty.orElse("기본값")
+        optEmpty.orElse("기본값");
         System.out.println("value1 = " + value1);
-        System.out.println("empty1 = " + empty1);
+        System.out.println("empty1 = " + optEmpty);
 
         // 값이 없을 때만 람다(Supplier)가 실행되어 기본값 생성
         System.out.println("=== 4. orElseGet() ===");
