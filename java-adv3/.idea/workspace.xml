@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-adv1/src/thread/sync/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv1/src/thread/sync/BankMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/OptionalRetrievalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/OptionalRetrievalMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +56,11 @@
     "애플리케이션.Collectors1Basic.executor": "Run",
     "애플리케이션.Collectors2Map.executor": "Run",
     "애플리케이션.ComposeExample.executor": "Run",
+    "애플리케이션.CompositionMain1.executor": "Run",
+    "애플리케이션.CompositionMain2.executor": "Run",
     "애플리케이션.ConsumerMain.executor": "Run",
     "애플리케이션.CreateStreamMain.executor": "Run",
+    "애플리케이션.DeclarativeMain.executor": "Run",
     "애플리케이션.DuplicateExecutionMain.executor": "Run",
     "애플리케이션.Ex0Main.executor": "Run",
     "애플리케이션.Ex0RefMain.executor": "Run",
@@ -83,6 +84,9 @@
     "애플리케이션.GenericMain5.executor": "Run",
     "애플리케이션.GenericMain6.executor": "Run",
     "애플리케이션.ImmutableMain.executor": "Run",
+    "애플리케이션.ImmutableMain1.executor": "Run",
+    "애플리케이션.ImmutableMain2.executor": "Run",
+    "애플리케이션.ImmutableMain3.executor": "Run",
     "애플리케이션.InstanceMain.executor": "Run",
     "애플리케이션.IntermediateOperationsMain.executor": "Run",
     "애플리케이션.LambdaPassMain1.executor": "Run",
@@ -107,6 +111,7 @@
     "애플리케이션.MapMainV5.executor": "Run",
     "애플리케이션.MethodRefEx1.executor": "Run",
     "애플리케이션.MethodRefEx2.executor": "Run",
+    "애플리케이션.MethodRefEx3.executor": "Run",
     "애플리케이션.MethodRefStartV1.executor": "Run",
     "애플리케이션.MethodRefStartV2.executor": "Run",
     "애플리케이션.MethodRefStartV3.executor": "Run",
@@ -121,13 +126,19 @@
     "애플리케이션.OptionalRetrievalMain.executor": "Run",
     "애플리케이션.OptionalStartMain.executor": "Run",
     "애플리케이션.OptionalStartMain2.executor": "Run",
+    "애플리케이션.OuterMain.executor": "Run",
     "애플리케이션.PredicateMain.executor": "Run",
     "애플리케이션.PrimitiveFunction.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
     "애플리케이션.ProcedureMain2.executor": "Run",
+    "애플리케이션.PureFunctionMain1.executor": "Run",
     "애플리케이션.ReduceExample.executor": "Run",
     "애플리케이션.RunnableMain.executor": "Run",
     "애플리케이션.SAMMain.executor": "Run",
+    "애플리케이션.SideEffectListMain.executor": "Run",
+    "애플리케이션.SideEffectMain1.executor": "Run",
+    "애플리케이션.SideEffectMain2.executor": "Run",
+    "애플리케이션.SideEffectMain3.executor": "Run",
     "애플리케이션.StreamStartMain.executor": "Run",
     "애플리케이션.SupplierMain.executor": "Run",
     "애플리케이션.TargetType1.executor": "Run",
@@ -138,20 +149,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="methodref" />
       <recent name="optional" />
       <recent name="stream.basic" />
       <recent name="lambda.lambda5.mystream" />
-      <recent name="methodref" />
       <recent name="methodref.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.IntermediateOperationsMain">
-    <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors2Map" />
+  <component name="RunManager" selected="애플리케이션.MethodRefEx3">
+    <configuration name="CompositionMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.CompositionMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.opertation.CreateStreamMain" />
+    <configuration name="CompositionMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.CompositionMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.opertation.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntermediateOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.opertation.IntermediateOperationsMain" />
+    <configuration name="DeclarativeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.DeclarativeMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.opertation.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalCreationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalCreationMain" />
+    <configuration name="ImmutableMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optional.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalRetrievalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalRetrievalMain" />
+    <configuration name="MethodRefEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optional.*" />
+          <option name="PATTERN" value="methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.IntermediateOperationsMain" />
-        <item itemvalue="애플리케이션.CreateStreamMain" />
-        <item itemvalue="애플리케이션.OptionalRetrievalMain" />
-        <item itemvalue="애플리케이션.OptionalCreationMain" />
-        <item itemvalue="애플리케이션.Collectors2Map" />
+        <item itemvalue="애플리케이션.MethodRefEx3" />
+        <item itemvalue="애플리케이션.CompositionMain2" />
+        <item itemvalue="애플리케이션.CompositionMain1" />
+        <item itemvalue="애플리케이션.DeclarativeMain" />
+        <item itemvalue="애플리케이션.ImmutableMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +260,7 @@
       <workItem from="1753076197087" duration="15003000" />
       <workItem from="1753196983681" duration="1621000" />
       <workItem from="1753363484385" duration="795000" />
+      <workItem from="1753367352702" duration="6237000" />
     </task>
     <servers />
   </component>
