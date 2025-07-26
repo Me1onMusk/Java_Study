@@ -15,8 +15,7 @@ public abstract class ExecutorUtils {
             long completedTask = poolExecutor.getCompletedTaskCount();
 
             log("[pool=" + pool + ", active=" + active + ", queuedTasks=" + queuedTasks + ", completedTasks=" + completedTask + "]");
-        } else {
+        } else
             log(executorService);
-        }
     }
 }

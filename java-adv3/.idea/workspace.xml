@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-adv1/src/thread/executor/ExecutorBasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv1/src/thread/executor/ExecutorBasicMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-adv1/src/thread/executor/ExecutorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv1/src/thread/executor/ExecutorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-adv1/src/thread/executor/RunnableTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-adv1/src/thread/executor/RunnableTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +112,7 @@
     "애플리케이션.MapMainV2.executor": "Run",
     "애플리케이션.MapMainV4.executor": "Run",
     "애플리케이션.MapMainV5.executor": "Run",
+    "애플리케이션.MapVsFlatMapMain.executor": "Run",
     "애플리케이션.MethodRefEx1.executor": "Run",
     "애플리케이션.MethodRefEx2.executor": "Run",
     "애플리케이션.MethodRefEx3.executor": "Run",
@@ -123,7 +127,9 @@
     "애플리케이션.MyStreamV3Main.executor": "Run",
     "애플리케이션.OperatorMain.executor": "Run",
     "애플리케이션.OptionalCreationMain.executor": "Run",
+    "애플리케이션.OptionalProcessingMain.executor": "Run",
     "애플리케이션.OptionalRetrievalMain.executor": "Run",
+    "애플리케이션.OptionalSimpleMain.executor": "Run",
     "애플리케이션.OptionalStartMain.executor": "Run",
     "애플리케이션.OptionalStartMain2.executor": "Run",
     "애플리케이션.OuterMain.executor": "Run",
@@ -156,20 +162,7 @@
       <recent name="methodref.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MethodRefEx3">
-    <configuration name="CompositionMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.CompositionMain1" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.OptionalSimpleMain">
     <configuration name="CompositionMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.CompositionMain2" />
       <module name="java-adv3" />
@@ -183,25 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeclarativeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.DeclarativeMain" />
+    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.opertation.MapVsFlatMapMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImmutableMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain3" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
+          <option name="PATTERN" value="stream.opertation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,21 +202,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OptionalProcessingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalProcessingMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalSimpleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.opertation.OptionalSimpleMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.opertation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.OptionalSimpleMain" />
+        <item itemvalue="애플리케이션.MapVsFlatMapMain" />
+        <item itemvalue="애플리케이션.OptionalProcessingMain" />
         <item itemvalue="애플리케이션.MethodRefEx3" />
         <item itemvalue="애플리케이션.CompositionMain2" />
-        <item itemvalue="애플리케이션.CompositionMain1" />
-        <item itemvalue="애플리케이션.DeclarativeMain" />
-        <item itemvalue="애플리케이션.ImmutableMain3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
       </set>
     </attachedChunks>
   </component>
@@ -261,6 +267,7 @@
       <workItem from="1753196983681" duration="1621000" />
       <workItem from="1753363484385" duration="795000" />
       <workItem from="1753367352702" duration="6237000" />
+      <workItem from="1753520937677" duration="1774000" />
     </task>
     <servers />
   </component>
