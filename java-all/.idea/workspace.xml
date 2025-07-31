@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Java_Study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv1/thread/control/ThreadInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv1/thread/control/ThreadInfoMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="30aTZWVn4FRHVZDe5oXmeWwJAMf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -51,9 +46,128 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java_Study/java-all/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.ArrayMain1.executor": "Run",
+    "애플리케이션.ArrayMain2.executor": "Run",
+    "애플리케이션.BadThreadMain.executor": "Run",
+    "애플리케이션.CharArrayMain.executor": "Run",
+    "애플리케이션.CheckedCatchMain.executor": "Run",
+    "애플리케이션.DaemonThreadMain (1).executor": "Run",
+    "애플리케이션.DaemonThreadMain.executor": "Run",
+    "애플리케이션.HelloRunnableMain.executor": "Run",
+    "애플리케이션.HelloThreadMain.executor": "Run",
+    "애플리케이션.InnerRunnableMainV1.executor": "Run",
+    "애플리케이션.InnerRunnableMainV2.executor": "Run",
+    "애플리케이션.JoinMainV0.executor": "Run",
+    "애플리케이션.JoinMainV1.executor": "Run",
+    "애플리케이션.JoinMainV2.executor": "Run",
+    "애플리케이션.MainV0.executor": "Run",
+    "애플리케이션.MainV1.executor": "Run",
+    "애플리케이션.ManyThreadMainV1.executor": "Run",
+    "애플리케이션.ManyThreadMainV2.executor": "Run",
+    "애플리케이션.MyArrayListV1Main.executor": "Run",
+    "애플리케이션.MyArrayListV2Main.executor": "Run",
+    "애플리케이션.MyArrayListV3BadMain.executor": "Run",
+    "애플리케이션.MyArrayListV3Main.executor": "Run",
+    "애플리케이션.MyArrayListV4Main.executor": "Run",
+    "애플리케이션.MyLoggerMain.executor": "Run",
+    "애플리케이션.QueueMain.executor": "Run",
+    "애플리케이션.StringBasicMain.executor": "Run",
+    "애플리케이션.StringConcatMain.executor": "Run",
+    "애플리케이션.StringEqualsMain1.executor": "Run",
+    "애플리케이션.StringEqualsMain2.executor": "Run",
+    "애플리케이션.StringImmutable1.executor": "Run",
+    "애플리케이션.StringImmutable2.executor": "Run",
+    "애플리케이션.StringInfoMain.executor": "Run",
+    "애플리케이션.ThreadInfoMain.executor": "Run",
+    "애플리케이션.ThreadStateMain.executor": "Run",
+    "애플리케이션.UncheckedCatchMain.executor": "Run",
+    "애플리케이션.UncheckedThrowMain.executor": "Run",
+    "애플리케이션.VarArgsDemo.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mid1.exception.ex1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.JoinMainV2">
+    <configuration name="JoinMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.join.JoinMainV0" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adv1.thread.control.join.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.join.JoinMainV1" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adv1.thread.control.join.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.join.JoinMainV2" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adv1.thread.control.join.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.ThreadInfoMain" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adv1.thread.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.ThreadStateMain" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adv1.thread.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.JoinMainV2" />
+        <item itemvalue="애플리케이션.JoinMainV1" />
+        <item itemvalue="애플리케이션.JoinMainV0" />
+        <item itemvalue="애플리케이션.ThreadStateMain" />
+        <item itemvalue="애플리케이션.ThreadInfoMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +184,9 @@
       <option name="presentableId" value="Default" />
       <updated>1753864739559</updated>
       <workItem from="1753864740728" duration="742000" />
+      <workItem from="1753921836341" duration="10690000" />
+      <workItem from="1753938688636" duration="98000" />
+      <workItem from="1753939236375" duration="9265000" />
     </task>
     <servers />
   </component>

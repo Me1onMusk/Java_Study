@@ -1,0 +1,23 @@
+package mid2.collection.array;
+
+public class MyArrayListV4Main {
+    public static void main(String[] args) {
+
+        MyArrayListV4<String> stringList = new MyArrayListV4<>();  // String 입력
+        stringList.add("a");
+        stringList.add("b");
+        stringList.add("c");
+
+        String string = stringList.get(0);
+        System.out.println("string = " + string);  // string = a
+
+        MyArrayListV4<Integer> intList = new MyArrayListV4<>();  // Integer 입력
+        intList.add(1);
+        intList.add(2);
+        intList.add(3);
+
+        Integer integer = intList.get(0);
+        System.out.println("integer = " + integer);  // integer = 1
+
+    }
+}
