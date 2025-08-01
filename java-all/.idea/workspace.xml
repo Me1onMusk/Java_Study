@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv1/thread/control/ThreadInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv1/thread/control/ThreadInfoMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,8 +53,17 @@
     "애플리케이션.BadThreadMain.executor": "Run",
     "애플리케이션.CharArrayMain.executor": "Run",
     "애플리케이션.CheckedCatchMain.executor": "Run",
+    "애플리케이션.ClassGradeEx2_1.executor": "Run",
+    "애플리케이션.ClassGradeEx2_2.executor": "Run",
+    "애플리케이션.ClassGradeRefMain1.executor": "Run",
+    "애플리케이션.ClassRefMain.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
+    "애플리케이션.EnumEx3_1.executor": "Run",
+    "애플리케이션.EnumMethodMain.executor": "Run",
+    "애플리케이션.EnumRefMain.executor": "Run",
+    "애플리케이션.EnumRefMain3_1.executor": "Run",
+    "애플리케이션.EnumRefMain3_4.executor": "Run",
     "애플리케이션.HelloRunnableMain.executor": "Run",
     "애플리케이션.HelloThreadMain.executor": "Run",
     "애플리케이션.InnerRunnableMainV1.executor": "Run",
@@ -77,9 +86,13 @@
     "애플리케이션.StringConcatMain.executor": "Run",
     "애플리케이션.StringEqualsMain1.executor": "Run",
     "애플리케이션.StringEqualsMain2.executor": "Run",
+    "애플리케이션.StringGradeEx0_2.executor": "Run",
+    "애플리케이션.StringGradeEx1_1.executor": "Run",
+    "애플리케이션.StringGradeEx1_2.executor": "Run",
     "애플리케이션.StringImmutable1.executor": "Run",
     "애플리케이션.StringImmutable2.executor": "Run",
     "애플리케이션.StringInfoMain.executor": "Run",
+    "애플리케이션.Switch2.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
     "애플리케이션.ThreadStateMain.executor": "Run",
     "애플리케이션.UncheckedCatchMain.executor": "Run",
@@ -89,16 +102,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="start.cond" />
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.JoinMainV2">
-    <configuration name="JoinMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.join.JoinMainV0" />
+  <component name="RunManager" selected="애플리케이션.Switch2">
+    <configuration name="ClassGradeRefMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ref1.ClassGradeRefMain1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.control.join.*" />
+          <option name="PATTERN" value="mid1.enumeration.ref1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.join.JoinMainV1" />
+    <configuration name="EnumMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ex3.EnumMethodMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.control.join.*" />
+          <option name="PATTERN" value="mid1.enumeration.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.join.JoinMainV2" />
+    <configuration name="EnumRefMain3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ref3.EnumRefMain3_1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.control.join.*" />
+          <option name="PATTERN" value="mid1.enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.ThreadInfoMain" />
+    <configuration name="EnumRefMain3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ref3.EnumRefMain3_4" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.control.*" />
+          <option name="PATTERN" value="mid1.enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.control.ThreadStateMain" />
+    <configuration name="Switch2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.cond.Switch2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.control.*" />
+          <option name="PATTERN" value="start.cond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.JoinMainV2" />
-        <item itemvalue="애플리케이션.JoinMainV1" />
-        <item itemvalue="애플리케이션.JoinMainV0" />
-        <item itemvalue="애플리케이션.ThreadStateMain" />
-        <item itemvalue="애플리케이션.ThreadInfoMain" />
+        <item itemvalue="애플리케이션.Switch2" />
+        <item itemvalue="애플리케이션.EnumRefMain3_4" />
+        <item itemvalue="애플리케이션.EnumRefMain3_1" />
+        <item itemvalue="애플리케이션.ClassGradeRefMain1" />
+        <item itemvalue="애플리케이션.EnumMethodMain" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +201,7 @@
       <workItem from="1753921836341" duration="10690000" />
       <workItem from="1753938688636" duration="98000" />
       <workItem from="1753939236375" duration="9265000" />
+      <workItem from="1754007180122" duration="5386000" />
     </task>
     <servers />
   </component>
