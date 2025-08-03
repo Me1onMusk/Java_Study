@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="" />
+    <list default="true" id="a441c881-4942-4bda-bec0-3af1442e4b28" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methodref/MethodRefEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +100,7 @@
     &quot;애플리케이션.LambdaSimple4.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.LazyEvalMain1.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.LazyEvalMain2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.LazyEvalMain3.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.M1After.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.M1Before.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.M2After.executor&quot;: &quot;Run&quot;,
@@ -108,9 +113,12 @@
     &quot;애플리케이션.MapMainV4.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MapMainV5.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MapVsFlatMapMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MethodRef4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MethodRef5.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MethodRefEx1.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MethodRefEx2.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MethodRefEx3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MethodRefEx6.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MethodRefStartV1.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MethodRefStartV2.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.MethodRefStartV3.executor&quot;: &quot;Run&quot;,
@@ -130,6 +138,7 @@
     &quot;애플리케이션.OuterMain.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.PredicateMain.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.PrimitiveFunction.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PrimitiveStreamMain.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.ProcedureMain1.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.ProcedureMain2.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.PureFunctionMain1.executor&quot;: &quot;Run&quot;,
@@ -145,25 +154,26 @@
     &quot;애플리케이션.TargetType1.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.TargetType2.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.TargetType3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TerminalOperationMain.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.TriMain.executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.basic" />
+      <recent name="methodref.start" />
       <recent name="methodref" />
       <recent name="optional" />
-      <recent name="stream.basic" />
       <recent name="lambda.lambda5.mystream" />
-      <recent name="methodref.start" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.OptionalSimpleMain">
-    <configuration name="CompositionMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.CompositionMain2" />
+  <component name="RunManager" selected="애플리케이션.PrimitiveStreamMain">
+    <configuration name="LazyEvalMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.opertation.MapVsFlatMapMain" />
+    <configuration name="MethodRef5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.start.MethodRef5" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.opertation.*" />
+          <option name="PATTERN" value="methodref.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,8 +194,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx3" />
+    <configuration name="MethodRefEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx6" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -197,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalProcessingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalProcessingMain" />
+    <configuration name="PrimitiveStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.opertation.PrimitiveStreamMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optional.*" />
+          <option name="PATTERN" value="stream.opertation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalSimpleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.opertation.OptionalSimpleMain" />
+    <configuration name="TerminalOperationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.opertation.TerminalOperationMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -225,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.OptionalSimpleMain" />
-        <item itemvalue="애플리케이션.MapVsFlatMapMain" />
-        <item itemvalue="애플리케이션.OptionalProcessingMain" />
-        <item itemvalue="애플리케이션.MethodRefEx3" />
-        <item itemvalue="애플리케이션.CompositionMain2" />
+        <item itemvalue="애플리케이션.PrimitiveStreamMain" />
+        <item itemvalue="애플리케이션.TerminalOperationMain" />
+        <item itemvalue="애플리케이션.LazyEvalMain3" />
+        <item itemvalue="애플리케이션.MethodRefEx6" />
+        <item itemvalue="애플리케이션.MethodRef5" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +274,8 @@
       <workItem from="1753367352702" duration="6237000" />
       <workItem from="1753520937677" duration="1774000" />
       <workItem from="1753539113421" duration="976000" />
+      <workItem from="1754227710324" duration="3736000" />
+      <workItem from="1754231577031" duration="577000" />
     </task>
     <servers />
   </component>
