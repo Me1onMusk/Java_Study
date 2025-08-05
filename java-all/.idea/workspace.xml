@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,9 +50,13 @@
     "onboarding.tips.debug.path": "D:/Java_Study/java-all/src/Main.java",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbstractMain.executor": "Run",
     "애플리케이션.AnimalHospitalMainV0.executor": "Run",
     "애플리케이션.AnimalMain1.executor": "Run",
     "애플리케이션.AnimalMain2.executor": "Run",
+    "애플리케이션.AnimalPolyMain2.executor": "Run",
+    "애플리케이션.AnimalPolyMain3.executor": "Run",
+    "애플리케이션.AnimalSoundMain.executor": "Run",
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
@@ -59,6 +64,9 @@
     "애플리케이션.BoxMain2.executor": "Run",
     "애플리케이션.BoxMain3.executor": "Run",
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
+    "애플리케이션.CastingMain1.executor": "Run",
+    "애플리케이션.CastingMain5.executor": "Run",
+    "애플리케이션.CastingMain6.executor": "Run",
     "애플리케이션.CharArrayMain.executor": "Run",
     "애플리케이션.CheckedCatchMain.executor": "Run",
     "애플리케이션.ClassCreateMain.executor": "Run",
@@ -69,6 +77,7 @@
     "애플리케이션.ClassRefMain.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
+    "애플리케이션.DiamondMain.executor": "Run",
     "애플리케이션.EnumEx3_1.executor": "Run",
     "애플리케이션.EnumMethodMain.executor": "Run",
     "애플리케이션.EnumRefMain.executor": "Run",
@@ -93,10 +102,12 @@
     "애플리케이션.MyArrayListV3Main.executor": "Run",
     "애플리케이션.MyArrayListV4Main.executor": "Run",
     "애플리케이션.MyLoggerMain.executor": "Run",
+    "애플리케이션.OverridingMain.executor": "Run",
     "애플리케이션.PolyMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.QueueMain.executor": "Run",
     "애플리케이션.RawTypeMain.executor": "Run",
+    "애플리케이션.SoundFlyMain.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
@@ -111,6 +122,8 @@
     "애플리케이션.StringImmutable1.executor": "Run",
     "애플리케이션.StringImmutable2.executor": "Run",
     "애플리케이션.StringInfoMain.executor": "Run",
+    "애플리케이션.Super1Main.executor": "Run",
+    "애플리케이션.Super2Main.executor": "Run",
     "애플리케이션.Switch2.executor": "Run",
     "애플리케이션.SystemMain.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
@@ -132,13 +145,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.PolyMain">
-    <configuration name="ByteArrayStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.io.start.ByteArrayStreamMain" />
+  <component name="RunManager" selected="애플리케이션.SoundFlyMain">
+    <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.poly.ex3.AbstractMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.io.start.*" />
+          <option name="PATTERN" value="basic.poly.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.poly.basic.PolyMain" />
+    <configuration name="AnimalPolyMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.poly.ex2.AnimalPolyMain2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.poly.basic.*" />
+          <option name="PATTERN" value="basic.poly.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.io.start.PrintStreamMain" />
+    <configuration name="AnimalPolyMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.poly.ex2.AnimalPolyMain3" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.io.start.*" />
+          <option name="PATTERN" value="basic.poly.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamStartMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.io.start.StreamStartMain3" />
+    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.poly.diamond.DiamondMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.io.start.*" />
+          <option name="PATTERN" value="basic.poly.diamond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamStartMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.io.start.StreamStartMain4" />
+    <configuration name="SoundFlyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.poly.ex6.SoundFlyMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.io.start.*" />
+          <option name="PATTERN" value="basic.poly.ex6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.PolyMain" />
-        <item itemvalue="애플리케이션.PrintStreamMain" />
-        <item itemvalue="애플리케이션.ByteArrayStreamMain" />
-        <item itemvalue="애플리케이션.StreamStartMain4" />
-        <item itemvalue="애플리케이션.StreamStartMain3" />
+        <item itemvalue="애플리케이션.SoundFlyMain" />
+        <item itemvalue="애플리케이션.DiamondMain" />
+        <item itemvalue="애플리케이션.AbstractMain" />
+        <item itemvalue="애플리케이션.AnimalPolyMain3" />
+        <item itemvalue="애플리케이션.AnimalPolyMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +242,7 @@
       <workItem from="1753939236375" duration="9265000" />
       <workItem from="1754007180122" duration="5386000" />
       <workItem from="1754352846222" duration="37000" />
-      <workItem from="1754352899032" duration="14080000" />
+      <workItem from="1754352899032" duration="19685000" />
     </task>
     <servers />
   </component>
