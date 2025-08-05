@@ -40,6 +40,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,14 +49,23 @@
     "onboarding.tips.debug.path": "D:/Java_Study/java-all/src/Main.java",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AnimalHospitalMainV0.executor": "Run",
+    "애플리케이션.AnimalMain1.executor": "Run",
+    "애플리케이션.AnimalMain2.executor": "Run",
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
+    "애플리케이션.BoxMain1.executor": "Run",
+    "애플리케이션.BoxMain2.executor": "Run",
+    "애플리케이션.BoxMain3.executor": "Run",
+    "애플리케이션.ByteArrayStreamMain.executor": "Run",
     "애플리케이션.CharArrayMain.executor": "Run",
     "애플리케이션.CheckedCatchMain.executor": "Run",
+    "애플리케이션.ClassCreateMain.executor": "Run",
     "애플리케이션.ClassGradeEx2_1.executor": "Run",
     "애플리케이션.ClassGradeEx2_2.executor": "Run",
     "애플리케이션.ClassGradeRefMain1.executor": "Run",
+    "애플리케이션.ClassMetaMain.executor": "Run",
     "애플리케이션.ClassRefMain.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
@@ -75,13 +85,22 @@
     "애플리케이션.MainV1.executor": "Run",
     "애플리케이션.ManyThreadMainV1.executor": "Run",
     "애플리케이션.ManyThreadMainV2.executor": "Run",
+    "애플리케이션.MethodMain1.executor": "Run",
+    "애플리케이션.MethodMain3.executor": "Run",
     "애플리케이션.MyArrayListV1Main.executor": "Run",
     "애플리케이션.MyArrayListV2Main.executor": "Run",
     "애플리케이션.MyArrayListV3BadMain.executor": "Run",
     "애플리케이션.MyArrayListV3Main.executor": "Run",
     "애플리케이션.MyArrayListV4Main.executor": "Run",
     "애플리케이션.MyLoggerMain.executor": "Run",
+    "애플리케이션.PolyMain.executor": "Run",
+    "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.QueueMain.executor": "Run",
+    "애플리케이션.RawTypeMain.executor": "Run",
+    "애플리케이션.StreamStartMain1.executor": "Run",
+    "애플리케이션.StreamStartMain2.executor": "Run",
+    "애플리케이션.StreamStartMain3.executor": "Run",
+    "애플리케이션.StreamStartMain4.executor": "Run",
     "애플리케이션.StringBasicMain.executor": "Run",
     "애플리케이션.StringConcatMain.executor": "Run",
     "애플리케이션.StringEqualsMain1.executor": "Run",
@@ -93,26 +112,33 @@
     "애플리케이션.StringImmutable2.executor": "Run",
     "애플리케이션.StringInfoMain.executor": "Run",
     "애플리케이션.Switch2.executor": "Run",
+    "애플리케이션.SystemMain.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
     "애플리케이션.ThreadStateMain.executor": "Run",
     "애플리케이션.UncheckedCatchMain.executor": "Run",
     "애플리케이션.UncheckedThrowMain.executor": "Run",
-    "애플리케이션.VarArgsDemo.executor": "Run"
+    "애플리케이션.VarArgsDemo.executor": "Run",
+    "애플리케이션.WildcardMain1.executor": "Run",
+    "애플리케이션.WildcardMain2.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java_Study\java-all" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mid2.generic.ex5" />
       <recent name="start.cond" />
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Switch2">
-    <configuration name="ClassGradeRefMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ref1.ClassGradeRefMain1" />
+  <component name="RunManager" selected="애플리케이션.PolyMain">
+    <configuration name="ByteArrayStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.io.start.ByteArrayStreamMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.enumeration.ref1.*" />
+          <option name="PATTERN" value="adv2.io.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ex3.EnumMethodMain" />
+    <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.poly.basic.PolyMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.enumeration.ex3.*" />
+          <option name="PATTERN" value="basic.poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumRefMain3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ref3.EnumRefMain3_1" />
+    <configuration name="PrintStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.io.start.PrintStreamMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.enumeration.ref3.*" />
+          <option name="PATTERN" value="adv2.io.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumRefMain3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.enumeration.ref3.EnumRefMain3_4" />
+    <configuration name="StreamStartMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.io.start.StreamStartMain3" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.enumeration.ref3.*" />
+          <option name="PATTERN" value="adv2.io.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.cond.Switch2" />
+    <configuration name="StreamStartMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.io.start.StreamStartMain4" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.cond.*" />
+          <option name="PATTERN" value="adv2.io.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,19 +200,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Switch2" />
-        <item itemvalue="애플리케이션.EnumRefMain3_4" />
-        <item itemvalue="애플리케이션.EnumRefMain3_1" />
-        <item itemvalue="애플리케이션.ClassGradeRefMain1" />
-        <item itemvalue="애플리케이션.EnumMethodMain" />
+        <item itemvalue="애플리케이션.PolyMain" />
+        <item itemvalue="애플리케이션.PrintStreamMain" />
+        <item itemvalue="애플리케이션.ByteArrayStreamMain" />
+        <item itemvalue="애플리케이션.StreamStartMain4" />
+        <item itemvalue="애플리케이션.StreamStartMain3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -202,6 +228,8 @@
       <workItem from="1753938688636" duration="98000" />
       <workItem from="1753939236375" duration="9265000" />
       <workItem from="1754007180122" duration="5386000" />
+      <workItem from="1754352846222" duration="37000" />
+      <workItem from="1754352899032" duration="14080000" />
     </task>
     <servers />
   </component>
