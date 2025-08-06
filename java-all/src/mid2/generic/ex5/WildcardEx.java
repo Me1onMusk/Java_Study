@@ -4,7 +4,6 @@ import mid2.generic.animal.Animal;
 
 public class WildcardEx {
 
-    // 반환 타입 : void
     static <T> void printGenericV1 (Box<T> box) {
         System.out.println("T = " + box.get());
     }

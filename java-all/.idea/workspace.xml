@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/deque/DequeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/deque/DequeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/generic/ex5/WildcardEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/generic/ex5/WildcardEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,8 @@
     "애플리케이션.JoinMainV0.executor": "Run",
     "애플리케이션.JoinMainV1.executor": "Run",
     "애플리케이션.JoinMainV2.executor": "Run",
+    "애플리케이션.LockSupportMainV1.executor": "Run",
+    "애플리케이션.LockSupportMainV2.executor": "Run",
     "애플리케이션.MainV0.executor": "Run",
     "애플리케이션.MainV1.executor": "Run",
     "애플리케이션.ManyThreadMainV1.executor": "Run",
@@ -158,7 +160,7 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.BoundedMain">
+  <component name="RunManager" selected="애플리케이션.LockSupportMainV1">
     <configuration name="BoundedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adv1.thread.bounded.BoundedMain" />
       <module name="java-all" />
@@ -198,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.map.MapMain3" />
+    <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.sync.lock.LockSupportMainV1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.map.*" />
+          <option name="PATTERN" value="adv1.thread.sync.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.deque.StackMain" />
+    <configuration name="LockSupportMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.sync.lock.LockSupportMainV2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.deque.*" />
+          <option name="PATTERN" value="adv1.thread.sync.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.LockSupportMainV1" />
+        <item itemvalue="애플리케이션.LockSupportMainV2" />
         <item itemvalue="애플리케이션.BoundedMain" />
         <item itemvalue="애플리케이션.DequeStackMain" />
         <item itemvalue="애플리케이션.DequeMain" />
-        <item itemvalue="애플리케이션.StackMain" />
-        <item itemvalue="애플리케이션.MapMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +259,7 @@
       <workItem from="1754352846222" duration="37000" />
       <workItem from="1754352899032" duration="20536000" />
       <workItem from="1754440433212" duration="5975000" />
-      <workItem from="1754448072402" duration="7243000" />
+      <workItem from="1754448072402" duration="10354000" />
     </task>
     <servers />
   </component>
