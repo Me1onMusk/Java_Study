@@ -104,6 +104,9 @@
     "애플리케이션.LazyEvalMain1.executor": "Run",
     "애플리케이션.LazyEvalMain2.executor": "Run",
     "애플리케이션.LazyEvalMain3.executor": "Run",
+    "애플리케이션.LogMain1.executor": "Run",
+    "애플리케이션.LogMain2.executor": "Run",
+    "애플리케이션.LogMain3.executor": "Run",
     "애플리케이션.M1After.executor": "Run",
     "애플리케이션.M1Before.executor": "Run",
     "애플리케이션.M2After.executor": "Run",
@@ -175,33 +178,7 @@
       <recent name="lambda.lambda5.mystream" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Collectors5Reducing">
-    <configuration name="Collectors3Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors3Group" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Collectors4MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors4MinMax" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.LogMain3">
     <configuration name="Collectors4Summing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors4Summing" />
       <module name="java-adv3" />
@@ -228,12 +205,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotifierMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="defaultmethod.ex2.NotifierMainV2" />
+    <configuration name="LogMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="defaultmethod.ex2.*" />
+          <option name="PATTERN" value="optional.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain3" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.logger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.LogMain3" />
+        <item itemvalue="애플리케이션.LogMain2" />
+        <item itemvalue="애플리케이션.LogMain1" />
         <item itemvalue="애플리케이션.Collectors5Reducing" />
         <item itemvalue="애플리케이션.Collectors4Summing" />
-        <item itemvalue="애플리케이션.Collectors4MinMax" />
-        <item itemvalue="애플리케이션.Collectors3Group" />
-        <item itemvalue="애플리케이션.NotifierMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +289,7 @@
       <workItem from="1754231577031" duration="577000" />
       <workItem from="1754309262574" duration="2032000" />
       <workItem from="1754404988145" duration="1073000" />
+      <workItem from="1754479201419" duration="1729000" />
     </task>
     <servers />
   </component>
