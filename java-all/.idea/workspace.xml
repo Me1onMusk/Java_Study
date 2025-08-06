@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="" />
+    <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/deque/DequeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/deque/DequeMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +61,7 @@
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
+    "애플리케이션.BoundedMain.executor": "Run",
     "애플리케이션.BoxMain1.executor": "Run",
     "애플리케이션.BoxMain2.executor": "Run",
     "애플리케이션.BoxMain3.executor": "Run",
@@ -73,14 +77,19 @@
     "애플리케이션.ClassGradeRefMain1.executor": "Run",
     "애플리케이션.ClassMetaMain.executor": "Run",
     "애플리케이션.ClassRefMain.executor": "Run",
+    "애플리케이션.ConstantMain1.executor": "Run",
+    "애플리케이션.ConstantMain2.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
+    "애플리케이션.DequeMain.executor": "Run",
+    "애플리케이션.DequeStackMain.executor": "Run",
     "애플리케이션.DiamondMain.executor": "Run",
     "애플리케이션.EnumEx3_1.executor": "Run",
     "애플리케이션.EnumMethodMain.executor": "Run",
     "애플리케이션.EnumRefMain.executor": "Run",
     "애플리케이션.EnumRefMain3_1.executor": "Run",
     "애플리케이션.EnumRefMain3_4.executor": "Run",
+    "애플리케이션.FinalFieldMain.executor": "Run",
     "애플리케이션.HelloRunnableMain.executor": "Run",
     "애플리케이션.HelloThreadMain.executor": "Run",
     "애플리케이션.InnerRunnableMainV1.executor": "Run",
@@ -92,6 +101,9 @@
     "애플리케이션.MainV1.executor": "Run",
     "애플리케이션.ManyThreadMainV1.executor": "Run",
     "애플리케이션.ManyThreadMainV2.executor": "Run",
+    "애플리케이션.MapMain1.executor": "Run",
+    "애플리케이션.MapMain2.executor": "Run",
+    "애플리케이션.MapMain3.executor": "Run",
     "애플리케이션.MethodMain1.executor": "Run",
     "애플리케이션.MethodMain3.executor": "Run",
     "애플리케이션.MyArrayListV1Main.executor": "Run",
@@ -99,6 +111,8 @@
     "애플리케이션.MyArrayListV3BadMain.executor": "Run",
     "애플리케이션.MyArrayListV3Main.executor": "Run",
     "애플리케이션.MyArrayListV4Main.executor": "Run",
+    "애플리케이션.MyIntegerNullMain0.executor": "Run",
+    "애플리케이션.MyIntegerNullMain1.executor": "Run",
     "애플리케이션.MyLoggerMain.executor": "Run",
     "애플리케이션.OverridingMain.executor": "Run",
     "애플리케이션.PolyMain.executor": "Run",
@@ -106,6 +120,7 @@
     "애플리케이션.QueueMain.executor": "Run",
     "애플리케이션.RawTypeMain.executor": "Run",
     "애플리케이션.SoundFlyMain.executor": "Run",
+    "애플리케이션.StackMain.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
@@ -143,13 +158,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.SoundFlyMain">
-    <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.poly.ex3.AbstractMain" />
+  <component name="RunManager" selected="애플리케이션.BoundedMain">
+    <configuration name="BoundedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.bounded.BoundedMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.poly.ex3.*" />
+          <option name="PATTERN" value="adv1.thread.bounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalPolyMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.poly.ex2.AnimalPolyMain2" />
+    <configuration name="DequeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.deque.DequeMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.poly.ex2.*" />
+          <option name="PATTERN" value="mid2.collection.deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalPolyMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.poly.ex2.AnimalPolyMain3" />
+    <configuration name="DequeStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.deque.DequeStackMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.poly.ex2.*" />
+          <option name="PATTERN" value="mid2.collection.deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.poly.diamond.DiamondMain" />
+    <configuration name="MapMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.map.MapMain3" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.poly.diamond.*" />
+          <option name="PATTERN" value="mid2.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoundFlyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.poly.ex6.SoundFlyMain" />
+    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.deque.StackMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.poly.ex6.*" />
+          <option name="PATTERN" value="mid2.collection.deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.SoundFlyMain" />
-        <item itemvalue="애플리케이션.DiamondMain" />
-        <item itemvalue="애플리케이션.AbstractMain" />
-        <item itemvalue="애플리케이션.AnimalPolyMain3" />
-        <item itemvalue="애플리케이션.AnimalPolyMain2" />
+        <item itemvalue="애플리케이션.BoundedMain" />
+        <item itemvalue="애플리케이션.DequeStackMain" />
+        <item itemvalue="애플리케이션.DequeMain" />
+        <item itemvalue="애플리케이션.StackMain" />
+        <item itemvalue="애플리케이션.MapMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +256,8 @@
       <workItem from="1754007180122" duration="5386000" />
       <workItem from="1754352846222" duration="37000" />
       <workItem from="1754352899032" duration="20536000" />
+      <workItem from="1754440433212" duration="5975000" />
+      <workItem from="1754448072402" duration="7243000" />
     </task>
     <servers />
   </component>
