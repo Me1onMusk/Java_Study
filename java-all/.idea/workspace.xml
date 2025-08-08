@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/generic/ex5/WildcardEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/generic/ex5/WildcardEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/exception/basic/checked/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/exception/basic/checked/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/exception/basic/checked/MyCheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/exception/basic/checked/MyCheckedException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +62,23 @@
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
+    "애플리케이션.BasicV1.executor": "Run",
+    "애플리케이션.BasicV2.executor": "Run",
+    "애플리케이션.BinaryArrayMain.executor": "Run",
     "애플리케이션.BoundedMain.executor": "Run",
     "애플리케이션.BoxMain1.executor": "Run",
     "애플리케이션.BoxMain2.executor": "Run",
     "애플리케이션.BoxMain3.executor": "Run",
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
+    "애플리케이션.CalendarTest.executor": "Run",
+    "애플리케이션.CallableMainV1.executor": "Run",
     "애플리케이션.CastingMain1.executor": "Run",
     "애플리케이션.CastingMain5.executor": "Run",
     "애플리케이션.CastingMain6.executor": "Run",
     "애플리케이션.CharArrayMain.executor": "Run",
     "애플리케이션.CheckedCatchMain.executor": "Run",
+    "애플리케이션.CheckedTest.executor": "Run",
+    "애플리케이션.CheckedThrowMain.executor": "Run",
     "애플리케이션.ClassCreateMain.executor": "Run",
     "애플리케이션.ClassGradeEx2_1.executor": "Run",
     "애플리케이션.ClassGradeEx2_2.executor": "Run",
@@ -79,24 +87,32 @@
     "애플리케이션.ClassRefMain.executor": "Run",
     "애플리케이션.ConstantMain1.executor": "Run",
     "애플리케이션.ConstantMain2.executor": "Run",
+    "애플리케이션.ConsumerMain.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
     "애플리케이션.DequeMain.executor": "Run",
     "애플리케이션.DequeStackMain.executor": "Run",
     "애플리케이션.DiamondMain.executor": "Run",
+    "애플리케이션.ElementData1Main.executor": "Run",
+    "애플리케이션.EntryGenericTest.executor": "Run",
     "애플리케이션.EnumEx3_1.executor": "Run",
     "애플리케이션.EnumMethodMain.executor": "Run",
     "애플리케이션.EnumRefMain.executor": "Run",
     "애플리케이션.EnumRefMain3_1.executor": "Run",
     "애플리케이션.EnumRefMain3_4.executor": "Run",
+    "애플리케이션.EqualsMain.executor": "Run",
     "애플리케이션.FinalFieldMain.executor": "Run",
+    "애플리케이션.GarbageMain.executor": "Run",
     "애플리케이션.HelloRunnableMain.executor": "Run",
     "애플리케이션.HelloThreadMain.executor": "Run",
+    "애플리케이션.InheritedMain.executor": "Run",
     "애플리케이션.InnerRunnableMainV1.executor": "Run",
     "애플리케이션.InnerRunnableMainV2.executor": "Run",
     "애플리케이션.JoinMainV0.executor": "Run",
     "애플리케이션.JoinMainV1.executor": "Run",
     "애플리케이션.JoinMainV2.executor": "Run",
+    "애플리케이션.LocalDateMain.executor": "Run",
+    "애플리케이션.LocalTimeMain.executor": "Run",
     "애플리케이션.LockSupportMainV1.executor": "Run",
     "애플리케이션.LockSupportMainV2.executor": "Run",
     "애플리케이션.MainV0.executor": "Run",
@@ -106,8 +122,11 @@
     "애플리케이션.MapMain1.executor": "Run",
     "애플리케이션.MapMain2.executor": "Run",
     "애플리케이션.MapMain3.executor": "Run",
+    "애플리케이션.MessageFormatTest.executor": "Run",
+    "애플리케이션.MetaData.executor": "Run",
     "애플리케이션.MethodMain1.executor": "Run",
     "애플리케이션.MethodMain3.executor": "Run",
+    "애플리케이션.MethodV1.executor": "Run",
     "애플리케이션.MyArrayListV1Main.executor": "Run",
     "애플리케이션.MyArrayListV2Main.executor": "Run",
     "애플리케이션.MyArrayListV3BadMain.executor": "Run",
@@ -116,13 +135,21 @@
     "애플리케이션.MyIntegerNullMain0.executor": "Run",
     "애플리케이션.MyIntegerNullMain1.executor": "Run",
     "애플리케이션.MyLoggerMain.executor": "Run",
+    "애플리케이션.OptionalStartMain1.executor": "Run",
+    "애플리케이션.OptionalStartMain2.executor": "Run",
+    "애플리케이션.OuterMain.executor": "Run",
     "애플리케이션.OverridingMain.executor": "Run",
     "애플리케이션.PolyMain.executor": "Run",
+    "애플리케이션.PredicateMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.QueueMain.executor": "Run",
+    "애플리케이션.RandomTest.executor": "Run",
     "애플리케이션.RawTypeMain.executor": "Run",
+    "애플리케이션.RunnableMain.executor": "Run",
+    "애플리케이션.SimpleDateFormatTest.executor": "Run",
     "애플리케이션.SoundFlyMain.executor": "Run",
     "애플리케이션.StackMain.executor": "Run",
+    "애플리케이션.StreamStartMain.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
@@ -137,14 +164,20 @@
     "애플리케이션.StringImmutable1.executor": "Run",
     "애플리케이션.StringImmutable2.executor": "Run",
     "애플리케이션.StringInfoMain.executor": "Run",
+    "애플리케이션.StringTokenizerTest.executor": "Run",
     "애플리케이션.Super1Main.executor": "Run",
     "애플리케이션.Super2Main.executor": "Run",
+    "애플리케이션.SupplierMain.executor": "Run",
     "애플리케이션.Switch2.executor": "Run",
     "애플리케이션.SystemMain.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
     "애플리케이션.ThreadStateMain.executor": "Run",
+    "애플리케이션.TryWithResource.executor": "Run",
+    "애플리케이션.UnCheckedTest.executor": "Run",
     "애플리케이션.UncheckedCatchMain.executor": "Run",
     "애플리케이션.UncheckedThrowMain.executor": "Run",
+    "애플리케이션.ValidatorV1Main.executor": "Run",
+    "애플리케이션.ValidatorV2Main.executor": "Run",
     "애플리케이션.VarArgsDemo.executor": "Run",
     "애플리케이션.WildcardMain1.executor": "Run",
     "애플리케이션.WildcardMain2.executor": "Run"
@@ -160,13 +193,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LockSupportMainV1">
-    <configuration name="BoundedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.bounded.BoundedMain" />
+  <component name="RunManager" selected="애플리케이션.CallableMainV1">
+    <configuration name="CallableMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.executor.future.CallableMainV1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.bounded.*" />
+          <option name="PATTERN" value="adv1.thread.executor.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.deque.DequeMain" />
+    <configuration name="OptionalStartMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.optional.OptionalStartMain1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.deque.*" />
+          <option name="PATTERN" value="adv3.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.deque.DequeStackMain" />
+    <configuration name="OptionalStartMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.optional.OptionalStartMain2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.deque.*" />
+          <option name="PATTERN" value="adv3.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.sync.lock.LockSupportMainV1" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.executor.future.RunnableMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.sync.lock.*" />
+          <option name="PATTERN" value="adv1.thread.executor.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.sync.lock.LockSupportMainV2" />
+    <configuration name="StreamStartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.start.StreamStartMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1.thread.sync.lock.*" />
+          <option name="PATTERN" value="adv3.stream.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.LockSupportMainV1" />
-        <item itemvalue="애플리케이션.LockSupportMainV2" />
-        <item itemvalue="애플리케이션.BoundedMain" />
-        <item itemvalue="애플리케이션.DequeStackMain" />
-        <item itemvalue="애플리케이션.DequeMain" />
+        <item itemvalue="애플리케이션.CallableMainV1" />
+        <item itemvalue="애플리케이션.RunnableMain" />
+        <item itemvalue="애플리케이션.OptionalStartMain2" />
+        <item itemvalue="애플리케이션.OptionalStartMain1" />
+        <item itemvalue="애플리케이션.StreamStartMain" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +293,9 @@
       <workItem from="1754352899032" duration="20536000" />
       <workItem from="1754440433212" duration="5975000" />
       <workItem from="1754448072402" duration="10354000" />
+      <workItem from="1754525695208" duration="429000" />
+      <workItem from="1754526164527" duration="10531000" />
+      <workItem from="1754612037226" duration="23144000" />
     </task>
     <servers />
   </component>
