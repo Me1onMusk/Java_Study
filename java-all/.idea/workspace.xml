@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalCreationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalCreationMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java_Study/java-all/src/adv3/defaultmethod/ex2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +53,8 @@
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.AbstractMain.executor": "Run",
+    "애플리케이션.AddressMain1.executor": "Run",
+    "애플리케이션.AddressMain2.executor": "Run",
     "애플리케이션.AnimalHospitalMainV0.executor": "Run",
     "애플리케이션.AnimalMain1.executor": "Run",
     "애플리케이션.AnimalMain2.executor": "Run",
@@ -62,6 +66,7 @@
     "애플리케이션.BadThreadMain.executor": "Run",
     "애플리케이션.BasicV1.executor": "Run",
     "애플리케이션.BasicV2.executor": "Run",
+    "애플리케이션.BiMain.executor": "Run",
     "애플리케이션.BinaryArrayMain.executor": "Run",
     "애플리케이션.BoundedMain.executor": "Run",
     "애플리케이션.BoxMain1.executor": "Run",
@@ -88,6 +93,7 @@
     "애플리케이션.ConsumerMain.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
+    "애플리케이션.DeliveryMain.executor": "Run",
     "애플리케이션.DequeMain.executor": "Run",
     "애플리케이션.DequeStackMain.executor": "Run",
     "애플리케이션.DiamondMain.executor": "Run",
@@ -106,8 +112,20 @@
     "애플리케이션.Ex1RefMainV2.executor": "Run",
     "애플리케이션.Ex1RefMainV3.executor": "Run",
     "애플리케이션.Ex1RefMainV4.executor": "Run",
+    "애플리케이션.Ex1_Number.executor": "Run",
+    "애플리케이션.Ex2_Student.executor": "Run",
+    "애플리케이션.FilterMainV1.executor": "Run",
+    "애플리케이션.FilterMainV2.executor": "Run",
+    "애플리케이션.FilterMainV4.executor": "Run",
+    "애플리케이션.FilterMainV5.executor": "Run",
     "애플리케이션.FinalFieldMain.executor": "Run",
     "애플리케이션.GarbageMain.executor": "Run",
+    "애플리케이션.GenericMain1.executor": "Run",
+    "애플리케이션.GenericMain2.executor": "Run",
+    "애플리케이션.GenericMain3.executor": "Run",
+    "애플리케이션.GenericMain4.executor": "Run",
+    "애플리케이션.GenericMain5.executor": "Run",
+    "애플리케이션.GenericMain6.executor": "Run",
     "애플리케이션.HelloRunnableMain.executor": "Run",
     "애플리케이션.HelloThreadMain.executor": "Run",
     "애플리케이션.InheritedMain.executor": "Run",
@@ -135,6 +153,10 @@
     "애플리케이션.MapMain1.executor": "Run",
     "애플리케이션.MapMain2.executor": "Run",
     "애플리케이션.MapMain3.executor": "Run",
+    "애플리케이션.MapMainV1.executor": "Run",
+    "애플리케이션.MapMainV2.executor": "Run",
+    "애플리케이션.MapMainV4.executor": "Run",
+    "애플리케이션.MapMainV5.executor": "Run",
     "애플리케이션.MessageFormatTest.executor": "Run",
     "애플리케이션.MetaData.executor": "Run",
     "애플리케이션.MethodMain1.executor": "Run",
@@ -150,12 +172,21 @@
     "애플리케이션.MyIntegerNullMain0.executor": "Run",
     "애플리케이션.MyIntegerNullMain1.executor": "Run",
     "애플리케이션.MyLoggerMain.executor": "Run",
+    "애플리케이션.MyStreamLoopMain.executor": "Run",
+    "애플리케이션.MyStreamV1Main.executor": "Run",
+    "애플리케이션.MyStreamV2Main.executor": "Run",
+    "애플리케이션.MyStreamV3Main.executor": "Run",
+    "애플리케이션.NotifierMainV1.executor": "Run",
+    "애플리케이션.NotifierMainV2.executor": "Run",
+    "애플리케이션.OperatorMain.executor": "Run",
+    "애플리케이션.OptionalCreationMain.executor": "Run",
     "애플리케이션.OptionalStartMain1.executor": "Run",
     "애플리케이션.OptionalStartMain2.executor": "Run",
     "애플리케이션.OuterMain.executor": "Run",
     "애플리케이션.OverridingMain.executor": "Run",
     "애플리케이션.PolyMain.executor": "Run",
     "애플리케이션.PredicateMain.executor": "Run",
+    "애플리케이션.PrimitiveFunction.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
     "애플리케이션.ProcedureMain2.executor": "Run",
@@ -190,6 +221,7 @@
     "애플리케이션.SystemMain.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
     "애플리케이션.ThreadStateMain.executor": "Run",
+    "애플리케이션.TriMain.executor": "Run",
     "애플리케이션.TryWithResource.executor": "Run",
     "애플리케이션.UnCheckedTest.executor": "Run",
     "애플리케이션.UncheckedCatchMain.executor": "Run",
@@ -198,26 +230,31 @@
     "애플리케이션.ValidatorV2Main.executor": "Run",
     "애플리케이션.VarArgsDemo.executor": "Run",
     "애플리케이션.WildcardMain1.executor": "Run",
-    "애플리케이션.WildcardMain2.executor": "Run"
+    "애플리케이션.WildcardMain2.executor": "Run",
+    "애플리케이션.adv3.defaultmethod.ex2.NotifierMainV1.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java_Study\java-all\src\adv3\defaultmethod\ex2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java_Study\java-all" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="adv3.defaultmethod.ex2" />
       <recent name="mid2.generic.ex5" />
       <recent name="start.cond" />
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LambdaPassMain3">
-    <configuration name="LambdaPassMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda2.LambdaPassMain1" />
+  <component name="RunManager" selected="애플리케이션.MyStreamLoopMain">
+    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda5.mystream.Ex2_Student" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.lambda.lambda2.*" />
+          <option name="PATTERN" value="adv3.lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaPassMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda2.LambdaPassMain2" />
+    <configuration name="MyStreamLoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda5.mystream.MyStreamLoopMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.lambda.lambda2.*" />
+          <option name="PATTERN" value="adv3.lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaPassMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda2.LambdaPassMain3" />
+    <configuration name="MyStreamV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda5.mystream.MyStreamV1Main" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.lambda.lambda2.*" />
+          <option name="PATTERN" value="adv3.lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda1.LambdaSimple3" />
+    <configuration name="MyStreamV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda5.mystream.MyStreamV2Main" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.lambda.lambda1.*" />
+          <option name="PATTERN" value="adv3.lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda1.LambdaSimple4" />
+    <configuration name="MyStreamV3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.lambda.lambda5.mystream.MyStreamV3Main" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.lambda.lambda1.*" />
+          <option name="PATTERN" value="adv3.lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.LambdaPassMain3" />
-        <item itemvalue="애플리케이션.LambdaPassMain2" />
-        <item itemvalue="애플리케이션.LambdaPassMain1" />
-        <item itemvalue="애플리케이션.LambdaSimple4" />
-        <item itemvalue="애플리케이션.LambdaSimple3" />
+        <item itemvalue="애플리케이션.MyStreamLoopMain" />
+        <item itemvalue="애플리케이션.MyStreamV3Main" />
+        <item itemvalue="애플리케이션.MyStreamV2Main" />
+        <item itemvalue="애플리케이션.MyStreamV1Main" />
+        <item itemvalue="애플리케이션.Ex2_Student" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +353,7 @@
       <workItem from="1754612037226" duration="23144000" />
       <workItem from="1754664450279" duration="834000" />
       <workItem from="1754710882886" duration="3969000" />
+      <workItem from="1754800207917" duration="13668000" />
     </task>
     <servers />
   </component>
