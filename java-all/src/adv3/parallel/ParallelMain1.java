@@ -1,6 +1,6 @@
-package adv3.optional.logger;
+package adv3.parallel;
 
-public class LogMain3 {
+public class ParallelMain1 {
     public static void main(String[] args) {
 
     }
