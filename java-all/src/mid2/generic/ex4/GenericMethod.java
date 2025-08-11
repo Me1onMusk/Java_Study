@@ -7,15 +7,16 @@ public class GenericMethod {
         return obj;
     }
 
-    // 입력 타입 T
-    // 반환 타입 T
+    // 선언 <T>
+    // @params: T
+    // @return: T
     public static <T> T genericMethod(T obj) {
         System.out.println("T print: " + obj);
         return obj;
     }
 
-    // 입력 타입 T
-    // 반환 타입 Number 자식 T
+    // @params: T extends Number
+    // @return: T extends Number
     public static <T extends Number> T numberMethod(T obj) {
         System.out.println("bound print: " + obj);
         return obj;
