@@ -4,7 +4,7 @@ import adv3.lambda.lambda5.mystream.MyStreamV3;
 
 import java.util.List;
 
-public class LazyEvalMain1 {
+public class LazyEvalMain3 {
     public static void main(String[] args) {
 
         List<Integer> data = List.of(1, 2, 3, 4, 5, 6);
@@ -17,7 +17,7 @@ public class LazyEvalMain1 {
 
     private static void ex1(List<Integer> data) {
         System.out.println("== MyStreamV3 시작 ==");
-        List<Integer> result = MyStreamV3.of(data)
+        Integer result = MyStreamV3.of(data)
                 .filter(i -> {
                     boolean isEven = i % 2 == 0;
                     System.out.println("filter() 실행: " + i + "(" + isEven + ")");
@@ -27,15 +27,14 @@ public class LazyEvalMain1 {
                     int mapped = i * 10;
                     System.out.println("map() 실행: " + i + " -> " + mapped);
                     return mapped;
-                })
-                .toList();
+                }).getFirst();
         System.out.println("result = " + result);
         System.out.println("== MyStreamV3 종료 ==");
     }
 
     private static void ex2(List<Integer> data) {
         System.out.println("== Stream API 시작 ==");
-        List<Integer> result = data.stream()
+        Integer result = data.stream()
                 .filter(i -> {
                     boolean isEven = i % 2 == 0;
                     System.out.println("filter() 실행: " + i + "(" + isEven + ")");
@@ -45,10 +44,8 @@ public class LazyEvalMain1 {
                     int mapped = i * 10;
                     System.out.println("map() 실행: " + i + " -> " + mapped);
                     return mapped;
-                })
-                .toList();
+                }).findFirst().get();
         System.out.println("result = " + result);
         System.out.println("== Stream API 종료 ==");
     }
-
 }
