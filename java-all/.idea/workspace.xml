@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/lambda/lambda5/mystream/MyStreamV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/basic/DuplicateExecutionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/basic/DuplicateExecutionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/basic/ImmutableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/basic/ImmutableMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/basic/LazyEvalMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/basic/LazyEvalMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/basic/LazyEvalMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/basic/LazyEvalMain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +64,7 @@
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
+    "애플리케이션.BankApplication.executor": "Debug",
     "애플리케이션.BasicV1.executor": "Run",
     "애플리케이션.BasicV2.executor": "Run",
     "애플리케이션.BiMain.executor": "Run",
@@ -83,6 +79,7 @@
     "애플리케이션.CastingMain1.executor": "Run",
     "애플리케이션.CastingMain5.executor": "Run",
     "애플리케이션.CastingMain6.executor": "Run",
+    "애플리케이션.CatTest.executor": "Run",
     "애플리케이션.CharArrayMain.executor": "Run",
     "애플리케이션.CheckedCatchMain.executor": "Run",
     "애플리케이션.CheckedTest.executor": "Run",
@@ -282,7 +279,27 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Collectors2Map">
+  <component name="RunManager" selected="애플리케이션.BankApplication">
+    <configuration name="BankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankApplication" />
+      <module name="java-all" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.methodref.CatTest" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adv3.methodref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.Collectors2Map" />
       <module name="java-all" />
@@ -322,39 +339,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeclarativeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.functional.DeclarativeMain" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adv3.functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstClassCitizenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.functional.FirstClassCitizenMain" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adv3.functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.BankApplication" />
+        <item itemvalue="애플리케이션.CatTest" />
         <item itemvalue="애플리케이션.Collectors2Map" />
         <item itemvalue="애플리케이션.CompositionMain2" />
         <item itemvalue="애플리케이션.CompositionMain1" />
-        <item itemvalue="애플리케이션.DeclarativeMain" />
-        <item itemvalue="애플리케이션.FirstClassCitizenMain" />
       </list>
     </recent_temporary>
   </component>
