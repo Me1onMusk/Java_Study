@@ -1,41 +1,36 @@
 package mid2.collection;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Iterator;
-
-/*
-    Collection
-        1. List
-            - LinkedList
-            - ArrayList
-        2. Queue
-        3. Set
-            - HashSet
-            - TreeSet
- */
+import java.util.*;
 
 public class IteratorTest {
     public static void main(String[] args) {
 
-        // 문자열 배열(불변)
-        String[] arr = {"1", "2", "3"};
+        List<Integer> list = new ArrayList<>();
 
-        // Array(가변) -> List(고정) -> Array(가변)
-        Collection<String> list = new ArrayList<>(Arrays.asList("다람쥐", "개구리", "나비"));
-        list.add("라마");
-        list.add("나비");
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            try {
+                System.out.print("점수를 입력하세요: ");
+                int score = Integer.parseInt(scanner.nextLine());
+                if (score == -1) break;
+                list.add(score);
+            } catch (NumberFormatException e) {
+                System.out.println("올바른 점수를 입력하세요.");
+            }
+        }
+        System.out.println("전체 학생은 " + list.size() + "명이다.");
 
-        System.out.println(list.size());
-
-        // 삭제 //
-        list.remove("나비");
-
-        // 순회 //
-        Iterator<String> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        Collections.sort(list, Collections.reverseOrder());
+        int max = list.get(0);
+        String grade;
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) > max - 10)
+                grade = "A";
+            else if (list.get(i) > max - 20)
+                grade = "B";
+            else
+                grade = "C";
+            System.out.println(i + "번 학생의 점수는 " + list.get(i) + "이고 등급은 " + grade + "입니다.");
         }
     }
 }

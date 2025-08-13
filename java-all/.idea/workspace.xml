@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/compare/CollectionsSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/compare/CollectionsSortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/utils/ImmutableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/utils/ImmutableMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +79,7 @@
     "애플리케이션.ByteArrayStreamMain.executor": "Run",
     "애플리케이션.CalendarTest.executor": "Run",
     "애플리케이션.CallableMainV1.executor": "Run",
+    "애플리케이션.CardGameMain.executor": "Run",
     "애플리케이션.CastingMain1.executor": "Run",
     "애플리케이션.CastingMain5.executor": "Run",
     "애플리케이션.CastingMain6.executor": "Run",
@@ -109,6 +111,7 @@
     "애플리케이션.DiamondMain.executor": "Run",
     "애플리케이션.DuplicateExecutionMain.executor": "Run",
     "애플리케이션.ElementData1Main.executor": "Run",
+    "애플리케이션.EmptyListMain.executor": "Run",
     "애플리케이션.EntryGenericTest.executor": "Run",
     "애플리케이션.EnumEx3_1.executor": "Run",
     "애플리케이션.EnumMethodMain.executor": "Run",
@@ -138,6 +141,7 @@
     "애플리케이션.GenericMain4.executor": "Run",
     "애플리케이션.GenericMain5.executor": "Run",
     "애플리케이션.GenericMain6.executor": "Run",
+    "애플리케이션.HashSetTest.executor": "Run",
     "애플리케이션.HelloRunnableMain.executor": "Run",
     "애플리케이션.HelloThreadMain.executor": "Run",
     "애플리케이션.ImmutableMain.executor": "Run",
@@ -178,6 +182,7 @@
     "애플리케이션.MapMainV2.executor": "Run",
     "애플리케이션.MapMainV4.executor": "Run",
     "애플리케이션.MapMainV5.executor": "Run",
+    "애플리케이션.MapTest.executor": "Run",
     "애플리케이션.MessageFormatTest.executor": "Run",
     "애플리케이션.MetaData.executor": "Run",
     "애플리케이션.MethodMain1.executor": "Run",
@@ -222,6 +227,7 @@
     "애플리케이션.ProcedureMain2.executor": "Run",
     "애플리케이션.PureFunctionMain1.executor": "Run",
     "애플리케이션.QueueMain.executor": "Run",
+    "애플리케이션.QueueTest.executor": "Run",
     "애플리케이션.RandomTest.executor": "Run",
     "애플리케이션.RawTypeMain.executor": "Run",
     "애플리케이션.RunnableMain.executor": "Run",
@@ -291,9 +297,22 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.OfMain">
-    <configuration name="CollectionsSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.utils.CollectionsSortMain" />
+  <component name="RunManager" selected="애플리케이션.IteratorTest">
+    <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.compare.test.CardGameMain" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mid2.collection.compare.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmptyListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.utils.EmptyListMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
@@ -305,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OfMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.utils.OfMain" />
+    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.set.HashSetTest" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.utils.*" />
+          <option name="PATTERN" value="mid2.collection.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.compare.SortMain3" />
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.IteratorTest" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.compare.*" />
+          <option name="PATTERN" value="mid2.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,25 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.compare.SortMain4" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.map.MapTest" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.compare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.compare.SortMain5" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mid2.collection.compare.*" />
+          <option name="PATTERN" value="mid2.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,11 +365,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.OfMain" />
-        <item itemvalue="애플리케이션.CollectionsSortMain" />
-        <item itemvalue="애플리케이션.SortMain5" />
-        <item itemvalue="애플리케이션.SortMain4" />
-        <item itemvalue="애플리케이션.SortMain3" />
+        <item itemvalue="애플리케이션.IteratorTest" />
+        <item itemvalue="애플리케이션.HashSetTest" />
+        <item itemvalue="애플리케이션.CardGameMain" />
+        <item itemvalue="애플리케이션.MapTest" />
+        <item itemvalue="애플리케이션.EmptyListMain" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +406,7 @@
       <workItem from="1754862064148" duration="1017000" />
       <workItem from="1754870737259" duration="13787000" />
       <workItem from="1754921931757" duration="2754000" />
-      <workItem from="1755043847610" duration="12414000" />
+      <workItem from="1755043847610" duration="22451000" />
     </task>
     <servers />
   </component>
