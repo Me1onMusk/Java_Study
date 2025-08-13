@@ -8,10 +8,8 @@ public class BankApplication {
 
         List<Account> accountList = new ArrayList<>();
 
-        System.out.println("|----------------------------------------------------|");
-        System.out.printf("| %25s%n", "은행");
+        centerAlign("은행");
         String msg1 = """
-                |----------------------------------------------------|
                 | 1.계좌생성 | 2.계좌목록 | 3.예금 | 4.출금 | 5.종료 |
                 |----------------------------------------------------|
                 """;
@@ -118,12 +116,8 @@ public class BankApplication {
             if (deposit <= 0)
                 System.out.println("| 예금할 금액을 정확히 입력해 주세요");
             else {
-                long balance = account.getBalance();
-                account.setBalance(balance + deposit);
-                System.out.println("|----------------------------------------------------|");
-                System.out.printf("| %25s%n", "계좌현황");
-                System.out.println("|----------------------------------------------------|");
-                System.out.printf("| 계좌번호: %-10s | 이름: %-6s | 잔액: %4s원 |\n", account.getAccountNo(), account.getAccountName(), account.getBalance());
+                account.setBalance(account.getBalance() + deposit);
+                accountStatus(account);
                 return;
             }
         }
@@ -132,7 +126,7 @@ public class BankApplication {
     // 출금 //
     private static void withdraw(Scanner scanner, List<Account> accountList) {
         System.out.println("|----------------------------------------------------|");
-        System.out.printf("| %25s%n", "출금");
+        System.out.printf("| %25s\n", "출금");
         System.out.println("|----------------------------------------------------|");
         System.out.print("| 계좌번호 : ");
         String accountNo = scanner.nextLine();
@@ -151,12 +145,8 @@ public class BankApplication {
             else if (withdraw > account.getBalance())
                 System.out.println("| 출금할 금액이 잔액보다 많습니다.");
             else {
-                long balance = account.getBalance();
-                account.setBalance(balance - withdraw);
-                System.out.println("|----------------------------------------------------|");
-                System.out.printf("| %25s%n", "계좌현황");
-                System.out.println("|----------------------------------------------------|");
-                System.out.printf("| 계좌번호: %-10s | 이름: %-6s | 잔액: %4s원 |\n", account.getAccountNo(), account.getAccountName(), account.getBalance());
+                account.setBalance(account.getBalance() - withdraw);
+                accountStatus(account);
                 return;
             }
         }
@@ -170,4 +160,23 @@ public class BankApplication {
         System.exit(0);
     }
 
+    // 계좌 현황 //
+    private static void accountStatus(Account account) {
+        System.out.println("|----------------------------------------------------|");
+        System.out.printf("| %25s%n", "계좌현황");
+        System.out.println("|----------------------------------------------------|");
+        System.out.printf("| 계좌번호: %-10s | 이름: %-6s | 잔액: %4s원 |\n", account.getAccountNo(), account.getAccountName(), account.getBalance());
+    }
+
+    // 글자 가운데 정렬 및 디자인 //
+    private static void centerAlign(String str) {
+        String line = "|----------------------------------------------------|";
+        System.out.println(line);
+        int totalWidth = line.length()-4;
+        int leftPadding = (totalWidth - str.length()) / 2;
+        int rightPadding = totalWidth - str.length() - leftPadding;
+        String result = " ".repeat(leftPadding) + str + " ".repeat(rightPadding);
+        System.out.println("|" + result + "|");
+        System.out.println(line);
+    }
 }

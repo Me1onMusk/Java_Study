@@ -2,20 +2,18 @@ package mid2.collection.list;
 
 public class MyLinkedList <E> implements MyList<E>{
 
+    private int size = 0;
+
     @Override
     public int size() {
         return 0;
     }
 
     @Override
-    public void add(E e) {
-
-    }
+    public void add(E e) {}
 
     @Override
-    public void add(int index, E e) {
-
-    }
+    public void add(int index, E e) {}
 
     @Override
     public E get(int index) {
