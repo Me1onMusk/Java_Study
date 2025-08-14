@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/IteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/compare/CollectionsSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/compare/CollectionsSortMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/utils/ImmutableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/utils/ImmutableMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/AddressMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/AddressMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalCreationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalCreationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalProcessingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalProcessingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/stream/operation/CreateStreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/operation/CreateStreamMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/IteratorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +79,7 @@
     "애플리케이션.BasicV2.executor": "Run",
     "애플리케이션.BiMain.executor": "Run",
     "애플리케이션.BinaryArrayMain.executor": "Run",
+    "애플리케이션.BinarySort.executor": "Run",
     "애플리케이션.BoundedMain.executor": "Run",
     "애플리케이션.BoxMain1.executor": "Run",
     "애플리케이션.BoxMain2.executor": "Run",
@@ -96,12 +104,17 @@
     "애플리케이션.ClassRefMain.executor": "Run",
     "애플리케이션.CollectionsSortMain.executor": "Run",
     "애플리케이션.Collectors2Map.executor": "Run",
+    "애플리케이션.Collectors3Group.executor": "Run",
+    "애플리케이션.Collectors4MinMax.executor": "Run",
+    "애플리케이션.Collectors4Summing.executor": "Run",
+    "애플리케이션.Collectors5Reducing.executor": "Run",
     "애플리케이션.CompositionMain1.executor": "Run",
     "애플리케이션.CompositionMain2.executor": "Run",
     "애플리케이션.ConstantMain1.executor": "Run",
     "애플리케이션.ConstantMain2.executor": "Run",
     "애플리케이션.ConsumerMain.executor": "Run",
     "애플리케이션.ContainerTest.executor": "Run",
+    "애플리케이션.CreateStreamMain.executor": "Run",
     "애플리케이션.DaemonThreadMain (1).executor": "Run",
     "애플리케이션.DaemonThreadMain.executor": "Run",
     "애플리케이션.DeclarativeMain.executor": "Run",
@@ -250,6 +263,7 @@
     "애플리케이션.StreamStartMain2.executor": "Run",
     "애플리케이션.StreamStartMain3.executor": "Run",
     "애플리케이션.StreamStartMain4.executor": "Run",
+    "애플리케이션.StreamTest.executor": "Run",
     "애플리케이션.StringBasicMain.executor": "Run",
     "애플리케이션.StringConcatMain.executor": "Run",
     "애플리케이션.StringEqualsMain1.executor": "Run",
@@ -297,13 +311,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.IteratorTest">
-    <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.compare.test.CardGameMain" />
+  <component name="RunManager" selected="애플리케이션.OptionalCreationMain">
+    <configuration name="Collectors4Summing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.Collectors4Summing" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.compare.test.*" />
+          <option name="PATTERN" value="adv3.stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmptyListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.utils.EmptyListMain" />
+    <configuration name="Collectors5Reducing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.Collectors5Reducing" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.utils.*" />
+          <option name="PATTERN" value="adv3.stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,12 +338,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.set.HashSetTest" />
+    <configuration name="CreateStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.operation.CreateStreamMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.set.*" />
+          <option name="PATTERN" value="adv3.stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,12 +351,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.IteratorTest" />
+    <configuration name="OptionalCreationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.optional.OptionalCreationMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.*" />
+          <option name="PATTERN" value="adv3.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,12 +364,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid2.collection.map.MapTest" />
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.basic.StreamTest" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid2.collection.map.*" />
+          <option name="PATTERN" value="adv3.stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.IteratorTest" />
-        <item itemvalue="애플리케이션.HashSetTest" />
-        <item itemvalue="애플리케이션.CardGameMain" />
-        <item itemvalue="애플리케이션.MapTest" />
-        <item itemvalue="애플리케이션.EmptyListMain" />
+        <item itemvalue="애플리케이션.OptionalCreationMain" />
+        <item itemvalue="애플리케이션.CreateStreamMain" />
+        <item itemvalue="애플리케이션.Collectors5Reducing" />
+        <item itemvalue="애플리케이션.Collectors4Summing" />
+        <item itemvalue="애플리케이션.StreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -407,6 +421,7 @@
       <workItem from="1754870737259" duration="13787000" />
       <workItem from="1754921931757" duration="2754000" />
       <workItem from="1755043847610" duration="22451000" />
+      <workItem from="1755130175622" duration="14022000" />
     </task>
     <servers />
   </component>

@@ -17,6 +17,7 @@ public class AddressMain2 {
     }
 
     private static void printStreet(User user) {
+        // ifPresentOrElse() //
         getUserStreet(user).ifPresentOrElse(
                 System.out::println,                 // 값이 있을 때
                 () -> System.out.println("Unknown")  // 값이 없을 때
@@ -24,6 +25,7 @@ public class AddressMain2 {
     }
 
     static Optional<String> getUserStreet(User user) {
+        // ofNullable() //
         return Optional.ofNullable(user)   // user가 null일 수 있으므로 ofNullable 사용
                 .map(User::getAddress)     // user.getAddress() 처리
                 .map(Address::getStreet);  // address.getStreet() 처리

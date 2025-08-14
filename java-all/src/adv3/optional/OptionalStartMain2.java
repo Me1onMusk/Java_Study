@@ -5,13 +5,11 @@ import java.util.Optional;
 
 public class OptionalStartMain2 {
     private static final HashMap<Long, String> map = new HashMap<>();
-
     static {
         map.put(1L, "Kim");
         map.put(2L, "Lee");
         map.put(3L, "Park");
     }
-
     public static void main(String[] args) {
 
         findAndPrint(1L);  // 값이 있는 경우
@@ -26,8 +24,7 @@ public class OptionalStartMain2 {
     }
 
     static Optional<String> findNameByID(Long id) {
-        String findName = map.get(id);
-        Optional<String> optName = Optional.ofNullable(findName);  // null이 될수 있음.
-        return optName;
+        return Optional.ofNullable(map.get(id));  // null이 될수 있음, Null 이면 Optional.empty
     }
+
 }
