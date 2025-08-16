@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/AddressMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/AddressMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalCreationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalCreationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalProcessingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalProcessingMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalStartMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/operation/CreateStreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/operation/CreateStreamMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/IteratorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +122,8 @@
     "애플리케이션.EnumRefMain3_1.executor": "Run",
     "애플리케이션.EnumRefMain3_4.executor": "Run",
     "애플리케이션.EqualsMain.executor": "Run",
+    "애플리케이션.EqualsMainV1.executor": "Run",
+    "애플리케이션.EqualsMainV2.executor": "Run",
     "애플리케이션.Ex0Main.executor": "Run",
     "애플리케이션.Ex0RefMain.executor": "Run",
     "애플리케이션.Ex1Main.executor": "Run",
@@ -161,6 +153,7 @@
     "애플리케이션.ImmutableMain1.executor": "Run",
     "애플리케이션.ImmutableMain2.executor": "Run",
     "애플리케이션.ImmutableMain3.executor": "Run",
+    "애플리케이션.ImmutableMyDateMain.executor": "Run",
     "애플리케이션.InheritedMain.executor": "Run",
     "애플리케이션.InnerRunnableMainV1.executor": "Run",
     "애플리케이션.InnerRunnableMainV2.executor": "Run",
@@ -196,6 +189,8 @@
     "애플리케이션.MapMainV4.executor": "Run",
     "애플리케이션.MapMainV5.executor": "Run",
     "애플리케이션.MapTest.executor": "Run",
+    "애플리케이션.MemberMainV1.executor": "Run",
+    "애플리케이션.MemberMainV2.executor": "Run",
     "애플리케이션.MessageFormatTest.executor": "Run",
     "애플리케이션.MetaData.executor": "Run",
     "애플리케이션.MethodMain1.executor": "Run",
@@ -207,12 +202,14 @@
     "애플리케이션.MethodRefStartV2.executor": "Run",
     "애플리케이션.MethodRefStartV3.executor": "Run",
     "애플리케이션.MethodV1.executor": "Run",
+    "애플리케이션.MutableMain.executor": "Run",
     "애플리케이션.MyArrayListV1Main.executor": "Run",
     "애플리케이션.MyArrayListV2Main.executor": "Run",
     "애플리케이션.MyArrayListV3BadMain.executor": "Run",
     "애플리케이션.MyArrayListV3Main.executor": "Run",
     "애플리케이션.MyArrayListV4Main.executor": "Run",
     "애플리케이션.MyArrayMain.executor": "Run",
+    "애플리케이션.MyDateMain.executor": "Run",
     "애플리케이션.MyFunctionMain1.executor": "Run",
     "애플리케이션.MyFunctionMain2.executor": "Run",
     "애플리케이션.MyIntegerNullMain0.executor": "Run",
@@ -224,6 +221,9 @@
     "애플리케이션.MyStreamV3Main.executor": "Run",
     "애플리케이션.NotifierMainV1.executor": "Run",
     "애플리케이션.NotifierMainV2.executor": "Run",
+    "애플리케이션.ObjectMain.executor": "Run",
+    "애플리케이션.ObjectPolyExample1.executor": "Run",
+    "애플리케이션.ObjectPolyExample2.executor": "Run",
     "애플리케이션.OfMain.executor": "Run",
     "애플리케이션.OperatorMain.executor": "Run",
     "애플리케이션.OptionalCreationMain.executor": "Run",
@@ -235,6 +235,7 @@
     "애플리케이션.PolyMain.executor": "Run",
     "애플리케이션.PredicateMain.executor": "Run",
     "애플리케이션.PrimitiveFunction.executor": "Run",
+    "애플리케이션.PrimitiveMain.executor": "Run",
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
     "애플리케이션.ProcedureMain2.executor": "Run",
@@ -243,6 +244,10 @@
     "애플리케이션.QueueTest.executor": "Run",
     "애플리케이션.RandomTest.executor": "Run",
     "애플리케이션.RawTypeMain.executor": "Run",
+    "애플리케이션.RectangleMain.executor": "Run",
+    "애플리케이션.RefMain1_1.executor": "Run",
+    "애플리케이션.RefMain1_3.executor": "Run",
+    "애플리케이션.RefMain2.executor": "Run",
     "애플리케이션.RunnableMain.executor": "Run",
     "애플리케이션.SamMain.executor": "Run",
     "애플리케이션.ShuttleTest.executor": "Run",
@@ -282,6 +287,8 @@
     "애플리케이션.SystemMain.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
     "애플리케이션.ThreadStateMain.executor": "Run",
+    "애플리케이션.ToStringMain1.executor": "Run",
+    "애플리케이션.ToStringMain2.executor": "Run",
     "애플리케이션.TriMain.executor": "Run",
     "애플리케이션.TryWithResource.executor": "Run",
     "애플리케이션.UnCheckedTest.executor": "Run",
@@ -311,13 +318,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.OptionalCreationMain">
-    <configuration name="Collectors4Summing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.Collectors4Summing" />
+  <component name="RunManager" selected="애플리케이션.ImmutableMyDateMain">
+    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.change.ImmutableMain1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.collectors.*" />
+          <option name="PATTERN" value="mid1.lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Collectors5Reducing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.Collectors5Reducing" />
+    <configuration name="ImmutableMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.change.ImmutableMain2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.collectors.*" />
+          <option name="PATTERN" value="mid1.lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.operation.CreateStreamMain" />
+    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.test.ImmutableMyDateMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.operation.*" />
+          <option name="PATTERN" value="mid1.lang.immutable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalCreationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.optional.OptionalCreationMain" />
+    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.change.MutableMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.optional.*" />
+          <option name="PATTERN" value="mid1.lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.basic.StreamTest" />
+    <configuration name="MyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.test.MyDateMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.basic.*" />
+          <option name="PATTERN" value="mid1.lang.immutable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.OptionalCreationMain" />
-        <item itemvalue="애플리케이션.CreateStreamMain" />
-        <item itemvalue="애플리케이션.Collectors5Reducing" />
-        <item itemvalue="애플리케이션.Collectors4Summing" />
-        <item itemvalue="애플리케이션.StreamTest" />
+        <item itemvalue="애플리케이션.ImmutableMyDateMain" />
+        <item itemvalue="애플리케이션.MyDateMain" />
+        <item itemvalue="애플리케이션.ImmutableMain2" />
+        <item itemvalue="애플리케이션.ImmutableMain1" />
+        <item itemvalue="애플리케이션.MutableMain" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +429,8 @@
       <workItem from="1754921931757" duration="2754000" />
       <workItem from="1755043847610" duration="22451000" />
       <workItem from="1755130175622" duration="14022000" />
+      <workItem from="1755282473734" duration="4143000" />
+      <workItem from="1755319485522" duration="1863000" />
     </task>
     <servers />
   </component>
