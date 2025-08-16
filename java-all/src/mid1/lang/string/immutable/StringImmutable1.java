@@ -1,4 +1,4 @@
-package mid1.lang.string;
+package mid1.lang.string.immutable;
 
 public class StringImmutable1 {
     public static void main(String[] args) {

@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringChangeMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringComparisonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringSearchMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringChangeMain1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringComparisonMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringEqualsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringEqualsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringImmutable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringImmutable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringInfoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringSearchMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/test/TestString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/test/TestString1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +189,8 @@
     "애플리케이션.LocalTimeMain.executor": "Run",
     "애플리케이션.LockSupportMainV1.executor": "Run",
     "애플리케이션.LockSupportMainV2.executor": "Run",
+    "애플리케이션.LoopStringBuilderMain.executor": "Run",
+    "애플리케이션.LoopStringMain.executor": "Run",
     "애플리케이션.MainV0.executor": "Run",
     "애플리케이션.MainV1.executor": "Run",
     "애플리케이션.ManyThreadMainV1.executor": "Run",
@@ -193,6 +207,9 @@
     "애플리케이션.MemberMainV2.executor": "Run",
     "애플리케이션.MessageFormatTest.executor": "Run",
     "애플리케이션.MetaData.executor": "Run",
+    "애플리케이션.MethodChainingMain1.executor": "Run",
+    "애플리케이션.MethodChainingMain2.executor": "Run",
+    "애플리케이션.MethodChainingMain3.executor": "Run",
     "애플리케이션.MethodMain1.executor": "Run",
     "애플리케이션.MethodMain3.executor": "Run",
     "애플리케이션.MethodRefEx1.executor": "Run",
@@ -270,6 +287,11 @@
     "애플리케이션.StreamStartMain4.executor": "Run",
     "애플리케이션.StreamTest.executor": "Run",
     "애플리케이션.StringBasicMain.executor": "Run",
+    "애플리케이션.StringBuilderMain1_1.executor": "Run",
+    "애플리케이션.StringBuilderMain1_2.executor": "Run",
+    "애플리케이션.StringChangeMain1.executor": "Run",
+    "애플리케이션.StringChangeMain2.executor": "Run",
+    "애플리케이션.StringComparisonMain.executor": "Run",
     "애플리케이션.StringConcatMain.executor": "Run",
     "애플리케이션.StringEqualsMain1.executor": "Run",
     "애플리케이션.StringEqualsMain2.executor": "Run",
@@ -279,12 +301,27 @@
     "애플리케이션.StringImmutable1.executor": "Run",
     "애플리케이션.StringImmutable2.executor": "Run",
     "애플리케이션.StringInfoMain.executor": "Run",
+    "애플리케이션.StringSearchMain.executor": "Run",
+    "애플리케이션.StringSplitJoinMain.executor": "Run",
     "애플리케이션.StringTokenizerTest.executor": "Run",
+    "애플리케이션.StringUtilsMain1.executor": "Run",
+    "애플리케이션.StringUtilsMain2.executor": "Run",
     "애플리케이션.Super1Main.executor": "Run",
     "애플리케이션.Super2Main.executor": "Run",
     "애플리케이션.SupplierMain.executor": "Run",
     "애플리케이션.Switch2.executor": "Run",
     "애플리케이션.SystemMain.executor": "Run",
+    "애플리케이션.TestString1.executor": "Run",
+    "애플리케이션.TestString10.executor": "Run",
+    "애플리케이션.TestString11.executor": "Run",
+    "애플리케이션.TestString2.executor": "Run",
+    "애플리케이션.TestString3.executor": "Run",
+    "애플리케이션.TestString4.executor": "Run",
+    "애플리케이션.TestString5.executor": "Run",
+    "애플리케이션.TestString6.executor": "Run",
+    "애플리케이션.TestString7.executor": "Run",
+    "애플리케이션.TestString8.executor": "Run",
+    "애플리케이션.TestString9.executor": "Run",
     "애플리케이션.ThreadInfoMain.executor": "Run",
     "애플리케이션.ThreadStateMain.executor": "Run",
     "애플리케이션.ToStringMain1.executor": "Run",
@@ -318,13 +355,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ImmutableMyDateMain">
-    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.change.ImmutableMain1" />
+  <component name="RunManager" selected="애플리케이션.TestString6">
+    <configuration name="TestString10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString10" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.immutable.change.*" />
+          <option name="PATTERN" value="mid1.lang.string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,12 +369,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.change.ImmutableMain2" />
+    <configuration name="TestString6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString6" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.immutable.change.*" />
+          <option name="PATTERN" value="mid1.lang.string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.test.ImmutableMyDateMain" />
+    <configuration name="TestString7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString7" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.immutable.test.*" />
+          <option name="PATTERN" value="mid1.lang.string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +395,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.change.MutableMain" />
+    <configuration name="TestString8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString8" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.immutable.change.*" />
+          <option name="PATTERN" value="mid1.lang.string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,12 +408,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.immutable.test.MyDateMain" />
+    <configuration name="TestString9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString9" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.immutable.test.*" />
+          <option name="PATTERN" value="mid1.lang.string.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ImmutableMyDateMain" />
-        <item itemvalue="애플리케이션.MyDateMain" />
-        <item itemvalue="애플리케이션.ImmutableMain2" />
-        <item itemvalue="애플리케이션.ImmutableMain1" />
-        <item itemvalue="애플리케이션.MutableMain" />
+        <item itemvalue="애플리케이션.TestString6" />
+        <item itemvalue="애플리케이션.TestString7" />
+        <item itemvalue="애플리케이션.TestString8" />
+        <item itemvalue="애플리케이션.TestString9" />
+        <item itemvalue="애플리케이션.TestString10" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +467,7 @@
       <workItem from="1755043847610" duration="22451000" />
       <workItem from="1755130175622" duration="14022000" />
       <workItem from="1755282473734" duration="4143000" />
-      <workItem from="1755319485522" duration="1863000" />
+      <workItem from="1755319485522" duration="9323000" />
     </task>
     <servers />
   </component>

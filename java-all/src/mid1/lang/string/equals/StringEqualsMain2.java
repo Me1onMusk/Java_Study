@@ -1,4 +1,4 @@
-package mid1.lang.string;
+package mid1.lang.string.equals;
 
 public class StringEqualsMain2 {
     public static void main(String[] args) {
