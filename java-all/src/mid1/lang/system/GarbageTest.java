@@ -4,7 +4,7 @@ package mid1.lang.system;
     Garbage 컬렉터는 수거를 마음대로 한다.
 */
 
-public class GarbageMain {
+public class GarbageTest {
     public static void main(String[] args) {
 
         for (int i = 0; i <3; i++) {

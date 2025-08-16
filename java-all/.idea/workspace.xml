@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringChangeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringComparisonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringSearchMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringChangeMain1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringComparisonMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringEqualsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringEqualsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringImmutable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/immutable/StringImmutable1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringImmutable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/immutable/StringImmutable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/method/StringInfoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/StringSearchMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/string/test/TestString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/string/test/TestString1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid1/lang/system/GarbageMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/system/GarbageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +64,8 @@
     "애플리케이션.ArrayListTest.executor": "Run",
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
+    "애플리케이션.AutoboxingMain1.executor": "Run",
+    "애플리케이션.AutoboxingMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
     "애플리케이션.BankApplication.executor": "Run",
     "애플리케이션.BasicV1.executor": "Run",
@@ -203,6 +194,7 @@
     "애플리케이션.MapMainV4.executor": "Run",
     "애플리케이션.MapMainV5.executor": "Run",
     "애플리케이션.MapTest.executor": "Run",
+    "애플리케이션.MathMain.executor": "Run",
     "애플리케이션.MemberMainV1.executor": "Run",
     "애플리케이션.MemberMainV2.executor": "Run",
     "애플리케이션.MessageFormatTest.executor": "Run",
@@ -229,6 +221,8 @@
     "애플리케이션.MyDateMain.executor": "Run",
     "애플리케이션.MyFunctionMain1.executor": "Run",
     "애플리케이션.MyFunctionMain2.executor": "Run",
+    "애플리케이션.MyIntegerMethodMain0.executor": "Run",
+    "애플리케이션.MyIntegerMethodMain1.executor": "Run",
     "애플리케이션.MyIntegerNullMain0.executor": "Run",
     "애플리케이션.MyIntegerNullMain1.executor": "Run",
     "애플리케이션.MyLoggerMain.executor": "Run",
@@ -338,6 +332,9 @@
     "애플리케이션.VarArgsDemo.executor": "Run",
     "애플리케이션.WildcardMain1.executor": "Run",
     "애플리케이션.WildcardMain2.executor": "Run",
+    "애플리케이션.WrapperClassMain.executor": "Run",
+    "애플리케이션.WrapperUtilsMain.executor": "Run",
+    "애플리케이션.WrapperVsPrimitive.executor": "Run",
     "애플리케이션.adv3.defaultmethod.ex2.NotifierMainV1.executor": "Run"
   }
 }]]></component>
@@ -355,13 +352,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.TestString6">
-    <configuration name="TestString10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString10" />
+  <component name="RunManager" selected="애플리케이션.WrapperVsPrimitive">
+    <configuration name="AutoboxingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.AutoboxingMain1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.string.test.*" />
+          <option name="PATTERN" value="mid1.lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +366,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString6" />
+    <configuration name="AutoboxingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.AutoboxingMain2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.string.test.*" />
+          <option name="PATTERN" value="mid1.lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,12 +379,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString7" />
+    <configuration name="WrapperClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.WrapperClassMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.string.test.*" />
+          <option name="PATTERN" value="mid1.lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,12 +392,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString8" />
+    <configuration name="WrapperUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.WrapperUtilsMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.string.test.*" />
+          <option name="PATTERN" value="mid1.lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,12 +405,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.string.test.TestString9" />
+    <configuration name="WrapperVsPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.WrapperVsPrimitive" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.string.test.*" />
+          <option name="PATTERN" value="mid1.lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.TestString6" />
-        <item itemvalue="애플리케이션.TestString7" />
-        <item itemvalue="애플리케이션.TestString8" />
-        <item itemvalue="애플리케이션.TestString9" />
-        <item itemvalue="애플리케이션.TestString10" />
+        <item itemvalue="애플리케이션.WrapperVsPrimitive" />
+        <item itemvalue="애플리케이션.WrapperUtilsMain" />
+        <item itemvalue="애플리케이션.AutoboxingMain2" />
+        <item itemvalue="애플리케이션.AutoboxingMain1" />
+        <item itemvalue="애플리케이션.WrapperClassMain" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +464,7 @@
       <workItem from="1755043847610" duration="22451000" />
       <workItem from="1755130175622" duration="14022000" />
       <workItem from="1755282473734" duration="4143000" />
-      <workItem from="1755319485522" duration="9323000" />
+      <workItem from="1755319485522" duration="13949000" />
     </task>
     <servers />
   </component>
