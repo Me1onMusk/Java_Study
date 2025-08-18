@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid1/lang/system/GarbageMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid1/lang/system/GarbageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +94,8 @@
     "애플리케이션.ClassGradeRefMain1.executor": "Run",
     "애플리케이션.ClassMetaMain.executor": "Run",
     "애플리케이션.ClassRefMain.executor": "Run",
+    "애플리케이션.ClientV1.executor": "Run",
+    "애플리케이션.ClientV2.executor": "Run",
     "애플리케이션.CollectionsSortMain.executor": "Run",
     "애플리케이션.Collectors2Map.executor": "Run",
     "애플리케이션.Collectors3Group.executor": "Run",
@@ -157,6 +158,7 @@
     "애플리케이션.ImmutableMain2.executor": "Run",
     "애플리케이션.ImmutableMain3.executor": "Run",
     "애플리케이션.ImmutableMyDateMain.executor": "Run",
+    "애플리케이션.InetAddressMain.executor": "Run",
     "애플리케이션.InheritedMain.executor": "Run",
     "애플리케이션.InnerRunnableMainV1.executor": "Run",
     "애플리케이션.InnerRunnableMainV2.executor": "Run",
@@ -261,6 +263,8 @@
     "애플리케이션.RefMain2.executor": "Run",
     "애플리케이션.RunnableMain.executor": "Run",
     "애플리케이션.SamMain.executor": "Run",
+    "애플리케이션.ServerV1.executor": "Run",
+    "애플리케이션.ServerV2.executor": "Run",
     "애플리케이션.ShuttleTest.executor": "Run",
     "애플리케이션.SideEffectListMain.executor": "Run",
     "애플리케이션.SideEffectMain1.executor": "Run",
@@ -352,13 +356,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.WrapperVsPrimitive">
-    <configuration name="AutoboxingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.AutoboxingMain1" />
+  <component name="RunManager" selected="애플리케이션.ClientV2">
+    <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v1.ClientV1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.wrapper.*" />
+          <option name="PATTERN" value="adv2.network.tcp.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoboxingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.AutoboxingMain2" />
+    <configuration name="ClientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v2.ClientV2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.wrapper.*" />
+          <option name="PATTERN" value="adv2.network.tcp.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +383,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.WrapperClassMain" />
+    <configuration name="InetAddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v1.InetAddressMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.wrapper.*" />
+          <option name="PATTERN" value="adv2.network.tcp.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +396,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.WrapperUtilsMain" />
+    <configuration name="ServerV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v1.ServerV1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.wrapper.*" />
+          <option name="PATTERN" value="adv2.network.tcp.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,12 +409,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperVsPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mid1.lang.wrapper.WrapperVsPrimitive" />
+    <configuration name="ServerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v2.ServerV2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mid1.lang.wrapper.*" />
+          <option name="PATTERN" value="adv2.network.tcp.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.WrapperVsPrimitive" />
-        <item itemvalue="애플리케이션.WrapperUtilsMain" />
-        <item itemvalue="애플리케이션.AutoboxingMain2" />
-        <item itemvalue="애플리케이션.AutoboxingMain1" />
-        <item itemvalue="애플리케이션.WrapperClassMain" />
+        <item itemvalue="애플리케이션.ClientV2" />
+        <item itemvalue="애플리케이션.ServerV2" />
+        <item itemvalue="애플리케이션.InetAddressMain" />
+        <item itemvalue="애플리케이션.ClientV1" />
+        <item itemvalue="애플리케이션.ServerV1" />
       </list>
     </recent_temporary>
   </component>
@@ -465,6 +469,8 @@
       <workItem from="1755130175622" duration="14022000" />
       <workItem from="1755282473734" duration="4143000" />
       <workItem from="1755319485522" duration="13949000" />
+      <workItem from="1755420447132" duration="1078000" />
+      <workItem from="1755510559223" duration="4384000" />
     </task>
     <servers />
   </component>
