@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/operation/IntermediateOperationsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/operation/IntermediateOperationsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adv3/stream/operation/MapVsFlatMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/operation/MapVsFlatMapMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,7 +477,7 @@
       <workItem from="1755319485522" duration="13949000" />
       <workItem from="1755420447132" duration="1078000" />
       <workItem from="1755510559223" duration="4384000" />
-      <workItem from="1755561980949" duration="15136000" />
+      <workItem from="1755561980949" duration="16845000" />
     </task>
     <servers />
   </component>
