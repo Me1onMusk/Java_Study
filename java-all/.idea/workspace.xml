@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/optional/OptionalRetrievalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/collectors/DownStreamMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/stream/operation/IntermediateOperationsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/operation/IntermediateOperationsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adv3/stream/operation/MapVsFlatMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adv3/stream/operation/MapVsFlatMapMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +121,8 @@
     "애플리케이션.DequeMain.executor": "Run",
     "애플리케이션.DequeStackMain.executor": "Run",
     "애플리케이션.DiamondMain.executor": "Run",
+    "애플리케이션.DownStreamMain1.executor": "Run",
+    "애플리케이션.DownStreamMain2.executor": "Run",
     "애플리케이션.DuplicateExecutionMain.executor": "Run",
     "애플리케이션.ElementData1Main.executor": "Run",
     "애플리케이션.EmptyListMain.executor": "Run",
@@ -163,6 +170,7 @@
     "애플리케이션.InnerRunnableMainV1.executor": "Run",
     "애플리케이션.InnerRunnableMainV2.executor": "Run",
     "애플리케이션.InstanceMain.executor": "Run",
+    "애플리케이션.IntermediateOperationsMain.executor": "Run",
     "애플리케이션.IteratorTest.executor": "Run",
     "애플리케이션.JavaIterableMain.executor": "Run",
     "애플리케이션.JoinMainV0.executor": "Run",
@@ -196,6 +204,9 @@
     "애플리케이션.MapMainV4.executor": "Run",
     "애플리케이션.MapMainV5.executor": "Run",
     "애플리케이션.MapTest.executor": "Run",
+    "애플리케이션.MapTest3.executor": "Run",
+    "애플리케이션.MapVsFlatMapMain.executor": "Run",
+    "애플리케이션.MatchTest.executor": "Run",
     "애플리케이션.MathMain.executor": "Run",
     "애플리케이션.MemberMainV1.executor": "Run",
     "애플리케이션.MemberMainV2.executor": "Run",
@@ -356,13 +367,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ClientV2">
-    <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v1.ClientV1" />
+  <component name="RunManager" selected="애플리케이션.DownStreamMain2">
+    <configuration name="DownStreamMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.DownStreamMain1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.network.tcp.v1.*" />
+          <option name="PATTERN" value="adv3.stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v2.ClientV2" />
+    <configuration name="DownStreamMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.DownStreamMain2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.network.tcp.v2.*" />
+          <option name="PATTERN" value="adv3.stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +394,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetAddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v1.InetAddressMain" />
+    <configuration name="IntermediateOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.operation.IntermediateOperationsMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.network.tcp.v1.*" />
+          <option name="PATTERN" value="adv3.stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +407,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v1.ServerV1" />
+    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.operation.MapVsFlatMapMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.network.tcp.v1.*" />
+          <option name="PATTERN" value="adv3.stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,12 +420,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2.network.tcp.v2.ServerV2" />
+    <configuration name="MatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv3.stream.MatchTest" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2.network.tcp.v2.*" />
+          <option name="PATTERN" value="adv3.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,11 +435,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ClientV2" />
-        <item itemvalue="애플리케이션.ServerV2" />
-        <item itemvalue="애플리케이션.InetAddressMain" />
-        <item itemvalue="애플리케이션.ClientV1" />
-        <item itemvalue="애플리케이션.ServerV1" />
+        <item itemvalue="애플리케이션.DownStreamMain2" />
+        <item itemvalue="애플리케이션.DownStreamMain1" />
+        <item itemvalue="애플리케이션.MatchTest" />
+        <item itemvalue="애플리케이션.MapVsFlatMapMain" />
+        <item itemvalue="애플리케이션.IntermediateOperationsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -471,6 +482,7 @@
       <workItem from="1755319485522" duration="13949000" />
       <workItem from="1755420447132" duration="1078000" />
       <workItem from="1755510559223" duration="4384000" />
+      <workItem from="1755561980949" duration="15136000" />
     </task>
     <servers />
   </component>
