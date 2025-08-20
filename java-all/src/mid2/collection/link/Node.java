@@ -13,14 +13,14 @@ public class Node {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         Node x = this;
-        sb.append("[");
+        sb.append("[ ");
         while (x != null) {
             sb.append(x.item);
             if (x.next != null)
                 sb.append("->");
             x = x.next;
         }
-        sb.append("]");
+        sb.append(" ]");
         return sb.toString();
     }
 }

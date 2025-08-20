@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/MyLinkedListV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/MyLinkedListV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/NodeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/NodeMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/NodeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/NodeMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/NodeMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/NodeMain3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
@@ -67,6 +73,7 @@
     "애플리케이션.AutoboxingMain2.executor": "Run",
     "애플리케이션.BadThreadMain.executor": "Run",
     "애플리케이션.BankApplication.executor": "Run",
+    "애플리케이션.BankMain.executor": "Run",
     "애플리케이션.BasicV1.executor": "Run",
     "애플리케이션.BasicV2.executor": "Run",
     "애플리케이션.BiMain.executor": "Run",
@@ -238,6 +245,9 @@
     "애플리케이션.MyStreamV1Main.executor": "Run",
     "애플리케이션.MyStreamV2Main.executor": "Run",
     "애플리케이션.MyStreamV3Main.executor": "Run",
+    "애플리케이션.NodeMain1.executor": "Run",
+    "애플리케이션.NodeMain2.executor": "Run",
+    "애플리케이션.NodeMain3.executor": "Run",
     "애플리케이션.NotifierMainV1.executor": "Run",
     "애플리케이션.NotifierMainV2.executor": "Run",
     "애플리케이션.ObjectMain.executor": "Run",
@@ -340,6 +350,8 @@
     "애플리케이션.ValidatorV1Main.executor": "Run",
     "애플리케이션.ValidatorV2Main.executor": "Run",
     "애플리케이션.VarArgsDemo.executor": "Run",
+    "애플리케이션.VolatileCountMain.executor": "Run",
+    "애플리케이션.VolatileFlagMain.executor": "Run",
     "애플리케이션.WildcardMain1.executor": "Run",
     "애플리케이션.WildcardMain2.executor": "Run",
     "애플리케이션.WrapperClassMain.executor": "Run",
@@ -356,19 +368,20 @@
       <recent name="D:\Java_Study\java-all" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="adv1.thread.sync" />
       <recent name="adv3.defaultmethod.ex2" />
       <recent name="mid2.generic.ex5" />
       <recent name="start.cond" />
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.DownStreamMain2">
-    <configuration name="DownStreamMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.DownStreamMain1" />
+  <component name="RunManager" selected="애플리케이션.NodeMain3">
+    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.sync.BankMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.collectors.*" />
+          <option name="PATTERN" value="adv1.thread.sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,12 +389,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownStreamMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.collectors.DownStreamMain2" />
+    <configuration name="NodeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.link.NodeMain1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.collectors.*" />
+          <option name="PATTERN" value="mid2.collection.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntermediateOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.operation.IntermediateOperationsMain" />
+    <configuration name="NodeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.link.NodeMain2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.operation.*" />
+          <option name="PATTERN" value="mid2.collection.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.operation.MapVsFlatMapMain" />
+    <configuration name="NodeMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.collection.link.NodeMain3" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.operation.*" />
+          <option name="PATTERN" value="mid2.collection.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +428,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv3.stream.MatchTest" />
+    <configuration name="VolatileCountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adv1.thread.volatile1.VolatileCountMain" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv3.stream.*" />
+          <option name="PATTERN" value="adv1.thread.volatile1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,11 +443,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.DownStreamMain2" />
-        <item itemvalue="애플리케이션.DownStreamMain1" />
-        <item itemvalue="애플리케이션.MatchTest" />
-        <item itemvalue="애플리케이션.MapVsFlatMapMain" />
-        <item itemvalue="애플리케이션.IntermediateOperationsMain" />
+        <item itemvalue="애플리케이션.NodeMain3" />
+        <item itemvalue="애플리케이션.NodeMain2" />
+        <item itemvalue="애플리케이션.NodeMain1" />
+        <item itemvalue="애플리케이션.BankMain" />
+        <item itemvalue="애플리케이션.VolatileCountMain" />
       </list>
     </recent_temporary>
   </component>
@@ -478,6 +491,9 @@
       <workItem from="1755420447132" duration="1078000" />
       <workItem from="1755510559223" duration="4384000" />
       <workItem from="1755561980949" duration="16845000" />
+      <workItem from="1755648650992" duration="4322000" />
+      <workItem from="1755659836765" duration="183000" />
+      <workItem from="1755660626654" duration="9174000" />
     </task>
     <servers />
   </component>
