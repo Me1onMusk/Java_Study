@@ -95,19 +95,19 @@ public class MyLinkedList <E> implements MyList<E>{
         return -1;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        Node<E> temp = this;
-        sb.append("[");
-        while (temp != null) {
-            sb.append(temp.item);
-            if (temp.next != null)
-                sb.append("->");
-            temp = temp.next;
-        }
-        sb.append("]");
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        StringBuilder sb = new StringBuilder();
+//        Node<E> temp = this;
+//        sb.append("[");
+//        while (temp != null) {
+//            sb.append(temp.item);
+//            if (temp.next != null)
+//                sb.append("->");
+//            temp = temp.next;
+//        }
+//        sb.append("]");
+//        return sb.toString();
+//    }
 
 }

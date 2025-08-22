@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/MyLinkedListV1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/MyLinkedListV1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/MyLinkedListV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/MyLinkedListV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mid2/collection/link/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/link/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mid2/collection/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mid2/collection/list/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +19,15 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -294,6 +295,7 @@
     "애플리케이션.SortMain5.executor": "Run",
     "애플리케이션.SoundFlyMain.executor": "Run",
     "애플리케이션.StackMain.executor": "Run",
+    "애플리케이션.StackTest.executor": "Run",
     "애플리케이션.StreamStartMain.executor": "Run",
     "애플리케이션.StreamStartMain1.executor": "Run",
     "애플리케이션.StreamStartMain2.executor": "Run",
@@ -375,20 +377,7 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MyLinkedListV1Main">
-    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1.thread.sync.BankMain" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adv1.thread.sync.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.StackTest">
     <configuration name="MyLinkedListV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mid2.collection.link.MyLinkedListV1Main" />
       <module name="java-all" />
@@ -441,13 +430,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mid2.StackTest" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mid2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StackTest" />
         <item itemvalue="애플리케이션.MyLinkedListV1Main" />
         <item itemvalue="애플리케이션.NodeMain3" />
         <item itemvalue="애플리케이션.NodeMain2" />
         <item itemvalue="애플리케이션.NodeMain1" />
-        <item itemvalue="애플리케이션.BankMain" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +497,7 @@
       <workItem from="1755659836765" duration="183000" />
       <workItem from="1755660626654" duration="9174000" />
       <workItem from="1755735035612" duration="7536000" />
-      <workItem from="1755821084207" duration="3169000" />
+      <workItem from="1755821084207" duration="9321000" />
     </task>
     <servers />
   </component>
