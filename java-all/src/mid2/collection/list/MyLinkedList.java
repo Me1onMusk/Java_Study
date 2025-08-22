@@ -110,5 +110,4 @@ public class MyLinkedList <E> implements MyList<E>{
         return sb.toString();
     }
 
-
 }
