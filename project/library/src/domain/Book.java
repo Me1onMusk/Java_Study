@@ -1,3 +1,5 @@
+package domain;
+
 import java.util.Objects;
 
 // 책 객체 //
@@ -69,7 +71,7 @@ public class Book {
     // toString() //
     @Override
     public String toString() {
-        return "Book[" +
+        return "domain.Book[" +
                 "id=" + id +
                 ", isbn='" + isbn + '\'' +
                 ", title='" + title + '\'' +

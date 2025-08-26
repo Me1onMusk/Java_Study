@@ -1,8 +1,10 @@
+package security;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 // 비밀번호 해시 검증 //
-public class Password {
+public class Passwords {
 
     // 해시 알고리즘 //
     public static String hash(String rawPw) {

@@ -1,3 +1,7 @@
+package domain;
+
+import security.Passwords;
+
 import java.util.Objects;
 
 // 회원 클래스 //
@@ -34,7 +38,7 @@ public class Member {
 
     // 비밀번호 검증 //
     public boolean authenticate(String rawPw) {
-        return Password.matches(rawPw, passwordHash);
+        return Passwords.matches(rawPw, passwordHash);
     }
 
     // Getter 메서드 //
@@ -66,7 +70,7 @@ public class Member {
     // toString() //
     @Override
     public String toString() {
-        return "Member[" +
+        return "domain.Member[" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +

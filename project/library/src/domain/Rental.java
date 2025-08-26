@@ -1,3 +1,5 @@
+package domain;
+
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
@@ -98,7 +100,7 @@ public class Rental {
     // toString() //
     @Override
     public String toString() {
-        return "Rental[" +
+        return "domain.Rental[" +
                 "id=" + id +
                 ", bookId=" + bookId +
                 ", memberId=" + memberId +

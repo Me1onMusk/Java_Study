@@ -1,3 +1,4 @@
+package domain;
 
 // 역할 //
 public enum Role {

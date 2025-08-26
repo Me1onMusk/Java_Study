@@ -1,3 +1,4 @@
+package domain;
 
 // 대여 상태 //
 public enum RentalStatus {
