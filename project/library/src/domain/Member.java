@@ -1,6 +1,6 @@
 package domain;
 
-import security.Passwords;
+import common.security.Passwords;
 
 import java.util.Objects;
 

@@ -53,9 +53,9 @@ public class App {
                     int select = promptInt("선택");
                     if (memberService.getCurrentUser().getRole() == Role.ADMIN) { // 관리자 메뉴
                         switch (select) {
-                            case 1 -> System.out.println("구현 필요"); // addBookFlow() ;
-                            case 2 -> System.out.println("구현 필요"); // listBooksFlow();
-                            case 3 -> System.out.println("구현 필요"); // searchFlow();
+                            case 1 -> addBookFlow(sc);
+                            case 2 -> listBooksFlow(); // listBooksFlow();
+                            case 3 -> searchFlow(sc);
                             case 4 -> System.out.println("구현 필요"); // rentFlow();
                             case 5 -> System.out.println("구현 필요"); // returnFlow();
                             case 6 -> System.out.println("구현 필요"); // myRentalsFlow();
@@ -64,8 +64,8 @@ public class App {
                         }
                     } else { // 일반 사용자 메뉴
                         switch (select) {
-                            case 1 -> System.out.println("구현 필요"); // listBooksFlow();
-                            case 2 -> System.out.println("구현 필요"); // searchFlow();
+                            case 1 -> listBooksFlow();
+                            case 2 -> searchFlow(sc);
                             case 3 -> System.out.println("구현 필요"); // rentFlow();
                             case 4 -> System.out.println("구현 필요"); // returnFlow();
                             case 5 -> System.out.println("구현 필요"); // myRentalsFlow();
@@ -86,6 +86,80 @@ public class App {
         }
 
     }
+
+    // 책 리스트 출력 //
+    private static void listBooksFlow() {
+        // 서비스로부터 책 목록을 가져오기
+        List<Book> books = bookService.listBooks();
+
+        // 책 목록이 비어있는지 확인
+        if (books.isEmpty())
+            System.out.println("등록된 책이 없습니다.");
+        else {
+            // 목록에 있는 각 책의 정보를 출력
+            for (Book book : books) {
+                System.out.printf(
+                        "ID: %d, 제목: %s, 저자: %s, 재고: %d\n",
+                        book.getId(),
+                        book.getTitle(),
+                        book.getAuthor(),
+                        book.getTotalCopies()
+                );
+            }
+        }
+    }
+
+    // 책 추가 //
+    private static void addBookFlow(Scanner scanner) {
+        try {
+            System.out.print("ISBN: ");
+            String isbn = scanner.nextLine();
+            System.out.print("제목: ");
+            String title = scanner.nextLine();
+            System.out.print("저자: ");
+            String author = scanner.nextLine();
+            System.out.print("보유 권수: ");
+            int totalCopies = Integer.parseInt(scanner.nextLine());
+
+            // App 클래스의 static 필드인 bookService에 직접 접근
+            Book book = bookService.registerBook(isbn, title, author, totalCopies);
+            System.out.printf("등록 완료 (ID: %d, 제목: %s)\n", book.getId(), book.getTitle());
+
+        } catch(NumberFormatException e) {
+            System.out.println("오류: 보유 권수는 숫자로 입력해야 합니다.");
+        } catch (IllegalStateException e) {
+            System.out.println("오류: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("알 수 없는 오류가 발생했습니다: " + e.getMessage());
+        }
+    }
+
+    // 책 검색 //
+    private static void searchFlow(Scanner scanner) {
+        System.out.println("\n--- 책 검색 (제목, 저자 또는 ISBN) ---");
+        System.out.print("검색어 입력: ");
+        String keyword = scanner.nextLine();
+
+        if (keyword.trim().isEmpty()) {
+            System.out.println("검색어를 입력해주세요.");
+            System.out.println("--------------------");
+            return;
+        }
+
+        List<Book> foundBooks = bookService.searchBooks(keyword);
+
+        if(foundBooks.isEmpty()) {
+            System.out.printf("'%s'에 대한 검색 결과가 없습니다.\n", keyword);
+        } else {
+            System.out.printf("'%s' 검색 결과 (%d건)\n", keyword, foundBooks.size());
+            for (Book book : foundBooks) {
+                System.out.printf("ID: %d, 제목: %s, 저자: %s, ISBN: %s\n",
+                        book.getId(), book.getTitle(), book.getAuthor(), book.getIsbn());
+            }
+        }
+    }
+
+    // -------------------- 파트 -------------------------- //
 
     // 초기 로그인 메뉴 //
     private static void showWelcome() {
@@ -163,15 +237,11 @@ public class App {
             memberService.signUp("관리자", "admin@test.com", "1234", Role.ADMIN);
         } catch (Exception ignore) {}
 
-//        service.addBook("978-89-7914-874-9", "자바의 정석", "남궁성", 5);
-//        service.addBook("978-89-98142-35-3", "토비의 스프링 Vol.1", "이일민", 2);
-//        service.addBook("978-89-98142-36-0", "토비의 스프링 Vol.2", "이일민", 2);
+        bookService.registerBook("978-89-7914-874-9", "자바의 정석", "남궁성", 5);
+        bookService.registerBook("978-89-98142-35-3", "토비의 스프링 Vol.1", "이일민", 2);
+        bookService.registerBook("978-89-98142-36-0", "토비의 스프링 Vol.2", "이일민", 2);
 
     }
-
-    // ------------------ 수정필요 ------------------ //
-
-    // ------------------ 회원 ------------------ //
 
     // 공백 제거 함수 //
     private static String promptNonEmpty(String label) {
@@ -181,210 +251,6 @@ public class App {
             throw new IllegalArgumentException(label + "은(는) 필수입니다.");
         return s;
     }
-
-//    // 로그인 확인 함수 //
-//    private static void ensureLogin() {
-//        if (currentUser == null)
-//            throw new IllegalStateException("로그인 후 이용해주세요.");
-//    }
-//
-//    // 문자열 -> Int //
-////    private static int promptInt(String label) {
-////        System.out.print(label + "> ");
-////        String s = sc.nextLine().trim();
-////        try {
-////            return Integer.parseInt(s);
-////        } catch (NumberFormatException e) {
-////            throw new InputMismatchException();
-////        }
-////    }
-//
-//    // ------------------ 도서 ------------------ //
-//    // 도서 추가 플로우 //
-//    private static void addBookFlow() {
-//        System.out.println("[도서 등록] (0 입력 시 취소)");
-//
-//        String isbn = promptNonEmpty("ISBN");
-//        if (isbn.equals("0")) {
-//            System.out.println("[안내] 도서 등록이 취소되었습니다.");
-//            return;
-//        }
-//
-//        String title = promptNonEmpty("제목");
-//        if (title.equals("0")) {
-//            System.out.println("[안내] 도서 등록이 취소되었습니다.");
-//            return;
-//        }
-//
-//        String author = promptNonEmpty("저자");
-//        if (author.equals("0")) {
-//            System.out.println("[안내] 도서 등록이 취소되었습니다.");
-//            return;
-//        }
-//
-//        int total = promptInt("총권수 (0 입력 시 취소)");
-//        if (total == 0) {
-//            System.out.println("[안내] 도서 등록이 취소되었습니다.");
-//            return;
-//        }
-//
-//        Book book = service.addBook(isbn, title, author, total);
-//        System.out.printf("[성공] 등록 완료: bookId=%d, 재고=%d/%d%n", book.getId(), book.getAvailableCopies(), book.getTotalCopies());
-//    }
-//
-//    // 도서 리스트 보기 플로우 //
-//    private static void listBooksFlow() {
-//        List<Book> list = service.listBooks();
-//        System.out.println("[도서 목록] 총 " + list.size() + "권");
-//        System.out.printf("%-4s %-20s %-20s %-16s %-8s%n", "ID", "ISBN", "제목", "저자", "재고/총");
-//
-//        for (Book book : list) {
-//            System.out.printf("%-4d %-20s %-20s %-16s %d/%d%n",
-//                    book.getId(),
-//                    book.getIsbn(),
-//                    truncate(book.getTitle(), 20),
-//                    truncate(book.getAuthor(), 16),
-//                    book.getAvailableCopies(),
-//                    book.getTotalCopies());
-//        }
-//        pause();
-//    }
-//
-//    // 문자열 자르기 //
-//    private static String truncate(String s, int n) {
-//        if (s == null)
-//            return "";
-//        return s.length() <= n ? s : s.substring(0, n - 1) + "…";
-//    }
-//
-//    // 검색 플로우 //
-//    private static void searchFlow() {
-//        System.out.println("[도서 검색] (0 입력 시 취소)");
-//        String keyword = promptNonEmpty("키워드(제목/저자/ISBN)");
-//        if (keyword.equals("0")) {
-//            System.out.println("[안내] 도서 검색이 취소되었습니다.");
-//            return;
-//        }
-//
-//        List<Book> list = service.searchBooks(keyword);
-//
-//        if (list.isEmpty()) {
-//            System.out.println("검색 결과가 없습니다.");
-//        } else {
-//            System.out.println("검색 결과(" + list.size() + "건)");
-//            System.out.printf("%-4s %-20s %-20s %-16s %-8s%n", "ID", "ISBN", "제목", "저자", "재고/총");
-//            for (Book book : list) {
-//                System.out.printf("%-4d %-20s %-20s %-16s %d/%d%n", book.getId(), book.getIsbn(), truncate(book.getTitle(), 20),
-//                        truncate(book.getAuthor(), 16), book.getAvailableCopies(), book.getTotalCopies());
-//            }
-//        }
-//        pause();
-//    }
-//
-//    // 도서 대여 플로우 //
-//    private static void rentFlow() {
-//        ensureLogin();
-//        System.out.println("[대여 가능한 도서 목록]");
-//
-//        List<Book> list = service.listBooks().stream().filter(b -> b.getAvailableCopies() > 0).toList();
-//
-//        if (list.isEmpty()) {
-//            System.out.println("[안내] 현재 대여 가능한 도서가 없습니다.");
-//            pause();
-//            return;
-//        }
-//
-//        System.out.printf("%-4s %-20s %-20s %-16s %-8s%n", "ID", "ISBN", "제목", "저자", "재고/총");
-//        for (Book book : list) {
-//            System.out.printf("%-4d %-20s %-20s %-16s %d/%d%n", book.getId(), book.getIsbn(), truncate(book.getTitle(), 20),
-//                    truncate(book.getAuthor(), 16), book.getAvailableCopies(), book.getTotalCopies());
-//        }
-//
-//        System.out.println("0 입력 시 취소 후 메뉴로 돌아갑니다.");
-//        long bookId = promptInt("대여할 bookId 입력");
-//        if (bookId == 0) {
-//            System.out.println("[안내] 대여가 취소되었습니다.");
-//            return;
-//        }
-//
-//        Rental rental = service.rent(bookId, currentUser.getId());
-//        Book after = service.getBook(bookId);
-//
-//        System.out.printf("[성공] 대여 완료: rentalId=%d, 반납예정일=%s, 재고=%d/%d%n",
-//                rental.getId(),
-//                rental.getDueAt(),
-//                after.getAvailableCopies(),
-//                after.getTotalCopies()
-//        );
-//        pause();
-//    }
-//
-//    // 도서 반납 플로우 //
-//    private static void returnFlow() {
-//        ensureLogin();
-//        System.out.println("[내가 반납할 수 있는 도서 목록]");
-//
-//        List<Rental> list = service.rentalsByMember(currentUser.getId()).stream().filter(r -> r.getStatus() == RentalStatus.RENTED).toList();
-//
-//        if (list.isEmpty()) {
-//            System.out.println("[안내] 반납할 수 있는 도서가 없습니다.");
-//            pause();
-//            return;
-//        }
-//
-//        System.out.printf("%-4s %-20s %-18s %-12s %-12s %-10s%n", "ID", "책제목", "ISBN", "대여일", "예정일", "상태");
-//
-//        for (Rental rental : list) {
-//            Book book = service.getBook(rental.getBookId());
-//            System.out.printf("%-4d %-20s %-18s %-12s %-12s %-10s%n", rental.getId(),
-//                    book != null ? truncate(book.getTitle(), 20) : "(삭제됨)", book != null ? book.getIsbn() : "-", rental.getReturnedAt(), rental.getDueAt(),
-//                    rental.getStatus());
-//        }
-//
-//        System.out.println("0 입력 시 취소 후 메뉴로 돌아갑니다.");
-//        long rentalId = promptInt("반납할 rentalId 입력");
-//        if (rentalId == 0) {
-//            System.out.println("[안내] 반납이 취소되었습니다.");
-//            return;
-//        }
-//
-//        Rental rental = service.returnBook(rentalId);
-//        Book after = service.getBook(rental.getBookId());
-//
-//        System.out.printf("[성공] 반납 완료: status=%s, 재고=%d/%d%n",
-//                rental.getStatus(),
-//                after.getAvailableCopies(),
-//                after.getTotalCopies()
-//        );
-//        pause();
-//    }
-//
-//    // 내 대여목록 플로우 //
-//    private static void myRentalsFlow() {
-//        ensureLogin();
-//        List<Rental> list = service.rentalsByMember(currentUser.getId());
-//
-//        if (list.isEmpty()) {
-//            System.out.println("[안내] 현재/과거 대여 이력이 없습니다.");
-//            pause();
-//            return;
-//        }
-//
-//        System.out.println("[나의 대여 목록]");
-//        System.out.printf("%-4s %-20s %-18s %-12s %-12s %-10s%n", "ID", "책제목", "ISBN", "대여일", "예정일", "상태");
-//
-//        for (Rental rental : list) {
-//            Book book = service.getBook(rental.getBookId());
-//            String title = book != null ? truncate(book.getTitle(), 20) : "(삭제됨)";
-//            String isbn = book != null ? truncate(book.getIsbn(), 18) : "-";
-//
-//            System.out.printf("%-4d %-20s %-18s %-12s %-12s %-10s%n",
-//                    rental.getId(), title, isbn, rental.getRentedAt(), rental.getDueAt(), rental.getStatus());
-//        }
-//        pause();
-//    }
-
-    // 프로그램 중단 //
 
     private static void pause() {
         System.out.println("엔터를 누르면 메뉴로 돌아갑니다...");

@@ -3,7 +3,7 @@ package service.impl;
 import domain.Member;
 import domain.Role;
 import repository.MemberRepository;
-import security.Passwords;
+import common.security.Passwords;
 import service.MemberService;
 
 public class MemberServiceImpl implements MemberService {

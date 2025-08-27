@@ -21,7 +21,8 @@ public class InMemoryMemberRepository implements MemberRepository {
 
     @Override
     public Optional<Member> findByEmail(String email) {
-        return store.values().stream().filter(m -> m.getEmail().equals(email)).findFirst();
+        return store.values().stream()
+                .filter(m -> m.getEmail().equals(email)).findFirst();
     }
 
     @Override

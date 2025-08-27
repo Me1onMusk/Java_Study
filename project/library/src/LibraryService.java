@@ -2,7 +2,7 @@ import domain.Book;
 import domain.Member;
 import domain.Rental;
 import domain.Role;
-import security.Passwords;
+import common.security.Passwords;
 
 import java.time.LocalDate;
 import java.util.*;
