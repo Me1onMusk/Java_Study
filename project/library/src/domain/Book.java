@@ -12,12 +12,12 @@ public class Book {
     private final String author;
     private final int totalCopies;
     private final int availableCopies;
-
+    private boolean isAvailable;
 
     private static long sequence = 0; // auto-increment
 
     // 기본 생성자 + 유효성 검사 //
-    public Book(long id, String isbn, String title, String author, int totalCopies, int availableCopies) {
+    public Book(long id, String isbn, String title, String author, int totalCopies, int availableCopies, boolean isAvailable) {
         // 유효성 검사
         if (isbn == null || isbn.isBlank()) throw new IllegalArgumentException("ISBN은 필수입니다.");
         if (title == null || title.isBlank()) throw new IllegalArgumentException("제목은 필수입니다.");
@@ -33,11 +33,12 @@ public class Book {
         this.author = author;
         this.totalCopies = totalCopies;
         this.availableCopies = availableCopies;
+        this.isAvailable = true;
     }
 
     // ID를 자동으로 생성하는 보조 생성자 //
     public Book(String isbn, String title, String author, int total) {
-        this(++sequence, isbn, title, author, total, total);
+        this(++sequence, isbn, title, author, total, total, true);
     }
 
     // Getter 메서드 //
@@ -47,6 +48,8 @@ public class Book {
     public String getAuthor() {return author;}
     public int getTotalCopies() {return totalCopies;}
     public int getAvailableCopies() {return availableCopies;}
+    public boolean isAvailable() {return isAvailable;}
+    public void setAvailable(boolean isAvailable) {this.isAvailable = isAvailable;}
 
     // equals() //
     @Override

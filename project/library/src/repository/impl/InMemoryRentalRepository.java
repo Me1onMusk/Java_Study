@@ -9,6 +9,7 @@ public class InMemoryRentalRepository implements RentalRepository {
 
     private final Map<Long, Rental> store = new HashMap<>();
 
+    // 대여 저장 //
     @Override
     public void save(Rental rental) {
         store.put(rental.getId(), rental); // Rental 생성자에서 ID 자동 생성됨
@@ -19,11 +20,13 @@ public class InMemoryRentalRepository implements RentalRepository {
         return Optional.ofNullable(store.get(id));
     }
 
+    // 모든 대여 목록 //
     @Override
     public List<Rental> findAll() {
         return new ArrayList<>(store.values());
     }
 
+    // 회원 ID로 대여 책 찾기 //
     @Override
     public List<Rental> findByMemberId(Long memberId) {
         List<Rental> rentals = new ArrayList<>();
@@ -34,6 +37,7 @@ public class InMemoryRentalRepository implements RentalRepository {
         return rentals;
     }
 
+    // 대여 삭제 //
     @Override
     public void delete(Long id) {
         store.remove(id);

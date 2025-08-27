@@ -11,10 +11,10 @@ public class Rental {
     private final long id;
     private final long bookId;
     private final long memberId;
-    private final LocalDate rentedAt;
-    private final LocalDate dueAt;
-    private final LocalDate returnedAt;
-    private final RentalStatus status;
+    private final LocalDate rentedAt;         //대여일
+    private final LocalDate dueAt;            //기간
+    private final LocalDate returnedAt;       //반납일
+    private final RentalStatus status;        //상태
 
     private static long sequence = 0;
 
@@ -43,14 +43,15 @@ public class Rental {
     public long getId() { return id; }
     public long getBookId() { return bookId; }
     public long getMemberId() { return memberId; }
-    public LocalDate getRentedAt() { return rentedAt; }
-    public LocalDate getDueAt() { return dueAt; }
-    public LocalDate getReturnedAt() { return returnedAt; }
-    public RentalStatus getStatus() { return status; }
+    public LocalDate getRentedAt() { return rentedAt; }      //대여일
+    public LocalDate getDueAt() { return dueAt; }            //기간
+    public LocalDate getReturnedAt() { return returnedAt; }  //반납일
+    public RentalStatus getStatus() { return status; }       //상태
 
     // 반납 //
     public Rental markReturned(LocalDate date) {
-        if (status == RentalStatus.RETURNED) throw new IllegalStateException("이미 반납된 대여입니다.");
+        if (status == RentalStatus.RETURNED)
+            throw new IllegalStateException("이미 반납된 대여입니다.");
         LocalDate returnDate = (date == null) ? LocalDate.now() : date;
         return new Rental(id, bookId, memberId, rentedAt, dueAt, returnDate, RentalStatus.RETURNED);
     }

@@ -26,7 +26,7 @@ public class MemberServiceImpl implements MemberService {
 
         // 비밀번호 해싱
         String hashed = Passwords.hash(pw);
-        Member member = new Member(name, email, hashed, role);
+        Member member = new Member(name, email, hashed, role, false, null);
 
         // 저장
         memberRepository.save(member);
