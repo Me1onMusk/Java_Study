@@ -14,8 +14,8 @@ public class Member {
     private final String email;         //이메일
     private final String passwordHash;  //비밀번호 (해시)
     private final Role role;            //역할 (관리자 || 사용자)
+    private LocalDate suspendUtil = null;//대여 정지 종료일 (null이면 제재 없음)
     private boolean isSuspended;        //대여 정지 확인
-    LocalDate suspensionEndDate;        //연체 만기일
 
     private static long sequence = 0;  // auto-increment
 
@@ -33,7 +33,6 @@ public class Member {
         this.passwordHash = passwordHash;
         this.role = (role == null) ? Role.USER : role; // role이 null이면 기본값 USER 할당
         this.isSuspended = false;
-        this.suspensionEndDate = null;
     }
 
     // ID를 자동으로 발급하는 보조 생성자 //
@@ -41,14 +40,22 @@ public class Member {
         this(++sequence, name, email, passwordHash, role, isSuspended, suspensionEndDate);
     }
 
-    // 회원 대여 정지 상태 설정 //
-    public Member suspend(LocalDate endDate) {
-        return new Member(id, name, email, passwordHash, role, true, endDate);
+    // 회원 정지 설정 //
+    /*
+        1. 대여 정지 = null
+        2. 대여 정지기간이 지났으면
+        -> true
+     */
+    public boolean isSuspend() {
+        return suspendUtil != null && suspendUtil.isAfter(LocalDate.now());
     }
-
-    // 회원 대여 정지 상태 해지 //
-    public Member clearSuspension() {
-        return new Member(id, name, email, passwordHash, role, false, null);
+    
+    // 연체일 만큼 대여 정지 //
+    public void suspend(int days) {
+        if(suspendUtil == null || suspendUtil.isBefore(LocalDate.now()))
+            suspendUtil = LocalDate.now().plusDays(days);  // 현재 날짜 + 연체일
+        else
+            suspendUtil = suspendUtil.plusDays(days);      // 연체일 누적
     }
 
     // 비밀번호 검증 //
@@ -64,7 +71,7 @@ public class Member {
     public Role getRole() { return role; }
     public boolean isSuspended() { return isSuspended; }
     public void setSuspended(boolean isSuspended) { this.isSuspended = isSuspended; }
-    public LocalDate getSuspensionEndDate() { return suspensionEndDate; }
+    public LocalDate getSuspendUtil() { return suspendUtil; }
 
     // equals() //
     @Override

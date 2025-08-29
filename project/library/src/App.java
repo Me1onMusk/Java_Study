@@ -12,6 +12,7 @@ import service.impl.BookServiceImpl;
 import service.impl.MemberServiceImpl;
 import service.impl.RentalServiceImpl;
 
+import java.time.LocalDate;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
@@ -20,6 +21,13 @@ import java.util.Scanner;
 public class App {
 
     private static final Scanner sc = new Scanner(System.in);
+
+    // ANSI 색상
+    private static final String RESET = "\u001B[0m";
+    private static final String RED = "\u001B[31m";
+    private static final String GREEN = "\u001B[32m";
+    private static final String YELLOW = "\u001B[33m";
+    private static final String CYAN = "\u001B[36m";
 
     // Repository 생성
     private static final MemberRepository memberRepository = new InMemoryMemberRepository();
@@ -108,7 +116,7 @@ public class App {
                 System.out.printf("대여 ID: %-4d | 책 제목: %-20s | 상태: %-7s | 대여일: %s | 반납 예정일: %s\n",
                         rental.getId(),
                         rental.getBookId(),
-                        status,
+                        rental.getBookTitle(),
                         rental.getRentedAt(),
                         rental.getDueAt()
                 );
@@ -139,7 +147,7 @@ public class App {
 
             System.out.println("✅ 반납이 완료되었습니다.");
             System.out.printf("반납된 책: %s\n", returnedBook.getTitle());
-            System.out.printf("실제 반납일: %s\n", returnedRental.getReturnedAt());
+            System.out.printf("실제 반납일: %s\n", LocalDate.now());
 
         } catch (NumberFormatException e) {
             System.out.println("❌ 오류: ID는 숫자로 입력해야 합니다.");
@@ -169,6 +177,7 @@ public class App {
             // 4. 성공 메시지 출력
             System.out.println("✅ 대여가 완료되었습니다.");
             System.out.printf("대여 ID: %d\n", rental.getId());
+            System.out.printf("대여 책: %s\n", rental.getBookTitle());
             System.out.printf("반납 예정일: %s\n", rental.getDueAt());
 
         } catch (NumberFormatException e) {
@@ -190,10 +199,11 @@ public class App {
         else {
             for (Book book : books) {
                 System.out.printf(
-                        "ID: %d, 제목: %s, 저자: %s, 재고: %d\n",
+                        "ID: %d, 제목: %s, 저자: %s, 대여가능 권수: %d, 재고: %d\n",
                         book.getId(),
                         book.getTitle(),
                         book.getAuthor(),
+                        book.getAvailableCopies(),
                         book.getTotalCopies()
                 );
             }
@@ -253,63 +263,86 @@ public class App {
 
     // 초기 로그인 메뉴 //
     private static void showWelcome() {
-        System.out.println("=== 도서 대여 시스템 ===");
-        System.out.println("1) 회원가입   2) 로그인   3) 종료");
+        System.out.println(CYAN + "======================================");
+        System.out.println("        📚 도서 대여 시스템         ");
+        System.out.println("======================================" + RESET);
+        System.out.println("1) 📝 회원가입   2) 🔑 로그인   3) 🚪 종료");
     }
 
     // 메인 메뉴 //
     private static void showMainMenu() {
+
+        // 1. 현재 사용자
         Member currentUser = memberService.getCurrentUser();
 
-        System.out.printf("=== 메인 메뉴 (로그인: %s, 권한: %s) ===%n", currentUser.getName(), currentUser.getRole());
+        // 2. 메뉴
+        System.out.println(CYAN + "\n======================================");
+        System.out.printf(" 👤 로그인: %s  |  권한: %s%n", currentUser.getName(), currentUser.getRole());
+        System.out.println("======================================" + RESET);
 
-        if (currentUser.getRole() == Role.ADMIN)
-            System.out.println("1) 도서 등록   2) 도서 목록   3) 도서 검색   4) 도서 대여   5) 도서반납   6) 내 대여목록   0) 로그아웃");
-        else
-            System.out.println("1) 도서 목록   2) 도서 검색   3) 도서 대여   4) 도서 반납   5) 내 도서 대여목록   0) 로그아웃");
 
+        if (currentUser.getRole() == Role.ADMIN) {
+            System.out.println("1) 📕 도서 등록");
+            System.out.println("2) 📚 도서 목록");
+            System.out.println("3) 🔍 도서 검색");
+            System.out.println("4) 📖 도서 대여");
+            System.out.println("5) ↩️ 도서 반납");
+            System.out.println("6) 🔄 대여 연장");
+            System.out.println("7) 📝 내 대여 목록");
+            System.out.println("0) 🚪 로그아웃");
+        } else {
+            System.out.println("1) 📚 도서 목록");
+            System.out.println("2) 🔍 도서 검색");
+            System.out.println("3) 📖 도서 대여");
+            System.out.println("4) ↩️ 도서 반납");
+            System.out.println("5) 🔄 대여 연장");
+            System.out.println("6) 📝 내 대여 목록");
+            System.out.println("0) 🚪 로그아웃");
+        }
+        System.out.println(CYAN + "======================================" + RESET);
     }
 
     // 회원 가입 //
     private static void signUpFlow() {
-        System.out.println("[회원가입]");
-        System.out.print("이름> ");
+        System.out.println(CYAN + "\n📝 [회원가입]" + RESET);
+        System.out.print("👤 이름 입력> ");
         String name = sc.nextLine().trim();
-        System.out.print("이메일> ");
+        System.out.print("📧 이메일 입력> ");
         String email = sc.nextLine().trim();
-        System.out.print("비밀번호> ");
+        System.out.print("🔑 비밀번호 입력> ");
         String pw = sc.nextLine().trim();
 
-        // 간단히 admin@admin.com 이면 ADMIN 권한
         Role role = email.equalsIgnoreCase("admin@admin.com") ? Role.ADMIN : Role.USER;
 
         try {
             Member m = memberService.signUp(name, email, pw, role);
-            System.out.println("[성공] 회원가입 완료: " + m);
+            System.out.println(GREEN + "✅ [성공] 회원가입 완료: " + m.getName() + RESET);
         } catch (Exception e) {
-            System.out.println("[오류] " + e.getMessage());
+            System.out.println(RED + "❌ [오류] " + e.getMessage() + RESET);
         }
     }
 
     // 로그인 //
     private static void loginFlow() {
-        System.out.println("[로그인]");
-        System.out.print("이메일> ");
+        System.out.println(CYAN + "\n🔑 [로그인]" + RESET);
+        System.out.print("📧 이메일 입력> ");
         String email = sc.nextLine().trim();
-        System.out.print("비밀번호> ");
+        System.out.print("🔑 비밀번호 입력> ");
         String pw = sc.nextLine().trim();
+
         try {
-            Member member = memberService.login(email, pw);
-            System.out.println("[성공] 로그인: " + member.getName());
+            Member m = memberService.login(email, pw);
+            System.out.println(GREEN + "✅ 로그인[성공]");
+            System.out.println(GREEN + m.getName()+"님 환영합니다" + RESET);
         } catch (Exception e) {
-            System.out.println("[오류] " + e.getMessage());
+            System.out.println(RED + "❌ [오류] " + e.getMessage() + RESET);
         }
     }
 
     // 로그아웃 //
     private static void logout() {
         memberService.logout();
-        System.out.println("[안내] 로그아웃 되었습니다.");
+        System.out.println(YELLOW + "🚪 로그아웃 되었습니다." + RESET);
     }
 
     // 문자열 -> Int //

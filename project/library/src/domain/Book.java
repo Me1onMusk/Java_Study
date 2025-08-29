@@ -11,7 +11,7 @@ public class Book {
     private final String title;
     private final String author;
     private final int totalCopies;
-    private final int availableCopies;
+    private int availableCopies;
     private boolean isAvailable;
 
     private static long sequence = 0; // auto-increment
@@ -48,8 +48,21 @@ public class Book {
     public String getAuthor() {return author;}
     public int getTotalCopies() {return totalCopies;}
     public int getAvailableCopies() {return availableCopies;}
-    public boolean isAvailable() {return isAvailable;}
     public void setAvailable(boolean isAvailable) {this.isAvailable = isAvailable;}
+
+    // 대여 가능한지 확인하는 함수 //
+    public boolean isAvailableRent() {
+        if (availableCopies > 0) {
+            availableCopies--;
+            return true;
+        }
+        return false;
+    }
+
+    // 반납 //
+    public void returnBook() {
+            availableCopies++;
+    }
 
     // equals() //
     @Override

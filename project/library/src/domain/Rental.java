@@ -11,15 +11,16 @@ public class Rental {
     private final long id;
     private final long bookId;
     private final long memberId;
+    private final String bookTitle;           //책 제목
     private final LocalDate rentedAt;         //대여일
     private final LocalDate dueAt;            //기간
-    private final LocalDate returnedAt;       //반납일
-    private final RentalStatus status;        //상태
+    private LocalDate returnedAt;       //반납일
+    private RentalStatus status;              //상태
 
     private static long sequence = 0;
 
     // 기본 생성자 //
-    public Rental(long id, long bookId, long memberId, LocalDate rentedAt, LocalDate dueAt, LocalDate returnedAt, RentalStatus status) {
+    public Rental(long id, long bookId, String bookTitle, long memberId, LocalDate rentedAt, LocalDate dueAt, LocalDate returnedAt, RentalStatus status) {
         // 유효성 검사
         if (bookId <= 0) throw new IllegalArgumentException("bookId는 필수입니다.");
         if (memberId <= 0) throw new IllegalArgumentException("memberId는 필수입니다.");
@@ -28,6 +29,7 @@ public class Rental {
         this.id = id;
         this.bookId = bookId;
         this.memberId = memberId;
+        this.bookTitle = bookTitle;
         this.rentedAt = (rentedAt == null) ? LocalDate.now() : rentedAt;
         this.dueAt = (dueAt == null) ? this.rentedAt.plusDays(14) : dueAt;
         this.returnedAt = returnedAt;
@@ -35,14 +37,17 @@ public class Rental {
     }
 
     // 보조 생성자 //
-    public Rental(long bookId, long memberId) {
-        this(++sequence, bookId, memberId, LocalDate.now(), LocalDate.now().plusDays(14), null, RentalStatus.RENTED);
+    public Rental(long bookId, String bookTitle, long memberId) {
+        this(++sequence, bookId, bookTitle, memberId, LocalDate.now(), LocalDate.now().plusDays(14), null, RentalStatus.RENTED);
     }
 
     // Getter 메서드 //
     public long getId() { return id; }
     public long getBookId() { return bookId; }
     public long getMemberId() { return memberId; }
+    public String getBookTitle() {
+        return bookTitle;
+    }
     public LocalDate getRentedAt() { return rentedAt; }      //대여일
     public LocalDate getDueAt() { return dueAt; }            //기간
     public LocalDate getReturnedAt() { return returnedAt; }  //반납일
@@ -53,14 +58,14 @@ public class Rental {
         if (status == RentalStatus.RETURNED)
             throw new IllegalStateException("이미 반납된 대여입니다.");
         LocalDate returnDate = (date == null) ? LocalDate.now() : date;
-        return new Rental(id, bookId, memberId, rentedAt, dueAt, returnDate, RentalStatus.RETURNED);
+        return new Rental(id, bookId, bookTitle, memberId, rentedAt, dueAt, returnDate, RentalStatus.RETURNED);
     }
 
     // 대여 및 연체인지 확인 //
     /*
         대여 상태가 아님 -> false
-        대여 상태 && 연체 -> true
         대여 상태 && 연체X -> false
+        대여 상태 && 연체 -> true
      */
     public boolean isOverdue() {
         return status == RentalStatus.RENTED && dueAt.isBefore(LocalDate.now());
@@ -68,10 +73,9 @@ public class Rental {
 
     // 연체일 계산 //
     /*
-        대여 상태가 아님 -> 0
-        대여 상태 && 연체X -> 0
-        대여 상태 && 연체 -> 연체일 계산 
-
+        대여 상태가 아님 -> false -> 0
+        대여 상태 && 연체X -> false -> 0
+        대여 상태 && 연체 -> true -> 연체일 계산
      */
     public long overdueDays() {
         return isOverdue() ? ChronoUnit.DAYS.between(dueAt, LocalDate.now()) : 0;
