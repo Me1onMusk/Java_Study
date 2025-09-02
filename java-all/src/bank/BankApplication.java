@@ -1,9 +1,13 @@
+package bank;
+
+import bank.model.Account;
+
 import java.util.*;
 
 public class BankApplication {
     public static void main(String[] args) {
 
-//        List<Account> accountList = new ArrayList<>();
+//        List<bank.model.Account> accountList = new ArrayList<>();
         Map<String, Account> accountList = new HashMap<>();  // <키 : 계좌번호 & 값 : 계좌>
 
         centerAlign("은행");
