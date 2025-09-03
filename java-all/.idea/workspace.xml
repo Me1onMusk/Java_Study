@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/array/Array1Ref3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/array/Array1Ref3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/array/Array1Ref4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/array/Array1Ref4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/array/ArrayDi0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/array/ArrayDi0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/method/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/method/Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/method/Method1Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/method/Method1Ref.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +240,9 @@
     "애플리케이션.MemberMainV2.executor": "Run",
     "애플리케이션.MessageFormatTest.executor": "Run",
     "애플리케이션.MetaData.executor": "Run",
+    "애플리케이션.Method1.executor": "Run",
+    "애플리케이션.Method1Ref.executor": "Run",
+    "애플리케이션.Method2.executor": "Run",
     "애플리케이션.MethodChainingMain1.executor": "Run",
     "애플리케이션.MethodChainingMain2.executor": "Run",
     "애플리케이션.MethodChainingMain3.executor": "Run",
@@ -252,7 +254,10 @@
     "애플리케이션.MethodRefStartV1.executor": "Run",
     "애플리케이션.MethodRefStartV2.executor": "Run",
     "애플리케이션.MethodRefStartV3.executor": "Run",
+    "애플리케이션.MethodReturn1.executor": "Run",
+    "애플리케이션.MethodReturn2.executor": "Run",
     "애플리케이션.MethodV1.executor": "Run",
+    "애플리케이션.MethodValue0.executor": "Run",
     "애플리케이션.MutableMain.executor": "Run",
     "애플리케이션.MyArrayListV1Main.executor": "Run",
     "애플리케이션.MyArrayListV2Main.executor": "Run",
@@ -418,13 +423,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ProductAdminEx">
-    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.ex.ArrayEx1" />
+  <component name="RunManager" selected="애플리케이션.MethodReturn2">
+    <configuration name="Method1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.method.Method1Ref" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="PATTERN" value="start.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,12 +437,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.ex.ArrayEx1Ref" />
+    <configuration name="Method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.method.Method2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="PATTERN" value="start.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -445,12 +450,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.ex.ArrayEx2" />
+    <configuration name="MethodReturn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.method.MethodReturn1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="PATTERN" value="start.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,12 +463,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhancedFor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.EnhancedFor1" />
+    <configuration name="MethodReturn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.method.MethodReturn2" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.array.*" />
+          <option name="PATTERN" value="start.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,12 +476,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductAdminEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.ex.ProductAdminEx" />
+    <configuration name="MethodValue0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.method.MethodValue0" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="PATTERN" value="start.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,11 +491,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ProductAdminEx" />
-        <item itemvalue="애플리케이션.ArrayEx2" />
-        <item itemvalue="애플리케이션.ArrayEx1Ref" />
-        <item itemvalue="애플리케이션.ArrayEx1" />
-        <item itemvalue="애플리케이션.EnhancedFor1" />
+        <item itemvalue="애플리케이션.MethodReturn2" />
+        <item itemvalue="애플리케이션.MethodValue0" />
+        <item itemvalue="애플리케이션.MethodReturn1" />
+        <item itemvalue="애플리케이션.Method2" />
+        <item itemvalue="애플리케이션.Method1Ref" />
       </list>
     </recent_temporary>
   </component>
@@ -551,7 +556,7 @@
       <workItem from="1756774042150" duration="4103000" />
       <workItem from="1756830128199" duration="1395000" />
       <workItem from="1756888552866" duration="2432000" />
-      <workItem from="1756891274291" duration="5041000" />
+      <workItem from="1756891274291" duration="6046000" />
     </task>
     <servers />
   </component>
