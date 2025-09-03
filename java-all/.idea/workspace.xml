@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bank/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/array/Array1Ref3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/array/Array1Ref3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/array/Array1Ref4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/array/Array1Ref4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/array/ArrayDi0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/array/ArrayDi0.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,16 @@
     "애플리케이션.Array1.executor": "Run",
     "애플리케이션.Array1Ref1.executor": "Run",
     "애플리케이션.Array1Ref2.executor": "Run",
+    "애플리케이션.Array1Ref3.executor": "Run",
+    "애플리케이션.Array1Ref4.executor": "Run",
+    "애플리케이션.ArrayDi0.executor": "Run",
+    "애플리케이션.ArrayDi1.executor": "Run",
+    "애플리케이션.ArrayDi2.executor": "Run",
+    "애플리케이션.ArrayDi3.executor": "Run",
+    "애플리케이션.ArrayDi4.executor": "Run",
+    "애플리케이션.ArrayEx1.executor": "Run",
+    "애플리케이션.ArrayEx1Ref.executor": "Run",
+    "애플리케이션.ArrayEx2.executor": "Run",
     "애플리케이션.ArrayListTest.executor": "Run",
     "애플리케이션.ArrayMain1.executor": "Run",
     "애플리케이션.ArrayMain2.executor": "Run",
@@ -140,6 +151,7 @@
     "애플리케이션.DuplicateExecutionMain.executor": "Run",
     "애플리케이션.ElementData1Main.executor": "Run",
     "애플리케이션.EmptyListMain.executor": "Run",
+    "애플리케이션.EnhancedFor1.executor": "Run",
     "애플리케이션.EntryGenericTest.executor": "Run",
     "애플리케이션.EnumEx3_1.executor": "Run",
     "애플리케이션.EnumMethodMain.executor": "Run",
@@ -290,6 +302,7 @@
     "애플리케이션.PrintStreamMain.executor": "Run",
     "애플리케이션.ProcedureMain1.executor": "Run",
     "애플리케이션.ProcedureMain2.executor": "Run",
+    "애플리케이션.ProductAdminEx.executor": "Run",
     "애플리케이션.PureFunctionMain1.executor": "Run",
     "애플리케이션.QueueMain.executor": "Run",
     "애플리케이션.QueueTest.executor": "Run",
@@ -405,9 +418,48 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Array1Ref2">
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.Array1" />
+  <component name="RunManager" selected="애플리케이션.ProductAdminEx">
+    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.array.ex.ArrayEx1" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayEx1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.array.ex.ArrayEx1Ref" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.array.ex.ArrayEx2" />
+      <module name="java-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhancedFor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.array.EnhancedFor1" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
@@ -419,51 +471,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array1Ref1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.Array1Ref1" />
+    <configuration name="ProductAdminEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.array.ex.ProductAdminEx" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array1Ref2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.array.Array1Ref2" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="start.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScannerWhile1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.scanner.ScannerWhile1" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="start.scanner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScannerWhile3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.scanner.ScannerWhile3" />
-      <module name="java-all" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="start.scanner.*" />
+          <option name="PATTERN" value="start.array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,11 +486,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Array1Ref2" />
-        <item itemvalue="애플리케이션.Array1Ref1" />
-        <item itemvalue="애플리케이션.Array1" />
-        <item itemvalue="애플리케이션.ScannerWhile1" />
-        <item itemvalue="애플리케이션.ScannerWhile3" />
+        <item itemvalue="애플리케이션.ProductAdminEx" />
+        <item itemvalue="애플리케이션.ArrayEx2" />
+        <item itemvalue="애플리케이션.ArrayEx1Ref" />
+        <item itemvalue="애플리케이션.ArrayEx1" />
+        <item itemvalue="애플리케이션.EnhancedFor1" />
       </list>
     </recent_temporary>
   </component>
@@ -537,6 +550,8 @@
       <workItem from="1756772676224" duration="735000" />
       <workItem from="1756774042150" duration="4103000" />
       <workItem from="1756830128199" duration="1395000" />
+      <workItem from="1756888552866" duration="2432000" />
+      <workItem from="1756891274291" duration="5041000" />
     </task>
     <servers />
   </component>
