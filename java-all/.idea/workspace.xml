@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/method/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/method/Method1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/method/Method1Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/method/Method1Ref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/model/BankUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "project.structure.last.edited": "라이브러리",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.AbstractMain.executor": "Run",
@@ -423,13 +425,13 @@
       <recent name="mid1.exception.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MethodReturn2">
-    <configuration name="Method1Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="start.method.Method1Ref" />
+  <component name="RunManager" selected="애플리케이션.BankApplication">
+    <configuration name="BankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank.BankApplication" />
       <module name="java-all" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="start.method.*" />
+          <option name="PATTERN" value="bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -491,11 +493,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.BankApplication" />
         <item itemvalue="애플리케이션.MethodReturn2" />
         <item itemvalue="애플리케이션.MethodValue0" />
         <item itemvalue="애플리케이션.MethodReturn1" />
         <item itemvalue="애플리케이션.Method2" />
-        <item itemvalue="애플리케이션.Method1Ref" />
       </list>
     </recent_temporary>
   </component>

@@ -1,13 +1,14 @@
-//package bank;
-//
-//import bank.model.Account;
-//
-//import java.util.*;
-//
-//public class BankApplication {
-//    public static void main(String[] args) {
-//
-////        List<bank.model.Account> accountList = new ArrayList<>();
+package bank;
+
+import bank.model.User;
+import bank.model.UserDAO;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Scanner;
+
+/// /        List<bank.model.Account> accountList = new ArrayList<>();
 //        Map<String, Account> accountList = new HashMap<>();  // <키 : 계좌번호 & 값 : 계좌>
 //
 //        centerAlign("은행");
@@ -211,3 +212,149 @@
 //        return line.length()-2;
 //    }
 //}
+
+public class BankApplication {
+
+    static User currentUser = null;
+
+    public static void main(String[] args) throws SQLException {
+
+        Scanner scanner = new Scanner(System.in);
+        UserDAO dao = new UserDAO();
+
+        while (true) {
+            if (currentUser == null) {
+                dao.connect();
+
+                System.out.println("1.회원가입 | 2.로그인 | 3.모든사용자 조회 | 4.특정사용자 조회 | 5.사용자 삭제 | 6.종료");
+                int option = Integer.parseInt(scanner.nextLine());
+
+                switch (option) {
+                    case 1:
+                        signUp(scanner, dao);
+                        break;
+                    case 2:
+                        signIn(scanner, dao);
+                        break;
+                    case 3:
+                        showAll(dao);
+                        break;
+                    case 4:
+                        System.out.println("특정 사용자 조회");
+                        System.out.print("사용자 UID : ");
+                        int uid = Integer.parseInt(scanner.nextLine());
+                        User user = dao.findById(uid);
+                        if (user == null)
+                            System.out.println("해당 사용자가 없습니다.");
+                        else
+                            System.out.println(user);
+                        break;
+                    case 5:
+                        System.out.println("특정 사용자 삭제");
+                        deleteUser(scanner, dao);
+                        break;
+                    case 6:
+                        dao.disconnect();
+                        System.exit(0);
+                    default:
+                        System.out.println("잘못 입력했습니다.");
+                        break;
+                }
+
+                dao.disconnect();
+            } else {
+                System.out.println(currentUser.getName()+ "님 환영합니다.");
+
+                dao.connect();
+
+                System.out.println("1.회원가입 | 2.로그인 | 3.모든사용자 조회 | 4.특정사용자 조회 | 5.사용자 삭제 | 6.종료");
+                int option = Integer.parseInt(scanner.nextLine());
+
+                switch (option) {
+                    case 1:
+                        signUp(scanner, dao);
+                        break;
+                    case 2:
+                        signIn(scanner, dao);
+                        break;
+                    case 3:
+                        showAll(dao);
+                        break;
+                    case 4:
+                        System.out.println("특정 사용자 조회");
+                        System.out.print("사용자 UID : ");
+                        int uid = Integer.parseInt(scanner.nextLine());
+                        User user = dao.findById(uid);
+                        if (user == null)
+                            System.out.println("해당 사용자가 없습니다.");
+                        else
+                            System.out.println(user);
+                        break;
+                    case 5:
+                        System.out.println("특정 사용자 삭제");
+                        deleteUser(scanner, dao);
+                        break;
+                    case 6:
+                        dao.disconnect();
+                        System.exit(0);
+                    default:
+                        System.out.println("잘못 입력했습니다.");
+                        break;
+                }
+
+                dao.disconnect();
+
+            }
+        }
+
+    }
+
+    private static void signIn(Scanner scanner, UserDAO dao) {
+        System.out.println("로그인");
+        System.out.print("ID : ");
+        String id = scanner.nextLine();
+        System.out.print("비밀번호 : ");
+        String password = scanner.nextLine();
+
+        currentUser = dao.login(id, password);
+        if (currentUser == null)
+            System.out.println("해당 사용자가 없습니다.");
+    }
+
+    private static void deleteUser(Scanner scanner, UserDAO dao) {
+        System.out.println("회원삭제");
+        System.out.print("회원UID : ");
+        int uid = Integer.parseInt(scanner.nextLine());
+        dao.deleteUser(uid);
+    }
+
+    private static void signUp(Scanner scanner, UserDAO dao) {
+        System.out.println("회원가입");
+        System.out.print("이름 : ");
+        String name = scanner.nextLine();
+        System.out.print("아이디 : ");
+        String id = scanner.nextLine();
+        System.out.print("비밀번호 : ");
+        String password = scanner.nextLine();
+        System.out.print("비밀번호 재입력 : ");
+        String password2 = scanner.nextLine();
+        if (!password.equals(password2)) {
+            System.out.println("비밀번호가 서로 다릅니다.");
+            return;
+        }
+        System.out.print("이메일 : ");
+        String email = scanner.nextLine();
+        System.out.print("전화번호 : ");
+        String phone = scanner.nextLine();
+
+        dao.addUser(new User(name,id, password, email, phone));
+    }
+
+    private static void showAll(UserDAO dao) throws SQLException {
+        List<User> users = dao.getAllUsers();
+        for (User user : users) {
+            System.out.println(user);
+        }
+    }
+
+}
