@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f3364-8b92-415d-9a0e-91cb80c974db" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/BankApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/model/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/BankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/DBConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -560,7 +558,7 @@
       <workItem from="1756830128199" duration="1395000" />
       <workItem from="1756888552866" duration="2432000" />
       <workItem from="1756891274291" duration="6046000" />
-      <workItem from="1757031517041" duration="18727000" />
+      <workItem from="1757031517041" duration="18804000" />
     </task>
     <servers />
   </component>
