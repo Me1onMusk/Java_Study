@@ -1,36 +1,23 @@
-package bank.model;
+package bank.model.dao;
+
+import bank.model.dto.UserDTO;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserDAO {
-    private Connection conn;
-    
-    // DB 연결 메서드 //
-    public void connect() {
-        String url = "jdbc:mysql://localhost:3306/bank?serverTimezone=UTC";
-        String user = "root";
-        String password = "";
 
-        try {
-            conn = DriverManager.getConnection(url, user, password);
-            System.out.println("DB 연결 성공");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    // 모든 사용자 조회 (select) //
-    public List<User> getAllUsers() throws SQLException {
-        List<User> list = new ArrayList<>();
+    // 모든 사용자 조회 //
+    public List<UserDTO> getAllUsers(Connection conn) throws SQLException {
+        List<UserDTO> list = new ArrayList<>();
         String SQL = "select * from users";
         try (
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery(SQL)
-            ) {
+        ) {
             while (rs.next()) {
-                User user = new User(
+                UserDTO user = new UserDTO(
                         rs.getInt("uid"),
                         rs.getString("name"),
                         rs.getString("id"),
@@ -41,15 +28,13 @@ public class UserDAO {
                 list.add(user);
             }
 
-        } catch (Exception e) {
-            throw new SQLException(e);
-        }
+        } catch (Exception e) { throw new SQLException(e); }
         return list;
     }
 
-    // 사용자 추가 (insert) //
-    public void addUser(User user) {
-        String SQL = "insert into users (name, id, password, email, phone) values (?, ?, ?, ?, ?)";
+    // 사용자 추가 //
+    public void addUser(Connection conn, UserDTO user) throws SQLException {
+        String SQL = "insert into UserDAO (name, id, password, email, phone) values (?, ?, ?, ?, ?)";
 
         try (PreparedStatement pstmt = conn.prepareStatement(SQL)) {
             pstmt.setString(1, user.getName());
@@ -58,21 +43,20 @@ public class UserDAO {
             pstmt.setString(4, user.getEmail());
             pstmt.setString(5, user.getPhone());
             pstmt.executeUpdate();
-            System.out.println("사용자 추가 완료 : " + user.getName());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            System.out.println("고객 추가 완료 : " + user.getName());
+        } catch (Exception e) {e.printStackTrace();}
+
     }
 
     // 로그인 //
-    public User login (String id, String password) {
+    public UserDTO login (Connection conn, String id, String password) {
         String SQL = "select * from users where id = ? and password = ?";
         try (PreparedStatement pstmt = conn.prepareStatement(SQL)) {
             pstmt.setString(1, id);
             pstmt.setString(2, password);
             ResultSet rs = pstmt.executeQuery();
             if(rs.next()) {
-                return new User(
+                return new UserDTO(
                         rs.getInt("uid"),
                         rs.getString("name"),
                         rs.getString("id"),
@@ -81,20 +65,18 @@ public class UserDAO {
                         rs.getString("phone")
                 );
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        } catch (Exception e) { e.printStackTrace(); }
         return null;
     }
 
     // 특정 사용자 조회 //
-    public User findById (int uid) {
+    public UserDTO findByUid(Connection conn, int uid) {
         String SQL = "select * from users where uid = ?";
         try (PreparedStatement pstmt = conn.prepareStatement(SQL)) {
             pstmt.setInt(1, uid);
             ResultSet rs = pstmt.executeQuery();
             if(rs.next()) {
-                return new User(
+                return new UserDTO(
                         rs.getInt("uid"),
                         rs.getString("name"),
                         rs.getString("id"),
@@ -103,14 +85,12 @@ public class UserDAO {
                         rs.getString("phone")
                 );
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        } catch (Exception e) { e.printStackTrace(); }
         return null;
     }
 
-    // 사용자 삭제 (delete) //
-    public void deleteUser(int uid) {
+    // 사용자 삭제 //
+    public void deleteUser(Connection conn, int uid) throws SQLException {
         String SQL = "delete from users where uid = ?";
 
         try (PreparedStatement pstmt = conn.prepareStatement(SQL)) {
@@ -120,26 +100,13 @@ public class UserDAO {
                 System.out.println("[ " + uid + " ] 사용자 삭제 완료");
             else
                 System.out.println("해당 ID의 사용자가 존재하지 않습니다.");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        } catch (Exception e) { e.printStackTrace(); }
     }
 
-    // DB 연결 종료 //
-    public void disconnect() {
-        try {
-            if (conn != null) {
-                conn.close();
-                System.out.println("DB 연결 종료");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    // id 찾기 //
 
-    // ID 입력 -> PW 변경 //
+    // id 변경 //
 
-    // ID 찾기 //
+    // id 찾기 -> pw 변경 //
 
-    // PW 찾기 //
 }

@@ -1,10 +1,9 @@
-package bank.model;
+package bank.model.dto;
 
-// 사용자 //
-// User DTO //
-public class User {
+public class UserDTO {
 
-    private int userID;
+    // 필드 //
+    private int uid;
     private String name;
     private String id;
     private String password;
@@ -12,16 +11,16 @@ public class User {
     private String phone;
 
     // 생성자 //
-    public User() {  }
-    public User(String name, String id, String password, String email, String phone) {
+    public UserDTO() {  }
+    public UserDTO(String name, String id, String password, String email, String phone) {
         this.name = name;
         this.id = id;
         this.password = password;
         this.email = email;
         this.phone = phone;
     }
-    public User(int userID, String name, String id, String password, String email, String phone) {
-        this.userID = userID;
+    public UserDTO(int uid, String name, String id, String password, String email, String phone) {
+        this.uid = uid;
         this.name = name;
         this.id = id;
         this.password = password;
@@ -29,12 +28,9 @@ public class User {
         this.phone = phone;
     }
 
-    public int getUserID() {
-        return userID;
-    }
-    public void setUserID(int userID) {
-        this.userID = userID;
-    }
+    // getter, setter //
+    public int getUid() { return uid; }
+    public void setUid(int uid) { this.uid = uid; }
 
     public String getName() {
         return name;
@@ -65,8 +61,8 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "userID=" + userID +
+        return "UserDTO{" +
+                "uid=" + uid +
                 ", name='" + name + '\'' +
                 ", id='" + id + '\'' +
                 ", password='" + password + '\'' +
@@ -74,5 +70,4 @@ public class User {
                 ", phone='" + phone + '\'' +
                 '}';
     }
-
 }
